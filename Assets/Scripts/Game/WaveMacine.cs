@@ -1,0 +1,126 @@
+using System;
+using System.Collections.Generic;
+using GB;
+using UnityEngine;
+
+[Serializable]
+public class WaveMacine 
+{
+    MobTable _mobTable;
+    NomalWaveTable _nomalTable;
+
+    float _waveTime;
+    float _waveCreateTime;
+    float _waveDelay = 0.5f;
+
+    string _waveID;
+    int _waveCount = 0;
+    float _waveTotalTime;
+    bool _isBossWave;
+    bool _isWavePlaying;
+    Action _result;
+    int _MobCount;
+    
+    [SerializeField] List<GameObject> _mobList = new List<GameObject>();
+
+
+
+    Vector2[] BOT_PATH = new Vector2[]
+    {
+        new Vector2(-3.5f,-4.5f),
+        new Vector2(-3.5f,-0.5f),
+        new Vector2(3.5f,-0.5f),
+        new Vector2(3.5f,-4.5f)
+    };
+
+    Vector2[] TOP_PATH = new Vector2[]
+    {
+        new Vector2(-3.5f, 3.5f),
+        new Vector2(-3.5f, -0.5f),
+        new Vector2(3.5f, -0.5f),
+        new Vector2(3.5f, 3.5f),
+    };
+
+    public void Init()
+    {
+        if (_mobTable == null) _mobTable = GameDataManager.GetTable<MobTable>();
+        if (_nomalTable == null) _nomalTable = GameDataManager.GetTable<NomalWaveTable>();
+    }
+
+    public void WaveStart(int wave, Action result)
+    {
+        _result = result;
+        _waveCount = 0;
+        _waveTime = 0;
+        _waveCreateTime = 0;
+        _waveID = wave.ToString();
+        if (!_nomalTable.ContainsKey(_waveID)) return;
+
+        if (string.IsNullOrEmpty(_nomalTable[_waveID].BossID))
+        {
+            _isBossWave = false;
+            _waveDelay = _nomalTable[_waveID].Dealay;
+            _waveTotalTime = _nomalTable[_waveID].CreateCount * _waveDelay;
+        }
+        else
+        {
+            _isBossWave = true;
+            _waveTotalTime = _nomalTable[_waveID].Dealay;
+        }
+
+        _waveTime = 0;
+        _isWavePlaying = true;
+    }
+    public void Stop()
+    {
+        _isWavePlaying = false;
+    }
+
+    public void Update(float dt)
+    {
+        if(!_isWavePlaying) return;
+
+        _waveTime += dt;
+        if (!_isBossWave)
+        {
+            _waveCreateTime += dt;
+
+            if (_waveCreateTime > _waveDelay)
+            {
+                _waveCreateTime = 0;
+                string mobName = _mobTable[_nomalTable[_waveID].MobID].Name;
+                var mob = ObjectPooling.Create("Mobs/"+mobName).GetComponent<Mob>();
+                mob.MobSetting(_nomalTable[_waveID].MobID).SetMovePath(BOT_PATH).Play();
+                _mobList.Add(mob.gameObject);
+                mob = ObjectPooling.Create("Mobs/"+mobName).GetComponent<Mob>();
+                mob.MobSetting(_nomalTable[_waveID].MobID).SetMovePath(TOP_PATH).Play();
+                _mobList.Add(mob.gameObject);
+                _waveCount+=2;
+            }
+
+            //웨이브 를 모두 생성 완료 한 경우 웨이브 완료
+            if(_waveCount >= _nomalTable[_waveID].CreateCount)
+            {
+                Stop();
+                _result?.Invoke();
+            }
+            //몬스터가 MAXCOUNT 보다 많은 경우 게임오버
+            if(_mobList.Count > DEF.MOB_MAXCOUNT)
+            {
+                Stop();
+                Presenter.Send(DEF.Game,DEF.GameOver);
+            }
+        }
+        else
+        {
+            if(_waveTime > _waveTotalTime)
+            {
+                Stop();
+                Presenter.Send(DEF.Game,DEF.GameOver);
+            }
+
+        }
+
+
+    }
+}

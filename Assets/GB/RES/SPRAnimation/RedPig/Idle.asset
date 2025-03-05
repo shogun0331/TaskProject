@@ -15,7 +15,7 @@ MonoBehaviour:
   _sprites:
   - {fileID: 3474578761864754926, guid: 6991e54fe8bb5724bafb4aba16583d49, type: 3}
   Speed: 1
-  IsLoop: 0
+  IsLoop: 1
   skins:
     list: []
   Triggers:

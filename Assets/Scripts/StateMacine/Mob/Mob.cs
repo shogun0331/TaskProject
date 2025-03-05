@@ -36,27 +36,31 @@ public class Mob : StateMachine<MobState>,IBody
     // 스프라이트 애니메이션
     [SerializeField] SPRAnimation _anim;
     [SerializeField] SpriteRenderer _sRender;
+
+    //이동 방해 0 ~ 1 Max
     private float _moveSlow = 0;
     public float MoveSlow{get{return _moveSlow;}}
+
+    [SerializeField] string _hpViewPath;
+
+    [HideInInspector] public HpView hpView;
 
     void Awake()
     {
         Init();
-
-      
     }
 
-    void Start()
-    {
-        MobSetting("0");
-        List<Vector2> list = new List<Vector2>();
-        list.Add(new Vector2(-3.5f,-4.5f));
-        list.Add(new Vector2(-3.5f,0));
-        list.Add(new Vector2(3.5f,0));
-        list.Add(new Vector2(3.5f,-4.5f));
+    // void Start()
+    // {
+    //     MobSetting("0");
+    //     List<Vector2> list = new List<Vector2>();
+    //     list.Add(new Vector2(-3.5f,-4.5f));
+    //     list.Add(new Vector2(-3.5f,-0.5f));
+    //     list.Add(new Vector2(3.5f,-0.5f));
+    //     list.Add(new Vector2(3.5f,-4.5f));
 
-        SetMovePath(list.ToArray()).Play();
-    }
+    //     SetMovePath(list.ToArray()).Play();
+    // }
 
     public void SetFlipX(bool isFlip)
     {
@@ -93,6 +97,27 @@ public class Mob : StateMachine<MobState>,IBody
 
         _hp = _status.MAX_HP;
 
+
+        //HP 월드캔버스에 UI 생성
+        hpView = ObjectPooling.Create(_hpViewPath,100).GetComponent<HpView>();
+
+        //WorldCanvas 부모로 이동
+        if(ODataBaseManager.Contains("WorldCanvas"))
+        {
+            hpView.transform.SetParent(ODataBaseManager.Get<Transform>("WorldCanvas"));
+            hpView.transform.localScale = Vector3.one;
+            
+        }
+        else
+        {
+            ODataBaseManager.Bind(this,"WorldCanvas",(value)=>
+            {
+                hpView.transform.SetParent(value.Get<Transform>());
+                ODataBaseManager.UnBind(this,"WorldCanvas");
+                hpView.transform.localScale = Vector3.one;
+            });
+        }
+
         ChangeState(MobState.Idle);
         return this;
     }
@@ -123,6 +148,7 @@ public class Mob : StateMachine<MobState>,IBody
 
     public void GetHit(Hit atk)
     {
-        
+        if(hpView != null) hpView.SetHP(_hp,status.MAX_HP);
+
     }
 }

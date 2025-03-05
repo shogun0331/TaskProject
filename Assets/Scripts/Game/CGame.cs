@@ -1,35 +1,34 @@
+
 using GB;
 using UnityEngine;
 
-public class CGame : MonoBehaviour
+public class CGame : MonoBehaviour,IView
 {
     [SerializeField] Board _board;
 
-    bool _isGameOver;
+    int _wave = 1;
 
-    //게임오버 구독 알림
-    public bool isGameOver
-    {
-        get{return _isGameOver;}
-        set
-        {
-            _isGameOver = value;
-            ODataBaseManager.Set(DEF.GameOver,_isGameOver);
-        }
-    }
 
     void Awake()
     {
         _board.Init();
+        
+        Presenter.Bind(DEF.Game,this);
         ODataBaseManager.Set(DEF.Game,this);
-        isGameOver = false;
+        
         InputController.I.TouchWorldEvent += OnTouch;
     }
 
     void OnDisable()
     {
+        Presenter.UnBind(DEF.Game,this);
         ODataBaseManager.Remove(DEF.Game);
         InputController.I.TouchWorldEvent -= OnTouch;
+    }
+    void Start()
+    {
+        _wave = 1;
+        _board.WaveStart(_wave);
     }
 
 
@@ -64,17 +63,15 @@ public class CGame : MonoBehaviour
     /// </summary>
     public void GameStart()
     {
-        _board.GameStart();
+        // _board.GameStart();
     }
-
 
     /// <summary>
     /// 게임오버
     /// </summary>
     public void GameOver()
     {
-        isGameOver = true;
-        _board.GameStop();
+        // _board.GameStop();
     }
 
 
@@ -112,4 +109,25 @@ public class CGame : MonoBehaviour
 
     }
 
+    public void ViewQuick(string key, IOData data)
+    {
+        switch(key)
+        {
+            case DEF.GameOver:
+            GBLog.Log("GAME","GAMEOVER",Color.red);
+            GameOver();
+            break;
+            case DEF.P_WAVE_END:
+            Timer.Create(1,()=>
+            {
+                _wave ++;
+                _board.WaveStart(_wave);
+                GBLog.Log("GAME","WaveStart" +_wave,Color.green);
+            });
+            
+
+            break;
+        }
+        
+    }
 }

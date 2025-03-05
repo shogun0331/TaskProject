@@ -21,6 +21,7 @@ public class Mob_Move : IMachine
         Vector2 position = _mob.transform.position;
 
         float dt = GBTime.GetDeltaTime(DEF.T_GAME);
+        // 경로에 따라 이동
         if (_mob.moveIdx < _mob.MovePaths.Length)
         {
             Vector2 targetPosition = _mob.MovePaths[_mob.moveIdx];
@@ -34,6 +35,14 @@ public class Mob_Move : IMachine
 
             position += direction * _mob.status.M_SPD * 2 * Time.deltaTime;
             if(Vector2.Distance(position,targetPosition) < 0.1f) _mob.moveIdx++;
+            
+            //HP bar 이동
+            if(_mob.hpView != null)
+            {
+                Vector2 pos = position;
+                pos.y += 0.45f;
+               _mob.hpView.transform.position =  pos;
+            }
         }
         else
         {

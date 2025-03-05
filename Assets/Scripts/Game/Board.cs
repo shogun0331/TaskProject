@@ -6,24 +6,24 @@ using UnityEngine;
 
 public class Board : MonoBehaviour
 {
-    const float TILE_SZ = 1;
     const int TILE_WIDTH = 6;
     const int TILE_HEIGHT = 3;
-    
-    Tile[] _myTiles;
 
+    Tile[] _myTiles;
     Tile[] _friendTiles;
 
-
+    WaveMacine _waveMacine;
 
     public void Init()
     {
         _myTiles = new Tile[TILE_WIDTH * TILE_HEIGHT];
-        for(int i = 0; i<_myTiles.Length; ++i )_myTiles[i] = new Tile();
+        for (int i = 0; i < _myTiles.Length; ++i) _myTiles[i] = new Tile();
 
         _friendTiles = new Tile[TILE_WIDTH * TILE_HEIGHT];
-        for(int i = 0; i<_friendTiles.Length; ++i )_friendTiles[i] = new Tile();
+        for (int i = 0; i < _friendTiles.Length; ++i) _friendTiles[i] = new Tile();
 
+        _waveMacine = new WaveMacine();
+        _waveMacine.Init();
     }
 
 
@@ -35,16 +35,16 @@ public class Board : MonoBehaviour
     public int GetTouchTileIndex(Vector2 point)
     {
         //타일맵의 Half X
-        float mapHW = (float)TILE_WIDTH/2;
-        
+        float mapHW = (float)TILE_WIDTH / 2;
+
         //타일 벗어난 우 터치
-        if(point.x > mapHW ) return -1;
+        if (point.x > mapHW) return -1;
         //타일 벗어난 좌 터치
-        if(point.x < -mapHW) return -1;
+        if (point.x < -mapHW) return -1;
         //타일 벗어난 상단 터치
-        if(point.y > -1 ) return -1;
+        if (point.y > -1) return -1;
         //타일 벗어난 하단 터치
-        if(point.y < -1 - TILE_HEIGHT) return -1;
+        if (point.y < -1 - TILE_HEIGHT) return -1;
 
         int tx = (int)(point.x + mapHW);
         int ty = Mathf.Abs((int)(point.y + 1));
@@ -52,14 +52,16 @@ public class Board : MonoBehaviour
         return ty * TILE_WIDTH + tx;
     }
 
-    public void GameStart()
+    public void WaveStart(int wave)
     {
-
+        _waveMacine.WaveStart(wave,()=>{Presenter.Send(DEF.Game,DEF.P_WAVE_END);});
     }
 
-    public void GameStop()
+
+
+    void Update()
     {
-        
+        _waveMacine.Update(GBTime.GetDeltaTime(DEF.Game));
     }
-  
+
 }

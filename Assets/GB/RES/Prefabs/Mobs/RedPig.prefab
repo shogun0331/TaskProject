@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 8706402920825912716}
   - component: {fileID: 5936310618940965762}
   - component: {fileID: 6187711602649327942}
+  - component: {fileID: -1631681754234606162}
   m_Layer: 0
   m_Name: RedPig
   m_TagString: Untagged
@@ -71,6 +72,11 @@ MonoBehaviour:
       duplicatedKey: 0
   _State: 0
   _id: RedPig
+  moveIdx: 0
+  _anim: {fileID: 4793587647991054907}
+  _sRender: {fileID: 2691160346923708991}
+  _hpViewPath: HPbar/NormalHP
+  hpView: {fileID: 0}
   references:
     version: 2
     RefIds:
@@ -118,6 +124,21 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.3
+--- !u!114 &-1631681754234606162
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6737120119035961191}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46325fe4822854ecbb247d09476cccd6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: 
+  Index: 0
+  IsActive: 0
 --- !u!1 &7313340518234029681
 GameObject:
   m_ObjectHideFlags: 0

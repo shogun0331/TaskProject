@@ -26,7 +26,7 @@ MonoBehaviour:
   - {fileID: -2858323395674415253, guid: 6991e54fe8bb5724bafb4aba16583d49, type: 3}
   - {fileID: -6682066749158643149, guid: 6991e54fe8bb5724bafb4aba16583d49, type: 3}
   Speed: 1.3
-  IsLoop: 0
+  IsLoop: 1
   skins:
     list: []
   Triggers:
