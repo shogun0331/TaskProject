@@ -117,6 +117,7 @@ public class Mob : StateMachine<MobState>,IBody
                 hpView.transform.localScale = Vector3.one;
             });
         }
+        hpView.gameObject.SetActive(false);
 
         ChangeState(MobState.Idle);
         return this;
@@ -148,7 +149,12 @@ public class Mob : StateMachine<MobState>,IBody
 
     public void GetHit(Hit atk)
     {
-        if(hpView != null) hpView.SetHP(_hp,status.MAX_HP);
+        if(hpView != null) 
+        {
+            if(!hpView.gameObject.activeSelf) hpView.gameObject.SetActive(true);
+            
+            hpView.SetHP(_hp,status.MAX_HP);
+        }
 
     }
 }

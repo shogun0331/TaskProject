@@ -4,7 +4,7 @@ using GB;
 using UnityEngine;
 
 [Serializable]
-public class WaveMacine 
+public class WaveMacine
 {
     MobTable _mobTable;
     NomalWaveTable _nomalTable;
@@ -20,7 +20,7 @@ public class WaveMacine
     bool _isWavePlaying;
     Action _result;
     int _MobCount;
-    
+
     [SerializeField] List<GameObject> _mobList = new List<GameObject>();
 
 
@@ -41,14 +41,19 @@ public class WaveMacine
         new Vector2(3.5f, 3.5f),
     };
 
-    public void Init()
+    Board _board;
+
+    public void Init(Board board)
     {
         if (_mobTable == null) _mobTable = GameDataManager.GetTable<MobTable>();
         if (_nomalTable == null) _nomalTable = GameDataManager.GetTable<NomalWaveTable>();
+
+        _board = board;
     }
 
     public void WaveStart(int wave, Action result)
     {
+        _checkTime = 0;
         _result = result;
         _waveCount = 0;
         _waveTime = 0;
@@ -60,15 +65,18 @@ public class WaveMacine
         {
             _isBossWave = false;
             _waveDelay = _nomalTable[_waveID].Dealay;
-            _waveTotalTime = _nomalTable[_waveID].CreateCount * _waveDelay;
+            _waveTotalTime = (_nomalTable[_waveID].CreateCount * _waveDelay) / 2;
         }
         else
         {
             _isBossWave = true;
             _waveTotalTime = _nomalTable[_waveID].Dealay;
         }
+        CreateMob();
 
-        _waveTime = 0;
+        Presenter.Send(DEF.P_GameScene, "Time", (int)(_waveTotalTime - _waveTime));
+        Presenter.Send(DEF.P_GameScene,"Wave",wave);
+
         _isWavePlaying = true;
     }
     public void Stop()
@@ -76,11 +84,43 @@ public class WaveMacine
         _isWavePlaying = false;
     }
 
+    int _checkTime;
+
+    void CreateMob()
+    {
+        string mobName = _mobTable[_nomalTable[_waveID].MobID].Name;
+        var mob = ObjectPooling.Create("Mobs/" + mobName).GetComponent<Mob>();
+        mob.MobSetting(_nomalTable[_waveID].MobID).SetMovePath(BOT_PATH).Play();
+        mob.transform.SetParent(_board.transform);
+        _mobList.Add(mob.gameObject);
+        
+        mob = ObjectPooling.Create("Mobs/" + mobName).GetComponent<Mob>();
+        mob.MobSetting(_nomalTable[_waveID].MobID).SetMovePath(TOP_PATH).Play();
+        mob.transform.SetParent(_board.transform);
+        _mobList.Add(mob.gameObject);
+        
+        _waveCount += 2;
+        Presenter.Send(DEF.P_GameScene, "WaveCount", _mobList.Count);
+
+        
+
+    }
+
     public void Update(float dt)
     {
-        if(!_isWavePlaying) return;
+        if (!_isWavePlaying) return;
 
         _waveTime += dt;
+
+        int time = (int)_waveTime;
+        if (time > _checkTime)
+        {
+            _checkTime = time;
+            Presenter.Send(DEF.P_GameScene, "Time", (int)(_waveTotalTime - _waveTime));
+        }
+
+
+
         if (!_isBossWave)
         {
             _waveCreateTime += dt;
@@ -88,35 +128,28 @@ public class WaveMacine
             if (_waveCreateTime > _waveDelay)
             {
                 _waveCreateTime = 0;
-                string mobName = _mobTable[_nomalTable[_waveID].MobID].Name;
-                var mob = ObjectPooling.Create("Mobs/"+mobName).GetComponent<Mob>();
-                mob.MobSetting(_nomalTable[_waveID].MobID).SetMovePath(BOT_PATH).Play();
-                _mobList.Add(mob.gameObject);
-                mob = ObjectPooling.Create("Mobs/"+mobName).GetComponent<Mob>();
-                mob.MobSetting(_nomalTable[_waveID].MobID).SetMovePath(TOP_PATH).Play();
-                _mobList.Add(mob.gameObject);
-                _waveCount+=2;
+                CreateMob();
             }
 
             //웨이브 를 모두 생성 완료 한 경우 웨이브 완료
-            if(_waveCount >= _nomalTable[_waveID].CreateCount)
+            if (_waveCount >= _nomalTable[_waveID].CreateCount)
             {
                 Stop();
                 _result?.Invoke();
             }
             //몬스터가 MAXCOUNT 보다 많은 경우 게임오버
-            if(_mobList.Count > DEF.MOB_MAXCOUNT)
+            if (_mobList.Count > DEF.MOB_MAXCOUNT)
             {
                 Stop();
-                Presenter.Send(DEF.Game,DEF.GameOver);
+                Presenter.Send(DEF.Game, DEF.GameOver);
             }
         }
         else
         {
-            if(_waveTime > _waveTotalTime)
+            if (_waveTime > _waveTotalTime)
             {
                 Stop();
-                Presenter.Send(DEF.Game,DEF.GameOver);
+                Presenter.Send(DEF.Game, DEF.GameOver);
             }
 
         }

@@ -23,7 +23,7 @@ public class Board : MonoBehaviour
         for (int i = 0; i < _friendTiles.Length; ++i) _friendTiles[i] = new Tile();
 
         _waveMacine = new WaveMacine();
-        _waveMacine.Init();
+        _waveMacine.Init(this);
     }
 
 

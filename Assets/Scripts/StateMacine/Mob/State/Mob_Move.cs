@@ -34,7 +34,11 @@ public class Mob_Move : IMachine
             if(speed < 0) speed = 0;
 
             position += direction * _mob.status.M_SPD * 2 * Time.deltaTime;
-            if(Vector2.Distance(position,targetPosition) < 0.1f) _mob.moveIdx++;
+            if(Vector2.Distance(position,targetPosition) < 0.1f) 
+            {
+                _mob.moveIdx++;
+                position = targetPosition;
+            }
             
             //HP bar 이동
             if(_mob.hpView != null)

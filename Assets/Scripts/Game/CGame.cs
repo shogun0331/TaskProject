@@ -15,7 +15,6 @@ public class CGame : MonoBehaviour,IView
         
         Presenter.Bind(DEF.Game,this);
         ODataBaseManager.Set(DEF.Game,this);
-        
         InputController.I.TouchWorldEvent += OnTouch;
     }
 
