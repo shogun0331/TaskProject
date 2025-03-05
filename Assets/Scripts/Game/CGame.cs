@@ -41,7 +41,6 @@ public class CGame : MonoBehaviour
     /// <param name="position">터치 월드 포지션</param>
     void OnTouch(TouchPhase phase, int touchID, Vector2 position)
     {
-
         
         switch(phase)
         {

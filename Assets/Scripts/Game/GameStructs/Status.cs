@@ -6,6 +6,12 @@ public struct Status
     //마법 공격력
     public int AP;
     
+    //이동 속도
+    public float M_SPD;
+
+    
+    
+    
     //방어력
     public int DEF;
     
