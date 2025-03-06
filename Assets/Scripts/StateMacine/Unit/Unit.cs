@@ -7,11 +7,13 @@ public enum UnitState{Idle,Move,Dead}
 public class Unit : StateMachine<UnitState>
 {
     [SerializeField] string _id;
+
+    public string ID{get{return _id;}}
+
     [SerializeField] int _level = 1;
     Vector2 _movePosition;
     public Vector2 MovePosition{get{return _movePosition;}}
 
-    
     Tile _tile;
     public Tile tile{get{return _tile;}}
 

@@ -18,14 +18,17 @@ public class Unit_Move : IMachine
         float dt = GBTime.GetDeltaTime(DEF.T_GAME);
         Vector2 dir = _unit.MovePosition - (Vector2)_unit.transform.position;
 
+        Vector3 pos = _unit.MovePosition;
+        pos.z = pos.y;
+
+        
         _unit.transform.Translate(dir.normalized * dt * _moveSpeed);
-
-
         float dist = Vector2.Distance(_unit.transform.position,_unit.MovePosition);
 
         if(dist < 0.1f)
         {
-            _unit.transform.position = _unit.MovePosition;
+            
+            _unit.transform.position =  _unit.MovePosition;
             _unit.ChangeState(UnitState.Idle);
         }
     }

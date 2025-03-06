@@ -44,6 +44,7 @@ public class CGame : MonoBehaviour,IView
         switch(phase)
         {
             case TouchPhase.Began:
+            
             break;
 
             case TouchPhase.Moved:
@@ -80,7 +81,20 @@ public class CGame : MonoBehaviour,IView
     public void Summon()
     {
         GBLog.Log("SummonButton");
+
+        //유닛수 체크
+
         
+        //재화 체크
+
+
+        //유닛 생성
+
+        _board.AddUnit("Mushroom");
+
+        
+        
+
 
     }
 

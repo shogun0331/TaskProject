@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Data.Common;
+using System.Linq;
 using GB;
 using UnityEngine;
 
@@ -14,8 +15,10 @@ public class Board : MonoBehaviour
     Tile[] _friendTiles;
     WaveMacine _waveMacine;
 
+    
     public void Init()
     {
+        //타일 생성 및 타일 초기화
         _myTiles = new Tile[TILE_WIDTH * TILE_HEIGHT];
         Vector2 startPos = new Vector2(-2.5f,-1.5f);
         for (int i = 0; i < _myTiles.Length; ++i) 
@@ -39,6 +42,30 @@ public class Board : MonoBehaviour
         _waveMacine = new WaveMacine();
         _waveMacine.Init(this);
     }
+    /// <summary>
+    /// 총 유닛 수
+    /// </summary>
+    /// <returns>유닛 수</returns>
+    public int GetUnitCount()
+    {
+        int count = 0;
+
+        for(int i = 0; i< _myTiles.Length; ++i)
+            count += _myTiles[i].UnitCount;
+        
+        return count;
+    }
+
+    public Tile GetTile(int x, int y)
+    {
+        int idx = x + (y * TILE_WIDTH);
+        return _myTiles[idx];
+    }
+
+    public Tile GetTile(int index)
+    {
+        return _myTiles[index];
+    }
 
     public Tile GetTile(Vector2 point)
     {
@@ -46,6 +73,72 @@ public class Board : MonoBehaviour
         if(idx == -1) return null;
         return _myTiles[idx];
     }
+
+    public int GetTileLength()
+    {
+        return _myTiles.Length;
+    }
+
+    public void SwapTileUnits(Tile A_tile,Tile B_tile)
+    {
+        if(A_tile == null || B_tile == null) return;
+        A_tile.SwapUnits(B_tile);
+    }
+    
+    /// <summary>
+    /// 유닛이 타일의 유닛들에 꼽사리 낄 자리 점검
+    /// </summary>
+    /// <param name="unitID"></param>
+    /// <returns></returns> <summary>
+    int ContainsUnitTeam(string unitID)
+    {
+        for(int i = 0; i< _myTiles.Length; ++i)
+        {
+            //유닛 아이디가 같으며, 유닛 갯수가 Max가 아닐 경우 
+            if(_myTiles[i].UnitID == unitID && !_myTiles[i].UnitMax) return i;
+        }
+        return -1;
+    }
+
+    /// <summary>
+    /// 유닛 추가
+    /// </summary>
+    /// <param name="unitID">유닛ID</param>
+    public void AddUnit(string unitID)
+    {
+        int idx = ContainsUnitTeam(unitID);
+        //낄자리 없음
+        if(idx == -1)
+        {
+            //타일중 빈자리 검색
+            var list = _myTiles.Where(v=> v.UnitID == null).ToList();
+            //Random 자리 
+            int rand = Random.Range(0,list.Count);
+            list[rand].AddUnit(CreateUnit(unitID));
+            CreateBoingFX().transform.position = list[rand].Position;
+
+        }
+        else
+        {
+            _myTiles[idx].AddUnit(CreateUnit(unitID));
+            CreateBoingFX().transform.position = _myTiles[idx].Position;
+        }
+    }
+
+    GameObject CreateBoingFX()
+    {
+        return ObjectPooling.Create("FX/BOING");
+    }
+
+    Unit CreateUnit(string unitID)
+    {
+        var unit = ObjectPooling.Create("Unit/"+ unitID,5).GetComponent<Unit>();
+        unit.transform.SetParent(transform);
+        return unit;
+    }
+
+
+ 
 
 
 

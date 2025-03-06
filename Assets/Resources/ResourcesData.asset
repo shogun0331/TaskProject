@@ -21,6 +21,9 @@ MonoBehaviour:
     list: []
   Prefabs:
     list:
+    - key: FX/BOING
+      value: {fileID: 8651877901338109295, guid: 9e0a4b61c4e28574dac3293bc024e5fd, type: 3}
+      duplicatedKey: 0
     - key: HPbar/NormalHP
       value: {fileID: 9023195427032714170, guid: a45c86c5011a9884bba6f027da8cdb68, type: 3}
       duplicatedKey: 0
