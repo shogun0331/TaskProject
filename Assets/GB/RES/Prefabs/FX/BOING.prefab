@@ -121,6 +121,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5751795645999901865}
   - component: {fileID: 1817797830756034347}
+  - component: {fileID: -1315401008402793581}
   m_Layer: 0
   m_Name: BOING
   m_TagString: Untagged
@@ -157,3 +158,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   EndTime: 1
+--- !u!114 &-1315401008402793581
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8651877901338109295}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46325fe4822854ecbb247d09476cccd6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: 
+  Index: 0
+  IsActive: 0

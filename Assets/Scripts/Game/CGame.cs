@@ -2,32 +2,44 @@
 using GB;
 using UnityEngine;
 
-public class CGame : MonoBehaviour,IView
+public class CGame : MonoBehaviour, IView
 {
     [SerializeField] Board _board;
 
     int _wave = 1;
 
+    [SerializeField] GameObject _touchBeganCircle;
+    [SerializeField] GameObject _touchMovedCircle;
+
+    //점선
+    [SerializeField] GuideLine _line;
+
+
+    //터치시 타일
+    Tile _beganTile;
+
 
     void Awake()
     {
         _board.Init();
-        Presenter.Bind(DEF.Game,this);
-        ODataBaseManager.Set(DEF.Game,this);
+        Presenter.Bind(DEF.Game, this);
+        ODataBaseManager.Set(DEF.Game, this);
         InputController.I.TouchWorldEvent += OnTouch;
+        _touchBeganCircle.SetActive(false);
     }
 
     void OnDisable()
     {
-        Presenter.UnBind(DEF.Game,this);
+        Presenter.UnBind(DEF.Game, this);
         ODataBaseManager.Remove(DEF.Game);
         InputController.I.TouchWorldEvent -= OnTouch;
     }
     void Start()
     {
         _wave = 1;
-        _board.WaveStart(_wave);
+        // _board.WaveStart(_wave);
     }
+
 
 
     /// <summary>
@@ -40,21 +52,88 @@ public class CGame : MonoBehaviour,IView
     {
 
         var tile = _board.GetTile(position);
-        
-        switch(phase)
+
+        switch (phase)
         {
             case TouchPhase.Began:
-            
-            break;
+                if (tile != null && tile.UnitCount > 0)
+                {
+                    _touchBeganCircle.transform.position = tile.Position;
+                    _beganTile = tile;
+                }
+                else
+                {
+                    _beganTile = null;
+                }
+
+                GetTouchMoveCircle(phase, tile);
+
+                break;
 
             case TouchPhase.Moved:
-            break;
+                GetTouchMoveCircle(phase, tile);
+
+                break;
 
             case TouchPhase.Ended:
-            break;
+                if (tile != null && _beganTile != null)
+                {
+                    tile.SwapUnits(_beganTile);
+                    _beganTile = null;
+                }
+
+                GetTouchMoveCircle(phase, tile);
+                break;
 
             case TouchPhase.Canceled:
-            break;
+                break;
+        }
+
+    }
+    void GetTouchMoveCircle(TouchPhase phase, Tile tile)
+    {
+
+
+        switch (phase)
+        {
+
+            case TouchPhase.Began:
+                if (tile != null && _beganTile != null)
+                {
+                    _touchBeganCircle.SetActive(true);
+                    _touchBeganCircle.transform.position = tile.Position;
+                }
+
+                break;
+
+            case TouchPhase.Moved:
+                if (tile != null && _beganTile != null)
+                {
+                    _touchMovedCircle.SetActive(true);
+                    _touchMovedCircle.transform.position = tile.Position;
+
+                    _line.gameObject.SetActive(true);
+                    _line.SetPoint(_beganTile.Position, tile.Position);
+
+                }
+                break;
+
+            case TouchPhase.Ended:
+                if (tile != null && _beganTile != null)
+                {
+                    _touchBeganCircle.SetActive(true);
+                    _touchBeganCircle.transform.position = tile.Position;
+                }
+                else
+                {
+                    _touchBeganCircle.SetActive(false);
+                }
+
+                _line.gameObject.SetActive(false);
+                _touchMovedCircle.SetActive(false);
+
+                break;
+
         }
 
     }
@@ -84,7 +163,7 @@ public class CGame : MonoBehaviour,IView
 
         //유닛수 체크
 
-        
+
         //재화 체크
 
 
@@ -92,8 +171,8 @@ public class CGame : MonoBehaviour,IView
 
         _board.AddUnit("Mushroom");
 
-        
-        
+
+
 
 
     }
@@ -124,27 +203,27 @@ public class CGame : MonoBehaviour,IView
 
     public void ViewQuick(string key, IOData data)
     {
-        switch(key)
+        switch (key)
         {
             case DEF.GameOver:
-            GBLog.Log("GAME","GAMEOVER",Color.red);
-            GameOver();
-            break;
+                GBLog.Log("GAME", "GAMEOVER", Color.red);
+                GameOver();
+                break;
             case DEF.P_WAVE_END:
-            Timer.Create(1,()=>
-            {
-                _wave ++;
-                _board.WaveStart(_wave);
-                GBLog.Log("GAME","WaveStart" +_wave,Color.green);
-            });
-            break;
+                Timer.Create(1, () =>
+                {
+                    _wave++;
+                    _board.WaveStart(_wave);
+                    GBLog.Log("GAME", "WaveStart" + _wave, Color.green);
+                });
+                break;
 
             case DEF.DEAD_MOB:
-            _board.RemoveMob(data.Get<GameObject>());
-            break;
+                _board.RemoveMob(data.Get<GameObject>());
+                break;
 
 
         }
-        
+
     }
 }

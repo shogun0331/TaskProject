@@ -125,21 +125,26 @@ public class Board : MonoBehaviour
         }
     }
 
+    /// <summary>
+    /// 생성 파티클 
+    /// </summary>
+    /// <returns>파티클</returns>
     GameObject CreateBoingFX()
     {
-        return ObjectPooling.Create("FX/BOING");
+        return ObjectPooling.Create(RES_PREFAB.FX_BOING);
     }
-
+    
+    /// <summary>
+    /// 유닛 생성
+    /// </summary>
+    /// <param name="unitID">유닛 ID</param>
+    /// <returns>유닛</returns>
     Unit CreateUnit(string unitID)
     {
         var unit = ObjectPooling.Create("Unit/"+ unitID,5).GetComponent<Unit>();
         unit.transform.SetParent(transform);
         return unit;
     }
-
-
- 
-
 
 
     /// <summary>

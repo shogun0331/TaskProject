@@ -29,11 +29,10 @@ public class Mob_Move : IMachine
             if(direction.x < 0) _mob.SetFlipX(false);
             else _mob.SetFlipX(true);
 
-
             float speed = _mob.status.M_SPD - (_mob.status.M_SPD * _mob.MoveSlow);
             if(speed < 0) speed = 0;
 
-            position += direction * _mob.status.M_SPD * 2 * Time.deltaTime;
+            position += direction * _mob.status.M_SPD * 2 * dt;
             if(Vector2.Distance(position,targetPosition) < 0.1f) 
             {
                 _mob.moveIdx++;

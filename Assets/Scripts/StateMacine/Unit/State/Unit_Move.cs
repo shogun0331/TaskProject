@@ -6,7 +6,7 @@ public class Unit_Move : IMachine
 {
     Unit _unit;
 
-    float _moveSpeed = 2;
+    float _moveSpeed = 4;
 
     public void OnEnter()
     {
@@ -17,18 +17,14 @@ public class Unit_Move : IMachine
     {
         float dt = GBTime.GetDeltaTime(DEF.T_GAME);
         Vector2 dir = _unit.MovePosition - (Vector2)_unit.transform.position;
-
-        Vector3 pos = _unit.MovePosition;
-        pos.z = pos.y;
-
-        
         _unit.transform.Translate(dir.normalized * dt * _moveSpeed);
         float dist = Vector2.Distance(_unit.transform.position,_unit.MovePosition);
 
         if(dist < 0.1f)
         {
-            
-            _unit.transform.position =  _unit.MovePosition;
+            Vector3 pos =  _unit.MovePosition;
+            pos.z = pos.y;
+            _unit.transform.position = pos;
             _unit.ChangeState(UnitState.Idle);
         }
     }
@@ -37,7 +33,6 @@ public class Unit_Move : IMachine
     {
         
     }
-
 
     public void OnEvent(string eventName)
     {

@@ -6,7 +6,7 @@ public class Tile
 {
     public string ID;
     public Vector2 Position;
-    public List<Unit> UnitList = new List<Unit>();
+    List<Unit> _unitList = new List<Unit>();
 
 
     // 결합이 가능한 상태 인가?
@@ -14,7 +14,7 @@ public class Tile
     {
         get
         {
-            if (UnitList == null || UnitList.Count < 3) return false;
+            if (_unitList == null || _unitList.Count < 3) return false;
             return true;
         }
     }
@@ -23,8 +23,8 @@ public class Tile
     {
         get
         {
-            if (UnitList == null) return 0;
-            return UnitList.Count;
+            if (_unitList == null) return 0;
+            return _unitList.Count;
         }
     }
 
@@ -32,24 +32,24 @@ public class Tile
     {
         get
         {
-            if (UnitList == null) return false;
-            return UnitList.Count == 3;
+            if (_unitList == null) return false;
+            return _unitList.Count == 3;
         }
     }
     public string UnitID
     {
         get
         {
-            if (UnitList == null || UnitList.Count == 0 || UnitList[0] == null) return null;
-            return UnitList[0].ID;
+            if (_unitList == null || _unitList.Count == 0 || _unitList[0] == null) return null;
+            return _unitList[0].ID;
         }
     }
 
     public void AddUnit(Unit unit)
     {
-        UnitList.Add(unit);
+        _unitList.Add(unit);
         unit.transform.position = Position;
-        unit.SetMovePosition(GetUnitPosition(UnitList.Count - 1));
+        unit.SetMovePosition(GetUnitPosition(_unitList.Count - 1));
     }
 
 
@@ -64,16 +64,15 @@ public class Tile
 
     public void ClearUnits()
     {
-        for (int i = 0; i < UnitList.Count; ++i) ObjectPooling.Return(UnitList[i].gameObject);
-        UnitList.Clear();
+        for (int i = 0; i < _unitList.Count; ++i) ObjectPooling.Return(_unitList[i].gameObject);
+        _unitList.Clear();
     }
 
-    public void 
-    SwapUnits(Tile tile)
+    public void SwapUnits(Tile tile)
     {
-        var list = tile.UnitList;
-        tile.UnitList = UnitList;
-        UnitList = list;
+        var list = tile._unitList;
+        tile._unitList = _unitList;
+        _unitList = list;
         tile.Refresh();
         Refresh();
     }
@@ -106,8 +105,8 @@ public class Tile
     {
         if (UnitCount == 0) return;
 
-        for (int i = 0; i < UnitList.Count; ++i)
-            UnitList[i].SetMovePosition(GetUnitPosition(i));
+        for (int i = 0; i < _unitList.Count; ++i)
+            _unitList[i].SetMovePosition(GetUnitPosition(i));
     }
 
 
