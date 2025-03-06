@@ -1,0 +1,580 @@
+fileFormatVersion: 2
+guid: 612e850e37930824d97ddd3e41c9a7ab
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CFXR2 WW Explosion_00
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 270
+        width: 7
+        height: 7
+      alignment: 9
+      pivot: {x: 0.42857143, y: 0.42857143}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 996ec80af2b778d45b4f07e6ad753343
+      internalID: 1723083441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR2 WW Explosion_01
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 490
+        height: 270
+      alignment: 9
+      pivot: {x: 0.51428574, y: 0.25185186}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d20b14e787ad6647a850d2057ec15a2
+      internalID: 102288105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR2 WW Explosion_02
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 270
+        width: 433
+        height: 286
+      alignment: 9
+      pivot: {x: 0.5265589, y: 0.2937063}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aab4b502dd891bb4c80820646fb93384
+      internalID: 467381509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR2 WW Explosion_03
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 556
+        width: 388
+        height: 293
+      alignment: 9
+      pivot: {x: 0.507732, y: 0.3105802}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1107f772de89ff94bae08a28a92eacca
+      internalID: -304426107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR2 WW Explosion_04
+      rect:
+        serializedVersion: 2
+        x: 1293
+        y: 0
+        width: 395
+        height: 259
+      alignment: 9
+      pivot: {x: 0.5063291, y: 0.35907337}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2098603646cdcee41874af10bf4f433e
+      internalID: 729055936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR2 WW Explosion_05
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 524
+        width: 400
+        height: 262
+      alignment: 9
+      pivot: {x: 0.5075, y: 0.35877863}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56a2c72a1a2d06c4f9e124009db3937a
+      internalID: 542886730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR2 WW Explosion_06
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 0
+        width: 402
+        height: 262
+      alignment: 9
+      pivot: {x: 0.5074627, y: 0.35877863}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c479850540334b4fbac8bfb9854163f
+      internalID: 306747247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR2 WW Explosion_07
+      rect:
+        serializedVersion: 2
+        x: 892
+        y: 0
+        width: 401
+        height: 260
+      alignment: 9
+      pivot: {x: 0.5087282, y: 0.35384616}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7eb2498da3d813146820daaa54a09cd0
+      internalID: -1426974134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR2 WW Explosion_08
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 262
+        width: 401
+        height: 262
+      alignment: 9
+      pivot: {x: 0.5087282, y: 0.3625954}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e41c3dda790a61c4e943c1d45ba5525c
+      internalID: 1448756578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR2 WW Explosion_09
+      rect:
+        serializedVersion: 2
+        x: 892
+        y: 260
+        width: 397
+        height: 257
+      alignment: 9
+      pivot: {x: 0.5088161, y: 0.3540856}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ecebe54661d3c14dbb93ac56d92be57
+      internalID: -205680292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR2 WW Explosion_10
+      rect:
+        serializedVersion: 2
+        x: 892
+        y: 517
+        width: 393
+        height: 251
+      alignment: 9
+      pivot: {x: 0.5114504, y: 0.3426295}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 669e9660559a4fa4d9d66b9c37398621
+      internalID: 538861257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR2 WW Explosion_11
+      rect:
+        serializedVersion: 2
+        x: 892
+        y: 768
+        width: 390
+        height: 245
+      alignment: 9
+      pivot: {x: 0.51282054, y: 0.33061224}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f69e37bf0eca92342a24920df0b56178
+      internalID: 1057569166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR2 WW Explosion_12
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 786
+        width: 305
+        height: 232
+      alignment: 9
+      pivot: {x: 0.5147541, y: 0.2974138}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab634a9b4a44ffa4d9247b242aab4d45
+      internalID: -1160052667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR2 WW Explosion_13
+      rect:
+        serializedVersion: 2
+        x: 1688
+        y: 0
+        width: 305
+        height: 230
+      alignment: 9
+      pivot: {x: 0.5147541, y: 0.29565218}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b210a27a4d6fec41aecbbfec2f78d78
+      internalID: 1288501019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR2 WW Explosion_14
+      rect:
+        serializedVersion: 2
+        x: 1289
+        y: 260
+        width: 301
+        height: 228
+      alignment: 9
+      pivot: {x: 0.5182724, y: 0.28947368}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 253f49ef6b1d4044c80d60a2bde22dcb
+      internalID: 176008763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR2 WW Explosion_15
+      rect:
+        serializedVersion: 2
+        x: 1590
+        y: 260
+        width: 297
+        height: 225
+      alignment: 9
+      pivot: {x: 0.5185185, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40ef3843d613d344dbdf259dcabfc36a
+      internalID: 594360564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR2 WW Explosion_16
+      rect:
+        serializedVersion: 2
+        x: 1289
+        y: 488
+        width: 294
+        height: 222
+      alignment: 9
+      pivot: {x: 0.52040815, y: 0.27477476}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12deea9bf7f1c7b4b962fda74b1cab85
+      internalID: -82562103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR2 WW Explosion_17
+      rect:
+        serializedVersion: 2
+        x: 1289
+        y: 710
+        width: 291
+        height: 220
+      alignment: 9
+      pivot: {x: 0.51890033, y: 0.27272728}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a7211b18f4a6e5479c02051f50b8eeb
+      internalID: -431343306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR2 WW Explosion_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 849
+        width: 253
+        height: 160
+      alignment: 9
+      pivot: {x: 0.45849803, y: 0.0125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a9abd7921428f74f80456957a9245d0
+      internalID: -960677409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR2 WW Explosion_19
+      rect:
+        serializedVersion: 2
+        x: 1583
+        y: 488
+        width: 251
+        height: 159
+      alignment: 9
+      pivot: {x: 0.45816734, y: 0.012578616}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f36b3c0eb3c5d99449fd82bd2cc52ec0
+      internalID: 253637262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 1a4c29c5227e5e04c914f51352994e88
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      CFXR2 WW Explosion_00: 1723083441
+      CFXR2 WW Explosion_01: 102288105
+      CFXR2 WW Explosion_02: 467381509
+      CFXR2 WW Explosion_03: -304426107
+      CFXR2 WW Explosion_04: 729055936
+      CFXR2 WW Explosion_05: 542886730
+      CFXR2 WW Explosion_06: 306747247
+      CFXR2 WW Explosion_07: -1426974134
+      CFXR2 WW Explosion_08: 1448756578
+      CFXR2 WW Explosion_09: -205680292
+      CFXR2 WW Explosion_10: 538861257
+      CFXR2 WW Explosion_11: 1057569166
+      CFXR2 WW Explosion_12: -1160052667
+      CFXR2 WW Explosion_13: 1288501019
+      CFXR2 WW Explosion_14: 176008763
+      CFXR2 WW Explosion_15: 594360564
+      CFXR2 WW Explosion_16: -82562103
+      CFXR2 WW Explosion_17: -431343306
+      CFXR2 WW Explosion_18: -960677409
+      CFXR2 WW Explosion_19: 253637262
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

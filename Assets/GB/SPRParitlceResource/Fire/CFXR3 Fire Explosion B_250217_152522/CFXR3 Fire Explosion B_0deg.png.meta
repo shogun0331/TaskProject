@@ -1,0 +1,580 @@
+fileFormatVersion: 2
+guid: 310b1e1bd13b6b7428f73ffaf0dcff7b
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CFXR3 Fire Explosion B_00
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 511
+        width: 7
+        height: 7
+      alignment: 9
+      pivot: {x: 0.42857143, y: 0.42857143}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef6e63f3f68311e4fa43b0d2b1798cd9
+      internalID: -765915639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR3 Fire Explosion B_01
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 389
+        width: 131
+        height: 145
+      alignment: 9
+      pivot: {x: 0.46564886, y: 0.5241379}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9814790ca8c1e74ca4e742060c56c76
+      internalID: -2107519494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR3 Fire Explosion B_02
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 0
+        width: 169
+        height: 194
+      alignment: 9
+      pivot: {x: 0.44378698, y: 0.53608245}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 811d1748b5634934ab4b9487fe0afc73
+      internalID: -1877232778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR3 Fire Explosion B_03
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 761
+        width: 196
+        height: 229
+      alignment: 9
+      pivot: {x: 0.43367347, y: 0.5458515}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0d0de2ecf4574241bd85918b3ca2f13
+      internalID: 1921542421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR3 Fire Explosion B_04
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 511
+        width: 213
+        height: 250
+      alignment: 9
+      pivot: {x: 0.43192488, y: 0.552}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 498aafad0f1715d47a2e459651f8c75e
+      internalID: -624799758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR3 Fire Explosion B_05
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 223
+        height: 262
+      alignment: 9
+      pivot: {x: 0.43049327, y: 0.55725193}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e7bd53151d6af34998197e761250ac3
+      internalID: 1552709432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR3 Fire Explosion B_06
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 0
+        width: 228
+        height: 244
+      alignment: 9
+      pivot: {x: 0.43421054, y: 0.5204918}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d949b002ab81fd34bb3a4027b814843a
+      internalID: -1039147353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR3 Fire Explosion B_07
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 262
+        width: 218
+        height: 249
+      alignment: 9
+      pivot: {x: 0.4587156, y: 0.5261044}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a3ef37f70827d340a83d0ede6c0190e
+      internalID: 1905435608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR3 Fire Explosion B_08
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 804
+        width: 117
+        height: 130
+      alignment: 9
+      pivot: {x: 0.4871795, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94d970deb0266184e858ea4fa741a410
+      internalID: 1637218802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR3 Fire Explosion B_09
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 669
+        width: 125
+        height: 135
+      alignment: 9
+      pivot: {x: 0.512, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb46cd3004f7d6842992eeec69b77881
+      internalID: 455482171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR3 Fire Explosion B_10
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 534
+        width: 132
+        height: 135
+      alignment: 9
+      pivot: {x: 0.52272725, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba20a23cb8c2c5b48911f98f91a6f127
+      internalID: 617686597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR3 Fire Explosion B_11
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 244
+        width: 138
+        height: 145
+      alignment: 9
+      pivot: {x: 0.5289855, y: 0.37241378}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd2ffe8c5289e7447bbbefbf70aafa35
+      internalID: 2075785394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR3 Fire Explosion B_12
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 0
+        width: 144
+        height: 156
+      alignment: 9
+      pivot: {x: 0.5347222, y: 0.3525641}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf785b31333e7994c8d7a46ddc434e34
+      internalID: 1919825949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR3 Fire Explosion B_13
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 0
+        width: 147
+        height: 164
+      alignment: 9
+      pivot: {x: 0.53061223, y: 0.30487806}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5eed8a8d2d289e34aaa459c8a1b3d7bb
+      internalID: -999034429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR3 Fire Explosion B_14
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 244
+        width: 142
+        height: 134
+      alignment: 9
+      pivot: {x: 0.5492958, y: 0.37313432}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab3b93ad28a348c489d3ed83e8551815
+      internalID: -980487930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR3 Fire Explosion B_15
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 0
+        width: 101
+        height: 142
+      alignment: 9
+      pivot: {x: 0.4950495, y: 0.35211268}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bf48191e8cbb3449a4549f031f5ca60
+      internalID: 1076961903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR3 Fire Explosion B_16
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 244
+        width: 63
+        height: 126
+      alignment: 9
+      pivot: {x: 0.44444445, y: 0.3888889}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69b762a14adcc7b40897d20b2c5f901d
+      internalID: 941653768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR3 Fire Explosion B_17
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 761
+        width: 27
+        height: 104
+      alignment: 9
+      pivot: {x: 0.074074075, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b50da2ff3ded6d84881687bcc207ddcb
+      internalID: -955690264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR3 Fire Explosion B_18
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 518
+        width: 7
+        height: 7
+      alignment: 9
+      pivot: {x: 0.42857143, y: 0.42857143}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29fc04a077c15b94380ee27905efa7d6
+      internalID: -1442724766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR3 Fire Explosion B_19
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 525
+        width: 7
+        height: 7
+      alignment: 9
+      pivot: {x: 0.42857143, y: 0.42857143}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f9e22cbe88ed064d9004c65f79c2969
+      internalID: -1577122984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 477ccaad7a27def40aaf113a8fc79b76
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      CFXR3 Fire Explosion B_00: -765915639
+      CFXR3 Fire Explosion B_01: -2107519494
+      CFXR3 Fire Explosion B_02: -1877232778
+      CFXR3 Fire Explosion B_03: 1921542421
+      CFXR3 Fire Explosion B_04: -624799758
+      CFXR3 Fire Explosion B_05: 1552709432
+      CFXR3 Fire Explosion B_06: -1039147353
+      CFXR3 Fire Explosion B_07: 1905435608
+      CFXR3 Fire Explosion B_08: 1637218802
+      CFXR3 Fire Explosion B_09: 455482171
+      CFXR3 Fire Explosion B_10: 617686597
+      CFXR3 Fire Explosion B_11: 2075785394
+      CFXR3 Fire Explosion B_12: 1919825949
+      CFXR3 Fire Explosion B_13: -999034429
+      CFXR3 Fire Explosion B_14: -980487930
+      CFXR3 Fire Explosion B_15: 1076961903
+      CFXR3 Fire Explosion B_16: 941653768
+      CFXR3 Fire Explosion B_17: -955690264
+      CFXR3 Fire Explosion B_18: -1442724766
+      CFXR3 Fire Explosion B_19: -1577122984
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,580 @@
+fileFormatVersion: 2
+guid: cd673deef7a11544cb6c0790b51bc2ce
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CFXR2 _CURSED__00
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 94
+        width: 7
+        height: 7
+      alignment: 9
+      pivot: {x: 0.42857143, y: 0.42857143}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa5cbdc137761d241990f548c11720e1
+      internalID: 1185914368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR2 _CURSED__01
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 393
+        width: 113
+        height: 70
+      alignment: 9
+      pivot: {x: 0.9734513, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c71ffcc3f7b0f994fa49c5c802d5faeb
+      internalID: 186253176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR2 _CURSED__02
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 321
+        width: 163
+        height: 72
+      alignment: 9
+      pivot: {x: 0.8404908, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efd321f75a90e264badf3de6c884b91d
+      internalID: -1514427312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR2 _CURSED__03
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 299
+        width: 223
+        height: 70
+      alignment: 9
+      pivot: {x: 0.66367716, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c33bd8bdefd2b84fb623885025cf249
+      internalID: 641209837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR2 _CURSED__04
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 87
+        width: 264
+        height: 62
+      alignment: 9
+      pivot: {x: 0.5568182, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a8ded93fcaaa22499d745982cad16e5
+      internalID: 376347736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR2 _CURSED__05
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 155
+        width: 278
+        height: 62
+      alignment: 9
+      pivot: {x: 0.49280575, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3bf86602b608f9419a1ef19afcbcb05
+      internalID: 937258466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR2 _CURSED__06
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 389
+        width: 272
+        height: 66
+      alignment: 9
+      pivot: {x: 0.4522059, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35bedd7d3a9f5e643b32c0f4617d0a54
+      internalID: -1746569507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR2 _CURSED__07
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 155
+        width: 252
+        height: 70
+      alignment: 9
+      pivot: {x: 0.42063493, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd727ca6dfb85af42a71b52c41dd6c30
+      internalID: 1916245612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR2 _CURSED__08
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 225
+        width: 227
+        height: 74
+      alignment: 9
+      pivot: {x: 0.40528634, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bb29966e8fd0aa4a8199e6c659e4b71
+      internalID: 859965913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR2 _CURSED__09
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 369
+        width: 202
+        height: 75
+      alignment: 9
+      pivot: {x: 0.4108911, y: 0.49333334}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac5f3f9e863542c49a54e4052e609529
+      internalID: -385378195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR2 _CURSED__10
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 297
+        width: 186
+        height: 76
+      alignment: 9
+      pivot: {x: 0.44623655, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbe72748726e27240a5a981423cb1275
+      internalID: 518022246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR2 _CURSED__11
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 373
+        width: 185
+        height: 76
+      alignment: 9
+      pivot: {x: 0.51891893, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cba7d894714a194fac6a2309c9ad915
+      internalID: -1948222612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR2 _CURSED__12
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 225
+        width: 207
+        height: 72
+      alignment: 9
+      pivot: {x: 0.6038647, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f468f10747ef2ce449ba574dec67337d
+      internalID: 1938776669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR2 _CURSED__13
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 87
+        width: 260
+        height: 68
+      alignment: 9
+      pivot: {x: 0.6730769, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33d5a8276516cbd49903d2b6398bf273
+      internalID: 1645301719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR2 _CURSED__14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 321
+        width: 325
+        height: 68
+      alignment: 9
+      pivot: {x: 0.6923077, y: 0.4852941}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8950bb9f2b92d649986f53045009813
+      internalID: 1745171903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR2 _CURSED__15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 250
+        width: 386
+        height: 71
+      alignment: 9
+      pivot: {x: 0.65284973, y: 0.47887325}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95f956c6beb64134fb0dbe17b362e7f0
+      internalID: -1147003090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR2 _CURSED__16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 175
+        width: 438
+        height: 75
+      alignment: 9
+      pivot: {x: 0.5753425, y: 0.48}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcf34ee1a882f09459e4a2be4880c1f6
+      internalID: -234625426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR2 _CURSED__17
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 94
+        width: 485
+        height: 81
+      alignment: 9
+      pivot: {x: 0.51958764, y: 0.4691358}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ec91a61609c6f54aa40dd64a86caf9f
+      internalID: -105860493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR2 _CURSED__18
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 0
+        width: 504
+        height: 87
+      alignment: 9
+      pivot: {x: 0.5, y: 0.47126436}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2992d83269f8064fb86b84a2d299f2a
+      internalID: -1268702303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR2 _CURSED__19
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 494
+        height: 94
+      alignment: 9
+      pivot: {x: 0.48987854, y: 0.4680851}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd3d6f097e3bec84c99ab389147e689e
+      internalID: 966792182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: a6a3f4c7d1d262048a35d6996b442ff2
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      CFXR2 _CURSED__00: 1185914368
+      CFXR2 _CURSED__01: 186253176
+      CFXR2 _CURSED__02: -1514427312
+      CFXR2 _CURSED__03: 641209837
+      CFXR2 _CURSED__04: 376347736
+      CFXR2 _CURSED__05: 937258466
+      CFXR2 _CURSED__06: -1746569507
+      CFXR2 _CURSED__07: 1916245612
+      CFXR2 _CURSED__08: 859965913
+      CFXR2 _CURSED__09: -385378195
+      CFXR2 _CURSED__10: 518022246
+      CFXR2 _CURSED__11: -1948222612
+      CFXR2 _CURSED__12: 1938776669
+      CFXR2 _CURSED__13: 1645301719
+      CFXR2 _CURSED__14: 1745171903
+      CFXR2 _CURSED__15: -1147003090
+      CFXR2 _CURSED__16: -234625426
+      CFXR2 _CURSED__17: -105860493
+      CFXR2 _CURSED__18: -1268702303
+      CFXR2 _CURSED__19: 966792182
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

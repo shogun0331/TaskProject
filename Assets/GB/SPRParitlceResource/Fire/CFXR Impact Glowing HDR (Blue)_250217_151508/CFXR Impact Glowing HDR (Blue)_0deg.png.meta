@@ -1,0 +1,580 @@
+fileFormatVersion: 2
+guid: d63f6ebe90dcaa34e9524e1735e3e187
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CFXR Impact Glowing HDR (Blue)_00
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 1016
+        width: 7
+        height: 7
+      alignment: 9
+      pivot: {x: 0.42857143, y: 0.42857143}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76fb6ca2dd494c94789de803fee1df2d
+      internalID: 421325306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR Impact Glowing HDR (Blue)_01
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 704
+        width: 168
+        height: 82
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec983e6254dc99b4db979daa863c1d32
+      internalID: 1219326922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR Impact Glowing HDR (Blue)_02
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 554
+        width: 354
+        height: 150
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0edc1cc51ddce284593caa1627cab249
+      internalID: 1566603194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR Impact Glowing HDR (Blue)_03
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 804
+        width: 504
+        height: 214
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 402391e674c5abe45a0b6cb416fc4807
+      internalID: 1078710827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR Impact Glowing HDR (Blue)_04
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 0
+        width: 504
+        height: 254
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcced05b478f53046b18240c0f53bc26
+      internalID: 1514767209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR Impact Glowing HDR (Blue)_05
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 254
+        width: 504
+        height: 254
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02a81bc74e58b65489255980258c8d41
+      internalID: 1524668078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR Impact Glowing HDR (Blue)_06
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 508
+        width: 504
+        height: 254
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bdd8dc0e053e9e4394a8e3e49bc940f
+      internalID: 559826558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR Impact Glowing HDR (Blue)_07
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 762
+        width: 504
+        height: 254
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03398e83c3b05e54683a144e70c9f3b1
+      internalID: 1392808853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR Impact Glowing HDR (Blue)_08
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 0
+        width: 504
+        height: 254
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a389d28a69685f4a8cdcc788dbd7f99
+      internalID: -1871738573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR Impact Glowing HDR (Blue)_09
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 548
+        width: 504
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c92ceb23021ffb646b4ca26795261665
+      internalID: 732180155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR Impact Glowing HDR (Blue)_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 280
+        width: 504
+        height: 268
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d040e9e032db40a45aa17695a1273bc2
+      internalID: -1090716575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR Impact Glowing HDR (Blue)_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 504
+        height: 280
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b27294b087b560499e05dce2d48e8b9
+      internalID: -959944104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR Impact Glowing HDR (Blue)_12
+      rect:
+        serializedVersion: 2
+        x: 1512
+        y: 0
+        width: 504
+        height: 250
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d7ce0cbdfc6d814995429e6fb948dd2
+      internalID: 658411954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR Impact Glowing HDR (Blue)_13
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 254
+        width: 504
+        height: 186
+      alignment: 9
+      pivot: {x: 0.5, y: 0.37634408}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f03c11c67fa453944b943c4e97f94305
+      internalID: 1781052969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR Impact Glowing HDR (Blue)_14
+      rect:
+        serializedVersion: 2
+        x: 1512
+        y: 254
+        width: 504
+        height: 120
+      alignment: 9
+      pivot: {x: 0.5, y: 0.058333334}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4693e4878cba124bb61c49e58bda123
+      internalID: -1411332361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR Impact Glowing HDR (Blue)_15
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 440
+        width: 504
+        height: 114
+      alignment: 9
+      pivot: {x: 0.5, y: 0.03508772}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4ffa062a8d181b459a42929f3bcb881
+      internalID: -1747925931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR Impact Glowing HDR (Blue)_16
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 1016
+        width: 7
+        height: 7
+      alignment: 9
+      pivot: {x: 0.42857143, y: 0.42857143}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77a3a253ae4123b4d88f4fee45b155f7
+      internalID: 416502836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR Impact Glowing HDR (Blue)_17
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 1016
+        width: 7
+        height: 7
+      alignment: 9
+      pivot: {x: 0.42857143, y: 0.42857143}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f37a3bdbe7636d846bf240991f100f40
+      internalID: 1403159202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR Impact Glowing HDR (Blue)_18
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 1016
+        width: 7
+        height: 7
+      alignment: 9
+      pivot: {x: 0.42857143, y: 0.42857143}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 255a7f0697fe81947aa4186a2d0ca687
+      internalID: -1581724414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR Impact Glowing HDR (Blue)_19
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 1016
+        width: 7
+        height: 7
+      alignment: 9
+      pivot: {x: 0.42857143, y: 0.42857143}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 490a5c6305a05d74196e27f9cfb774d4
+      internalID: 1121580845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 276e41b735f67ad4ab239f82f8d8931d
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      CFXR Impact Glowing HDR (Blue)_00: 421325306
+      CFXR Impact Glowing HDR (Blue)_01: 1219326922
+      CFXR Impact Glowing HDR (Blue)_02: 1566603194
+      CFXR Impact Glowing HDR (Blue)_03: 1078710827
+      CFXR Impact Glowing HDR (Blue)_04: 1514767209
+      CFXR Impact Glowing HDR (Blue)_05: 1524668078
+      CFXR Impact Glowing HDR (Blue)_06: 559826558
+      CFXR Impact Glowing HDR (Blue)_07: 1392808853
+      CFXR Impact Glowing HDR (Blue)_08: -1871738573
+      CFXR Impact Glowing HDR (Blue)_09: 732180155
+      CFXR Impact Glowing HDR (Blue)_10: -1090716575
+      CFXR Impact Glowing HDR (Blue)_11: -959944104
+      CFXR Impact Glowing HDR (Blue)_12: 658411954
+      CFXR Impact Glowing HDR (Blue)_13: 1781052969
+      CFXR Impact Glowing HDR (Blue)_14: -1411332361
+      CFXR Impact Glowing HDR (Blue)_15: -1747925931
+      CFXR Impact Glowing HDR (Blue)_16: 416502836
+      CFXR Impact Glowing HDR (Blue)_17: 1403159202
+      CFXR Impact Glowing HDR (Blue)_18: -1581724414
+      CFXR Impact Glowing HDR (Blue)_19: 1121580845
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

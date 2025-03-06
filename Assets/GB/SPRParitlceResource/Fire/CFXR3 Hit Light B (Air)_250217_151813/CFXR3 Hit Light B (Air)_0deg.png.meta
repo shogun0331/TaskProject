@@ -1,0 +1,580 @@
+fileFormatVersion: 2
+guid: 350dd09a939cb8d4eb23273f0b981bc9
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CFXR3 Hit Light B (Air)_00
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 232
+        width: 7
+        height: 7
+      alignment: 9
+      pivot: {x: 0.42857143, y: 0.42857143}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0b10782c58a7eb4191473eeb5c47857
+      internalID: 771615942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR3 Hit Light B (Air)_01
+      rect:
+        serializedVersion: 2
+        x: 884
+        y: 425
+        width: 78
+        height: 82
+      alignment: 9
+      pivot: {x: 0.47435898, y: 0.46341464}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9022e87b2c2a57a4482efe39423b7b7a
+      internalID: 584578599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR3 Hit Light B (Air)_02
+      rect:
+        serializedVersion: 2
+        x: 871
+        y: 172
+        width: 126
+        height: 136
+      alignment: 9
+      pivot: {x: 0.46825397, y: 0.4779412}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82b2bb9a7553e6f46a46c37b13176843
+      internalID: 1554804672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR3 Hit Light B (Air)_03
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 172
+        width: 166
+        height: 175
+      alignment: 9
+      pivot: {x: 0.48192772, y: 0.49714285}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f4c53b3b521bd6459ca1ea3ed1636cd
+      internalID: 1064683156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR3 Hit Light B (Air)_04
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 222
+        width: 195
+        height: 201
+      alignment: 9
+      pivot: {x: 0.4923077, y: 0.50248754}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d05d6778bbfd46941a294a27d7a0193a
+      internalID: -943177038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR3 Hit Light B (Air)_05
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 0
+        width: 216
+        height: 222
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5135135}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e911ba7a710c87438f16c38cb592e38
+      internalID: 546799668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR3 Hit Light B (Air)_06
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 228
+        width: 223
+        height: 219
+      alignment: 9
+      pivot: {x: 0.47982064, y: 0.5707763}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c984144882b1ea4f976ac4c08acac59
+      internalID: -212930381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR3 Hit Light B (Air)_07
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 0
+        width: 234
+        height: 228
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5877193}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c22232c59c095c43a4170339b8792ea
+      internalID: -251256666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR3 Hit Light B (Air)_08
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 232
+        width: 245
+        height: 228
+      alignment: 9
+      pivot: {x: 0.50612247, y: 0.5745614}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0531c244e6c27e84a87846b97e0cfad7
+      internalID: 2139097627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR3 Hit Light B (Air)_09
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 255
+        height: 232
+      alignment: 9
+      pivot: {x: 0.5058824, y: 0.57758623}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 451367749804f6c4ca6df229c354bafd
+      internalID: 1755061309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR3 Hit Light B (Air)_10
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 0
+        width: 263
+        height: 172
+      alignment: 9
+      pivot: {x: 0.5095057, y: 0.55813956}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3902038a93c10548b199b260db9d0e7
+      internalID: -1207465760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR3 Hit Light B (Air)_11
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 347
+        width: 179
+        height: 143
+      alignment: 9
+      pivot: {x: 0.5083799, y: 0.7062937}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3bed6db24f4d8b4691df656abe0636e
+      internalID: 1121197716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR3 Hit Light B (Air)_12
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 423
+        width: 95
+        height: 89
+      alignment: 9
+      pivot: {x: 0.50526315, y: 0.5168539}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95905b7f43359674c94750a160329edc
+      internalID: -1575137685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR3 Hit Light B (Air)_13
+      rect:
+        serializedVersion: 2
+        x: 884
+        y: 347
+        width: 87
+        height: 78
+      alignment: 9
+      pivot: {x: 0.43678162, y: 0.6025641}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85467e25bc7fa2647836acd6875eac62
+      internalID: -1588709720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR3 Hit Light B (Air)_14
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 423
+        width: 88
+        height: 79
+      alignment: 9
+      pivot: {x: 0.4318182, y: 0.5949367}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6ec06c74a73a1b4d9c7640da5e010ee
+      internalID: 267169776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR3 Hit Light B (Air)_15
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 447
+        width: 92
+        height: 64
+      alignment: 9
+      pivot: {x: 0.45652175, y: 0.484375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8382cdd188d32ce4f962845bfd008ff2
+      internalID: -1151058404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR3 Hit Light B (Air)_16
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 447
+        width: 85
+        height: 63
+      alignment: 9
+      pivot: {x: 0.49411765, y: 0.52380955}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46e11b23f08d3d14d9e33d87f9a330d6
+      internalID: -1340134203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR3 Hit Light B (Air)_17
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 460
+        width: 88
+        height: 25
+      alignment: 9
+      pivot: {x: 0.48863637, y: 0.72}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e5561046dd259d4fa6278ff9207f668
+      internalID: -898987907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR3 Hit Light B (Air)_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 485
+        width: 68
+        height: 24
+      alignment: 9
+      pivot: {x: 0.6617647, y: 0.75}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05e67339f13784d46bcc19ba513bdfbd
+      internalID: -1001942812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR3 Hit Light B (Air)_19
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 239
+        width: 7
+        height: 7
+      alignment: 9
+      pivot: {x: 0.42857143, y: 0.42857143}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb854df34ea85404dac729fe5af6048a
+      internalID: 215650948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 1a9b36d838e1d6d499daa87aa83f4f67
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      CFXR3 Hit Light B (Air)_00: 771615942
+      CFXR3 Hit Light B (Air)_01: 584578599
+      CFXR3 Hit Light B (Air)_02: 1554804672
+      CFXR3 Hit Light B (Air)_03: 1064683156
+      CFXR3 Hit Light B (Air)_04: -943177038
+      CFXR3 Hit Light B (Air)_05: 546799668
+      CFXR3 Hit Light B (Air)_06: -212930381
+      CFXR3 Hit Light B (Air)_07: -251256666
+      CFXR3 Hit Light B (Air)_08: 2139097627
+      CFXR3 Hit Light B (Air)_09: 1755061309
+      CFXR3 Hit Light B (Air)_10: -1207465760
+      CFXR3 Hit Light B (Air)_11: 1121197716
+      CFXR3 Hit Light B (Air)_12: -1575137685
+      CFXR3 Hit Light B (Air)_13: -1588709720
+      CFXR3 Hit Light B (Air)_14: 267169776
+      CFXR3 Hit Light B (Air)_15: -1151058404
+      CFXR3 Hit Light B (Air)_16: -1340134203
+      CFXR3 Hit Light B (Air)_17: -898987907
+      CFXR3 Hit Light B (Air)_18: -1001942812
+      CFXR3 Hit Light B (Air)_19: 215650948
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

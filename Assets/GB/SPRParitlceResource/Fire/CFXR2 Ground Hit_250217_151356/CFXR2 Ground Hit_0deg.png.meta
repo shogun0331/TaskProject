@@ -1,0 +1,580 @@
+fileFormatVersion: 2
+guid: 04aca9514597e444989babe2300696cc
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CFXR2 Ground Hit_00
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 393
+        width: 7
+        height: 7
+      alignment: 9
+      pivot: {x: 0.42857143, y: 0.42857143}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24f523f383e09b64bb591492393f5bff
+      internalID: -1681286050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR2 Ground Hit_01
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 390
+        width: 38
+        height: 21
+      alignment: 9
+      pivot: {x: 0.5, y: 0.42857143}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 970488db171d72f419480ac2503a9223
+      internalID: -1143063852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR2 Ground Hit_02
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 47
+        width: 64
+        height: 33
+      alignment: 9
+      pivot: {x: 0.5, y: 0.45454547}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de8f1c71c93352c4897b882402a200a4
+      internalID: 1126452949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR2 Ground Hit_03
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 97
+        width: 150
+        height: 76
+      alignment: 9
+      pivot: {x: 0.5, y: 0.39473686}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 821bb4d099a79a9428f6146f97ecdc2b
+      internalID: -700832982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR2 Ground Hit_04
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 390
+        width: 203
+        height: 102
+      alignment: 9
+      pivot: {x: 0.49753696, y: 0.3627451}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 502ed72ab3c11f844a5f0759baf0048c
+      internalID: -1466427211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR2 Ground Hit_05
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 393
+        width: 233
+        height: 119
+      alignment: 9
+      pivot: {x: 0.50214595, y: 0.34453782}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c13ad7b60433f14084ae70ec3fab58a
+      internalID: -901681654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR2 Ground Hit_06
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 131
+        width: 246
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5081301, y: 0.3359375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97b15ad7e2ee677499adbfb6764bb73c
+      internalID: -1108395143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR2 Ground Hit_07
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 247
+        height: 131
+      alignment: 9
+      pivot: {x: 0.51012146, y: 0.33587787}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b38908639aa66524eaa183baca90e5f3
+      internalID: -1890089444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR2 Ground Hit_08
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 131
+        width: 247
+        height: 131
+      alignment: 9
+      pivot: {x: 0.51012146, y: 0.33587787}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1467a37ef288bd4a991e6fc0afc22df
+      internalID: -2137874630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR2 Ground Hit_09
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 262
+        width: 247
+        height: 131
+      alignment: 9
+      pivot: {x: 0.51012146, y: 0.33587787}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc2452ff317ec014daedf6488ea24dcb
+      internalID: 1764439742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR2 Ground Hit_10
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 0
+        width: 247
+        height: 131
+      alignment: 9
+      pivot: {x: 0.51012146, y: 0.33587787}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ecb10925cbc9b548980c9c8de4e86e2
+      internalID: 1423183974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR2 Ground Hit_11
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 259
+        width: 212
+        height: 131
+      alignment: 9
+      pivot: {x: 0.5943396, y: 0.33587787}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52f15f1ff25ee1247b21fcc962548396
+      internalID: -1177767189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR2 Ground Hit_12
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 0
+        width: 197
+        height: 97
+      alignment: 9
+      pivot: {x: 0.56345177, y: 0.45360824}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20c9701a2b5d14246b5c32cd3f762d0b
+      internalID: 2117931221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR2 Ground Hit_13
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 0
+        width: 189
+        height: 97
+      alignment: 9
+      pivot: {x: 0.54497355, y: 0.45360824}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f0af297e6b6c6b478b747bdcf951b23
+      internalID: 42227223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR2 Ground Hit_14
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 0
+        width: 87
+        height: 47
+      alignment: 9
+      pivot: {x: 0.9655172, y: 0.9361702}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c3e2cb975721d442a0b0dae125431a2
+      internalID: -1542754220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR2 Ground Hit_15
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 393
+        width: 7
+        height: 7
+      alignment: 9
+      pivot: {x: 0.42857143, y: 0.42857143}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8ccc6485da856345b31573869398d18
+      internalID: -1296553316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR2 Ground Hit_16
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 400
+        width: 7
+        height: 7
+      alignment: 9
+      pivot: {x: 0.42857143, y: 0.42857143}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18d7016d4ab0804449b766627193ef9e
+      internalID: -1389509094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR2 Ground Hit_17
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 400
+        width: 7
+        height: 7
+      alignment: 9
+      pivot: {x: 0.42857143, y: 0.42857143}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 599fc8c205c1a0543bd749c5db5de425
+      internalID: 1398353371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR2 Ground Hit_18
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 407
+        width: 7
+        height: 7
+      alignment: 9
+      pivot: {x: 0.42857143, y: 0.42857143}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fa9cad725b75a940b252ff7174452af
+      internalID: -69985018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR2 Ground Hit_19
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 407
+        width: 7
+        height: 7
+      alignment: 9
+      pivot: {x: 0.42857143, y: 0.42857143}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec6298e4c488c8d4f96c097d96528bb2
+      internalID: 868503648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5a4812b70ae25254a87373b6a4e03984
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      CFXR2 Ground Hit_00: -1681286050
+      CFXR2 Ground Hit_01: -1143063852
+      CFXR2 Ground Hit_02: 1126452949
+      CFXR2 Ground Hit_03: -700832982
+      CFXR2 Ground Hit_04: -1466427211
+      CFXR2 Ground Hit_05: -901681654
+      CFXR2 Ground Hit_06: -1108395143
+      CFXR2 Ground Hit_07: -1890089444
+      CFXR2 Ground Hit_08: -2137874630
+      CFXR2 Ground Hit_09: 1764439742
+      CFXR2 Ground Hit_10: 1423183974
+      CFXR2 Ground Hit_11: -1177767189
+      CFXR2 Ground Hit_12: 2117931221
+      CFXR2 Ground Hit_13: 42227223
+      CFXR2 Ground Hit_14: -1542754220
+      CFXR2 Ground Hit_15: -1296553316
+      CFXR2 Ground Hit_16: -1389509094
+      CFXR2 Ground Hit_17: 1398353371
+      CFXR2 Ground Hit_18: -69985018
+      CFXR2 Ground Hit_19: 868503648
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

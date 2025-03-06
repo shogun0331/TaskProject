@@ -1,0 +1,580 @@
+fileFormatVersion: 2
+guid: f41fe3cde946d564b97d5222cc4673cd
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CFXR Hit D 3D (Yellow)_00
+      rect:
+        serializedVersion: 2
+        x: 2008
+        y: 0
+        width: 7
+        height: 7
+      alignment: 9
+      pivot: {x: 0.42857143, y: 0.42857143}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e4b68ca98c134a4eac50c311d910bcf
+      internalID: -524592914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR Hit D 3D (Yellow)_01
+      rect:
+        serializedVersion: 2
+        x: 1807
+        y: 277
+        width: 72
+        height: 72
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fdeb1fa034ae524c953b89fd2d702a4
+      internalID: -1545371057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR Hit D 3D (Yellow)_02
+      rect:
+        serializedVersion: 2
+        x: 1701
+        y: 277
+        width: 106
+        height: 106
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a17ca0485961c346ad84aec1875f4b2
+      internalID: 230091705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR Hit D 3D (Yellow)_03
+      rect:
+        serializedVersion: 2
+        x: 1616
+        y: 588
+        width: 148
+        height: 140
+      alignment: 9
+      pivot: {x: 0.47297296, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b101d5511dd291244bd85ac902545120
+      internalID: 1900413498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR Hit D 3D (Yellow)_04
+      rect:
+        serializedVersion: 2
+        x: 1616
+        y: 384
+        width: 227
+        height: 204
+      alignment: 9
+      pivot: {x: 0.37885463, y: 0.46078432}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c1dded98aef5a0448a218fe02d51fe5
+      internalID: -768240517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR Hit D 3D (Yellow)_05
+      rect:
+        serializedVersion: 2
+        x: 1701
+        y: 0
+        width: 307
+        height: 277
+      alignment: 9
+      pivot: {x: 0.38110748, y: 0.46209386}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28d2e16969572444d93dd4fd0e4c3416
+      internalID: -162413715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR Hit D 3D (Yellow)_06
+      rect:
+        serializedVersion: 2
+        x: 1248
+        y: 384
+        width: 368
+        height: 334
+      alignment: 9
+      pivot: {x: 0.38586956, y: 0.46107784}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc6a34fdec559874eb55e9b533d8e030
+      internalID: 1598408183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR Hit D 3D (Yellow)_07
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 384
+        width: 405
+        height: 374
+      alignment: 9
+      pivot: {x: 0.39506173, y: 0.45989305}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61148c27c01df244b935887d55cb09f6
+      internalID: 317662568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR Hit D 3D (Yellow)_08
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 423
+        height: 382
+      alignment: 9
+      pivot: {x: 0.40425533, y: 0.4712042}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 379aaa7dbcb4b8f48848b6a3a46139e1
+      internalID: 100927070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR Hit D 3D (Yellow)_09
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 426
+        height: 384
+      alignment: 9
+      pivot: {x: 0.4084507, y: 0.47395834}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 651209457d989564a97537e2784640f5
+      internalID: -1190870492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR Hit D 3D (Yellow)_10
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 0
+        width: 425
+        height: 383
+      alignment: 9
+      pivot: {x: 0.40941176, y: 0.47258484}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b933abe5a877f944b89f009a8c1eec02
+      internalID: -846325542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR Hit D 3D (Yellow)_11
+      rect:
+        serializedVersion: 2
+        x: 851
+        y: 0
+        width: 425
+        height: 383
+      alignment: 9
+      pivot: {x: 0.40941176, y: 0.47258484}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 114dba8675ab7424488649f6741f0625
+      internalID: -1989695223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR Hit D 3D (Yellow)_12
+      rect:
+        serializedVersion: 2
+        x: 1276
+        y: 0
+        width: 425
+        height: 382
+      alignment: 9
+      pivot: {x: 0.40941176, y: 0.4712042}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1db35ea455886bf468c64a89b8b15926
+      internalID: 1242950365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR Hit D 3D (Yellow)_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 766
+        width: 423
+        height: 382
+      alignment: 9
+      pivot: {x: 0.4113475, y: 0.4712042}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6a6c5cf0ccd8ba4fa3e30280cb13785
+      internalID: -1431377795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR Hit D 3D (Yellow)_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1148
+        width: 422
+        height: 382
+      alignment: 9
+      pivot: {x: 0.4099526, y: 0.4712042}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67a186f48e0f21448b8e2fc93d32d3a6
+      internalID: -582219587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR Hit D 3D (Yellow)_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1530
+        width: 420
+        height: 382
+      alignment: 9
+      pivot: {x: 0.41190475, y: 0.4712042}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2098984c6ddebf46886330ce6a84524
+      internalID: 761692298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR Hit D 3D (Yellow)_16
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 384
+        width: 420
+        height: 354
+      alignment: 9
+      pivot: {x: 0.41190475, y: 0.42937854}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e373e3acea78be4db7b9524b341520b
+      internalID: -797267055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR Hit D 3D (Yellow)_17
+      rect:
+        serializedVersion: 2
+        x: 1843
+        y: 384
+        width: 133
+        height: 204
+      alignment: 9
+      pivot: {x: 0.015037594, y: 0.009803922}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5362181212773bc4e965b44522940b65
+      internalID: -694820652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR Hit D 3D (Yellow)_18
+      rect:
+        serializedVersion: 2
+        x: 2015
+        y: 0
+        width: 7
+        height: 7
+      alignment: 9
+      pivot: {x: 0.42857143, y: 0.42857143}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16c78cda7366f0c42a126575c90973b8
+      internalID: -1379712788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR Hit D 3D (Yellow)_19
+      rect:
+        serializedVersion: 2
+        x: 2022
+        y: 0
+        width: 7
+        height: 7
+      alignment: 9
+      pivot: {x: 0.42857143, y: 0.42857143}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e433fd6bffa136d4eb157ac3d75eb88a
+      internalID: -1216736718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5f88c91bbe19ade47b89a4194deb7a5d
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      CFXR Hit D 3D (Yellow)_00: -524592914
+      CFXR Hit D 3D (Yellow)_01: -1545371057
+      CFXR Hit D 3D (Yellow)_02: 230091705
+      CFXR Hit D 3D (Yellow)_03: 1900413498
+      CFXR Hit D 3D (Yellow)_04: -768240517
+      CFXR Hit D 3D (Yellow)_05: -162413715
+      CFXR Hit D 3D (Yellow)_06: 1598408183
+      CFXR Hit D 3D (Yellow)_07: 317662568
+      CFXR Hit D 3D (Yellow)_08: 100927070
+      CFXR Hit D 3D (Yellow)_09: -1190870492
+      CFXR Hit D 3D (Yellow)_10: -846325542
+      CFXR Hit D 3D (Yellow)_11: -1989695223
+      CFXR Hit D 3D (Yellow)_12: 1242950365
+      CFXR Hit D 3D (Yellow)_13: -1431377795
+      CFXR Hit D 3D (Yellow)_14: -582219587
+      CFXR Hit D 3D (Yellow)_15: 761692298
+      CFXR Hit D 3D (Yellow)_16: -797267055
+      CFXR Hit D 3D (Yellow)_17: -694820652
+      CFXR Hit D 3D (Yellow)_18: -1379712788
+      CFXR Hit D 3D (Yellow)_19: -1216736718
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

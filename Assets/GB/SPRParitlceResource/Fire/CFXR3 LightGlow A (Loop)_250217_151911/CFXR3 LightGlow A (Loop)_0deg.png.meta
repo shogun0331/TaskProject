@@ -1,0 +1,580 @@
+fileFormatVersion: 2
+guid: 0f84bbc2f55512b4fb8084ee7dfcd55e
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CFXR3 LightGlow A (Loop)_00
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 225
+        width: 7
+        height: 7
+      alignment: 9
+      pivot: {x: 0.42857143, y: 0.42857143}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a88c3d2cff9e083439ceee007fe47520
+      internalID: -1832107339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR3 LightGlow A (Loop)_01
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 225
+        width: 7
+        height: 7
+      alignment: 9
+      pivot: {x: 0.42857143, y: 0.42857143}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc612e397ffcdae49b051e6aa7f631a0
+      internalID: 629032899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR3 LightGlow A (Loop)_02
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 886
+        width: 83
+        height: 87
+      alignment: 9
+      pivot: {x: 0.43373495, y: 0.3908046}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17de498801163de46a1d8dc820e9cd72
+      internalID: 1937151265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR3 LightGlow A (Loop)_03
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 850
+        width: 99
+        height: 103
+      alignment: 9
+      pivot: {x: 0.43434343, y: 0.407767}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab20173a44ff86e40bf0131d53797754
+      internalID: 1881744259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR3 LightGlow A (Loop)_04
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 730
+        width: 113
+        height: 120
+      alignment: 9
+      pivot: {x: 0.43362832, y: 0.41666666}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9a243a4e643ae449acd357ca169108e
+      internalID: 1897280862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR3 LightGlow A (Loop)_05
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 886
+        width: 127
+        height: 135
+      alignment: 9
+      pivot: {x: 0.43307087, y: 0.42222223}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b45e4bd562c79764593388139a221e66
+      internalID: 1982494185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR3 LightGlow A (Loop)_06
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 579
+        width: 142
+        height: 151
+      alignment: 9
+      pivot: {x: 0.43661973, y: 0.43046358}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91da5332e12eda14985e5ac2165a6157
+      internalID: -431340929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR3 LightGlow A (Loop)_07
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 413
+        width: 159
+        height: 166
+      alignment: 9
+      pivot: {x: 0.4465409, y: 0.43373495}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cf61eea1a745e94e874664d3642ee5f
+      internalID: 178179637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR3 LightGlow A (Loop)_08
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 0
+        width: 176
+        height: 183
+      alignment: 9
+      pivot: {x: 0.45454547, y: 0.43715847}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e818da4ab3da5fc43ae594d8a7f54e74
+      internalID: 1419045752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR3 LightGlow A (Loop)_09
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 0
+        width: 192
+        height: 197
+      alignment: 9
+      pivot: {x: 0.45833334, y: 0.44162437}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8e2ac6a5ea5f8e41bb3645deb9826c0
+      internalID: 1176871100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR3 LightGlow A (Loop)_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 673
+        width: 208
+        height: 213
+      alignment: 9
+      pivot: {x: 0.46634614, y: 0.44131455}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c807cd40c9d1c55478157be970d0ce08
+      internalID: -1908611876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR3 LightGlow A (Loop)_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 223
+        height: 225
+      alignment: 9
+      pivot: {x: 0.4753363, y: 0.4488889}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9455fb9a803b87f4aa63e6b3f65ffeb0
+      internalID: 1696525688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR3 LightGlow A (Loop)_12
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 198
+        width: 188
+        height: 211
+      alignment: 9
+      pivot: {x: 0.60638297, y: 0.50236964}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3350d9d83c29cb540928f4597917cabc
+      internalID: 1249711059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR3 LightGlow A (Loop)_13
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 198
+        width: 186
+        height: 205
+      alignment: 9
+      pivot: {x: 0.65591395, y: 0.46829268}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5cccc77c46cd1e42988eeaea889dcd8
+      internalID: 1673128270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR3 LightGlow A (Loop)_14
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 198
+        width: 201
+        height: 215
+      alignment: 9
+      pivot: {x: 0.6467662, y: 0.48372093}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e4b61457dd73764d858d29339099ff6
+      internalID: -821873515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR3 LightGlow A (Loop)_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 445
+        width: 196
+        height: 228
+      alignment: 9
+      pivot: {x: 0.5969388, y: 0.49122807}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85cebd503b9d2c74ba55a088e6f1c4ed
+      internalID: -1928489350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR3 LightGlow A (Loop)_16
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 198
+        width: 194
+        height: 211
+      alignment: 9
+      pivot: {x: 0.5515464, y: 0.56398106}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a7c86ce3352e9a4ea87f9fd5b1f1907
+      internalID: -255822019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR3 LightGlow A (Loop)_17
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 225
+        width: 208
+        height: 220
+      alignment: 9
+      pivot: {x: 0.5480769, y: 0.55454546}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c99586b3a6a2541448e8640d81917467
+      internalID: 1837431514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR3 LightGlow A (Loop)_18
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 0
+        width: 205
+        height: 191
+      alignment: 9
+      pivot: {x: 0.502439, y: 0.4450262}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56d59f17e1e1c0342925171f2d64a850
+      internalID: 1914150015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR3 LightGlow A (Loop)_19
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 0
+        width: 220
+        height: 198
+      alignment: 9
+      pivot: {x: 0.50454545, y: 0.43434343}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 818453806a85a204d92e97a3a255e074
+      internalID: -1470639755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: fd23a35dc62764e4f9b452689c2cace1
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      CFXR3 LightGlow A (Loop)_00: -1832107339
+      CFXR3 LightGlow A (Loop)_01: 629032899
+      CFXR3 LightGlow A (Loop)_02: 1937151265
+      CFXR3 LightGlow A (Loop)_03: 1881744259
+      CFXR3 LightGlow A (Loop)_04: 1897280862
+      CFXR3 LightGlow A (Loop)_05: 1982494185
+      CFXR3 LightGlow A (Loop)_06: -431340929
+      CFXR3 LightGlow A (Loop)_07: 178179637
+      CFXR3 LightGlow A (Loop)_08: 1419045752
+      CFXR3 LightGlow A (Loop)_09: 1176871100
+      CFXR3 LightGlow A (Loop)_10: -1908611876
+      CFXR3 LightGlow A (Loop)_11: 1696525688
+      CFXR3 LightGlow A (Loop)_12: 1249711059
+      CFXR3 LightGlow A (Loop)_13: 1673128270
+      CFXR3 LightGlow A (Loop)_14: -821873515
+      CFXR3 LightGlow A (Loop)_15: -1928489350
+      CFXR3 LightGlow A (Loop)_16: -255822019
+      CFXR3 LightGlow A (Loop)_17: 1837431514
+      CFXR3 LightGlow A (Loop)_18: 1914150015
+      CFXR3 LightGlow A (Loop)_19: -1470639755
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

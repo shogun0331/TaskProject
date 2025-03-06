@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 148ba5ea8e22b3a499e2aae2ef746a94, type: 3}
+  m_Name: SPRAnimationClip
+  m_EditorClassIdentifier: 
+  _sprites:
+  - {fileID: -1707010268, guid: 27593d39b9c46d547b09efe80e646466, type: 3}
+  - {fileID: -190777614, guid: 27593d39b9c46d547b09efe80e646466, type: 3}
+  - {fileID: 477545258, guid: 27593d39b9c46d547b09efe80e646466, type: 3}
+  - {fileID: 367461969, guid: 27593d39b9c46d547b09efe80e646466, type: 3}
+  - {fileID: -688687454, guid: 27593d39b9c46d547b09efe80e646466, type: 3}
+  - {fileID: -1861286445, guid: 27593d39b9c46d547b09efe80e646466, type: 3}
+  - {fileID: -1335221625, guid: 27593d39b9c46d547b09efe80e646466, type: 3}
+  - {fileID: 339314300, guid: 27593d39b9c46d547b09efe80e646466, type: 3}
+  - {fileID: -1452976374, guid: 27593d39b9c46d547b09efe80e646466, type: 3}
+  - {fileID: 2062479780, guid: 27593d39b9c46d547b09efe80e646466, type: 3}
+  Speed: 2
+  IsLoop: 1
+  skins:
+    list: []
+  Triggers:
+    list: []

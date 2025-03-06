@@ -50,18 +50,6 @@ public class Mob : StateMachine<MobState>,IBody
         Init();
     }
 
-    // void Start()
-    // {
-    //     MobSetting("0");
-    //     List<Vector2> list = new List<Vector2>();
-    //     list.Add(new Vector2(-3.5f,-4.5f));
-    //     list.Add(new Vector2(-3.5f,-0.5f));
-    //     list.Add(new Vector2(3.5f,-0.5f));
-    //     list.Add(new Vector2(3.5f,-4.5f));
-
-    //     SetMovePath(list.ToArray()).Play();
-    // }
-
     public void SetFlipX(bool isFlip)
     {
         _sRender.flipX = isFlip;

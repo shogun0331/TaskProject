@@ -12,7 +12,6 @@ public class CGame : MonoBehaviour,IView
     void Awake()
     {
         _board.Init();
-        
         Presenter.Bind(DEF.Game,this);
         ODataBaseManager.Set(DEF.Game,this);
         InputController.I.TouchWorldEvent += OnTouch;
@@ -39,6 +38,8 @@ public class CGame : MonoBehaviour,IView
     /// <param name="position">터치 월드 포지션</param>
     void OnTouch(TouchPhase phase, int touchID, Vector2 position)
     {
+
+        var tile = _board.GetTile(position);
         
         switch(phase)
         {
@@ -73,12 +74,13 @@ public class CGame : MonoBehaviour,IView
         // _board.GameStop();
     }
 
-
     /// <summary>
     /// 소환
     /// </summary>
     public void Summon()
     {
+        GBLog.Log("SummonButton");
+        
 
     }
 
@@ -90,7 +92,6 @@ public class CGame : MonoBehaviour,IView
 
     }
 
-
     /// <summary>
     /// 신화
     /// </summary>
@@ -98,7 +99,6 @@ public class CGame : MonoBehaviour,IView
     {
 
     }
-
 
     /// <summary>
     /// 강화
@@ -123,9 +123,13 @@ public class CGame : MonoBehaviour,IView
                 _board.WaveStart(_wave);
                 GBLog.Log("GAME","WaveStart" +_wave,Color.green);
             });
-            
-
             break;
+
+            case DEF.DEAD_MOB:
+            _board.RemoveMob(data.Get<GameObject>());
+            break;
+
+
         }
         
     }

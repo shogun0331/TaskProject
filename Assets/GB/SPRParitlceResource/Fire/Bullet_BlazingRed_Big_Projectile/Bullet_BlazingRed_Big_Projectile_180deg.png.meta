@@ -1,0 +1,360 @@
+fileFormatVersion: 2
+guid: c662d84b6223104488b1e6ca81727fc0
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Bullet_BlazingRed_Big_Projectile_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 848
+        width: 7
+        height: 7
+      alignment: 9
+      pivot: {x: 0.42857143, y: 0.42857143}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5d58eaff7af7a04cbe3e232f4dceb15
+      internalID: -83538818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet_BlazingRed_Big_Projectile_1
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 0
+        width: 204
+        height: 277
+      alignment: 9
+      pivot: {x: 0.49019608, y: 0.62815887}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d808b94d8cd9a347a475effed9045fc
+      internalID: -909627724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet_BlazingRed_Big_Projectile_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 569
+        width: 201
+        height: 279
+      alignment: 9
+      pivot: {x: 0.49253732, y: 0.65232974}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd8f935a1201e9d439fe07ee1895acf6
+      internalID: -1534008333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet_BlazingRed_Big_Projectile_3
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 0
+        width: 198
+        height: 277
+      alignment: 9
+      pivot: {x: 0.48989898, y: 0.6101083}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65fcd8df38bd4db44addadef8e0f7073
+      internalID: -871674863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet_BlazingRed_Big_Projectile_4
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 553
+        width: 194
+        height: 275
+      alignment: 9
+      pivot: {x: 0.48969072, y: 0.6181818}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fe68ed66add2e2499a09f8f8901f906
+      internalID: -645652669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet_BlazingRed_Big_Projectile_5
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 277
+        width: 198
+        height: 276
+      alignment: 9
+      pivot: {x: 0.48989898, y: 0.6594203}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ec5ffa06b408e74db6f5ba50341b86e
+      internalID: 2009218990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet_BlazingRed_Big_Projectile_6
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 0
+        width: 202
+        height: 275
+      alignment: 9
+      pivot: {x: 0.490099, y: 0.62545455}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 562abdd0e5caede4d90bfb035ab67e56
+      internalID: 844755379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet_BlazingRed_Big_Projectile_7
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 0
+        width: 204
+        height: 268
+      alignment: 9
+      pivot: {x: 0.49019608, y: 0.6567164}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faf7d7c9aaea8bc41b162cb7cbeb7202
+      internalID: -428749176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet_BlazingRed_Big_Projectile_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 201
+        height: 285
+      alignment: 9
+      pivot: {x: 0.49253732, y: 0.6385965}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: deba03f65200b7c45b797ebd575448c1
+      internalID: 1247882624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet_BlazingRed_Big_Projectile_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 285
+        width: 198
+        height: 284
+      alignment: 9
+      pivot: {x: 0.48989898, y: 0.5915493}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5aa21fbd30ba6124faa27a945cad1c6d
+      internalID: 868406932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 60c75ad53bd2136488ba93a740221bb2
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Bullet_BlazingRed_Big_Projectile_0: -83538818
+      Bullet_BlazingRed_Big_Projectile_1: -909627724
+      Bullet_BlazingRed_Big_Projectile_2: -1534008333
+      Bullet_BlazingRed_Big_Projectile_3: -871674863
+      Bullet_BlazingRed_Big_Projectile_4: -645652669
+      Bullet_BlazingRed_Big_Projectile_5: 2009218990
+      Bullet_BlazingRed_Big_Projectile_6: 844755379
+      Bullet_BlazingRed_Big_Projectile_7: -428749176
+      Bullet_BlazingRed_Big_Projectile_8: 1247882624
+      Bullet_BlazingRed_Big_Projectile_9: 868406932
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

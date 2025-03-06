@@ -1,0 +1,580 @@
+fileFormatVersion: 2
+guid: 01ed94c54c12e93439479cf8383e88c0
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ShFX_Flame Red_00
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 331
+        width: 7
+        height: 7
+      alignment: 9
+      pivot: {x: 0.42857143, y: 0.42857143}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f62b44e9c72f344591a1574d838da7c
+      internalID: -1816395547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShFX_Flame Red_01
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 411
+        width: 92
+        height: 70
+      alignment: 9
+      pivot: {x: 0.45652175, y: 0.41428572}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed012416d0203ec43bbb1ee3960bd3d9
+      internalID: 1557004197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShFX_Flame Red_02
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 327
+        width: 112
+        height: 84
+      alignment: 9
+      pivot: {x: 0.49107143, y: 0.42857143}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 689dc2beb684d6c49afecd7057e1decd
+      internalID: 1009794525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShFX_Flame Red_03
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 413
+        width: 114
+        height: 89
+      alignment: 9
+      pivot: {x: 0.50877196, y: 0.39325842}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd7ae8ced81413642b58f8484acb84e7
+      internalID: -575422534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShFX_Flame Red_04
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 234
+        width: 120
+        height: 93
+      alignment: 9
+      pivot: {x: 0.48333332, y: 0.3548387}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f797220be0f0e824a85bdae871703863
+      internalID: -833296096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShFX_Flame Red_05
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 255
+        width: 119
+        height: 103
+      alignment: 9
+      pivot: {x: 0.4789916, y: 0.3592233}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb1a6207adf93724a946a452c531d22c
+      internalID: 1268685923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShFX_Flame Red_06
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 132
+        width: 120
+        height: 102
+      alignment: 9
+      pivot: {x: 0.49166667, y: 0.29411766}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1cef333765674f4c81b490d75c7aa9d
+      internalID: -1410445254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShFX_Flame Red_07
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 358
+        width: 119
+        height: 103
+      alignment: 9
+      pivot: {x: 0.49579832, y: 0.24271844}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1317aec9c0072d4299156cad2f444b8
+      internalID: 1345330554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShFX_Flame Red_08
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 135
+        width: 116
+        height: 120
+      alignment: 9
+      pivot: {x: 0.5, y: 0.30833334}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d9288413219f044d9af63f924a73583
+      internalID: 1645626456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShFX_Flame Red_09
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 0
+        width: 121
+        height: 132
+      alignment: 9
+      pivot: {x: 0.47107437, y: 0.32575756}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a6581c4ce1c4014f86b3dad6927d6e0
+      internalID: 767084233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShFX_Flame Red_10
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 0
+        width: 120
+        height: 135
+      alignment: 9
+      pivot: {x: 0.46666667, y: 0.2962963}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac5baa8d4e6e4874e80afa5cdd85f7bc
+      internalID: 1129032893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShFX_Flame Red_11
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 138
+        width: 118
+        height: 137
+      alignment: 9
+      pivot: {x: 0.4661017, y: 0.26277372}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 882dd9ea889f17d47895415b280e7412
+      internalID: -206677191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShFX_Flame Red_12
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 275
+        width: 116
+        height: 138
+      alignment: 9
+      pivot: {x: 0.46551725, y: 0.23188406}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb4eebca9219d464ebbc03d3fe2ea51f
+      internalID: 999121852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShFX_Flame Red_13
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 0
+        width: 119
+        height: 138
+      alignment: 9
+      pivot: {x: 0.49579832, y: 0.19565217}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07bd2a7a1333d8b43a3cd211ca117631
+      internalID: -152095622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShFX_Flame Red_14
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 324
+        width: 117
+        height: 157
+      alignment: 9
+      pivot: {x: 0.4957265, y: 0.2611465}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9af6f0cfb589f24b98e28309e91684a
+      internalID: 1740747478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShFX_Flame Red_15
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 164
+        width: 115
+        height: 160
+      alignment: 9
+      pivot: {x: 0.49565217, y: 0.24375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe3b4d6abfac6ad42a53b17b0a0e3782
+      internalID: 785155250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShFX_Flame Red_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 331
+        width: 113
+        height: 165
+      alignment: 9
+      pivot: {x: 0.49557522, y: 0.23636363}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9cfa6f8b3706914a85716d0acdcdfb6
+      internalID: 2136363815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShFX_Flame Red_17
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 168
+        width: 120
+        height: 163
+      alignment: 9
+      pivot: {x: 0.53333336, y: 0.20245399}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98d7bf8e2a593e544826a9d3c7213792
+      internalID: -1453023265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShFX_Flame Red_18
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 0
+        width: 126
+        height: 164
+      alignment: 9
+      pivot: {x: 0.50793654, y: 0.18292683}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f96ba0ff21f1154429dd0906ccf7b586
+      internalID: -1961826465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShFX_Flame Red_19
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 125
+        height: 168
+      alignment: 9
+      pivot: {x: 0.504, y: 0.17857143}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee56fb543fbc92342b83921003ddb8df
+      internalID: 1485352647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 61c43e23f6a997a4c91e1da3bde071f1
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      ShFX_Flame Red_00: -1816395547
+      ShFX_Flame Red_01: 1557004197
+      ShFX_Flame Red_02: 1009794525
+      ShFX_Flame Red_03: -575422534
+      ShFX_Flame Red_04: -833296096
+      ShFX_Flame Red_05: 1268685923
+      ShFX_Flame Red_06: -1410445254
+      ShFX_Flame Red_07: 1345330554
+      ShFX_Flame Red_08: 1645626456
+      ShFX_Flame Red_09: 767084233
+      ShFX_Flame Red_10: 1129032893
+      ShFX_Flame Red_11: -206677191
+      ShFX_Flame Red_12: 999121852
+      ShFX_Flame Red_13: -152095622
+      ShFX_Flame Red_14: 1740747478
+      ShFX_Flame Red_15: 785155250
+      ShFX_Flame Red_16: 2136363815
+      ShFX_Flame Red_17: -1453023265
+      ShFX_Flame Red_18: -1961826465
+      ShFX_Flame Red_19: 1485352647
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

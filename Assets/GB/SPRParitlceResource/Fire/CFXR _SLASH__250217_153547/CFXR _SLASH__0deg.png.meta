@@ -1,0 +1,580 @@
+fileFormatVersion: 2
+guid: 82e7eb55065d73148a14f96c8b78f16e
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CFXR _SLASH__00
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 266
+        width: 7
+        height: 7
+      alignment: 9
+      pivot: {x: 0.42857143, y: 0.42857143}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8800851f2d46bc44f8028337db215c7e
+      internalID: -2108383644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR _SLASH__01
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 229
+        width: 234
+        height: 49
+      alignment: 9
+      pivot: {x: 0.98717946, y: 0.93877554}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5b5eb0f0d9b6aa4aa1cd0b350e0bb2f
+      internalID: 448182188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR _SLASH__02
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 148
+        width: 282
+        height: 81
+      alignment: 9
+      pivot: {x: 0.89361703, y: 0.8271605}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99feb95ad9686994f8c8373b823c6b6e
+      internalID: -951657565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR _SLASH__03
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 413
+        width: 291
+        height: 99
+      alignment: 9
+      pivot: {x: 0.50859106, y: 0.6262626}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12e080d0103d60d49992bae58b1a7ac0
+      internalID: -2053328039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR _SLASH__04
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 135
+        width: 390
+        height: 131
+      alignment: 9
+      pivot: {x: 0.35384616, y: 0.54198474}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a2a23b5e794b2444a951a3c3719089e
+      internalID: 1768511800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR _SLASH__05
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 392
+        height: 135
+      alignment: 9
+      pivot: {x: 0.35714287, y: 0.5777778}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8c900818157f6646b9e309edf53c951
+      internalID: -1748273788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR _SLASH__06
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 266
+        width: 298
+        height: 147
+      alignment: 9
+      pivot: {x: 0.48657718, y: 0.5442177}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d04c7a06a57b0b749bd9a79ea931e81f
+      internalID: -677733748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR _SLASH__07
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 0
+        width: 287
+        height: 148
+      alignment: 9
+      pivot: {x: 0.5052265, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be6d433d019eafd4a859c54ffb87e94b
+      internalID: -2086586086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR _SLASH__08
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 0
+        width: 233
+        height: 143
+      alignment: 9
+      pivot: {x: 0.38626608, y: 0.44055945}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43558e327e34732408ccd1a68dbe1145
+      internalID: 2044658531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR _SLASH__09
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 148
+        width: 188
+        height: 133
+      alignment: 9
+      pivot: {x: 0.20744681, y: 0.38345864}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b144df75767af7c4aa88d2410227a40e
+      internalID: 110993514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR _SLASH__10
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 281
+        width: 152
+        height: 117
+      alignment: 9
+      pivot: {x: 0.013157895, y: 0.34188035}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2f4c7644c039704f9d1bf5bfba079df
+      internalID: 923895083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR _SLASH__11
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 398
+        width: 142
+        height: 92
+      alignment: 9
+      pivot: {x: 0.014084507, y: 0.3043478}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cdf6bc4686ef554dadcf86f1726f787
+      internalID: 380325066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR _SLASH__12
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 266
+        width: 7
+        height: 7
+      alignment: 9
+      pivot: {x: 0.42857143, y: 0.42857143}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8eb49a458a2be640a94a175a965209a
+      internalID: 113522875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR _SLASH__13
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 266
+        width: 7
+        height: 7
+      alignment: 9
+      pivot: {x: 0.42857143, y: 0.42857143}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e5ff170fc0402944919ff652e5cc29d
+      internalID: 1058866631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR _SLASH__14
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 266
+        width: 7
+        height: 7
+      alignment: 9
+      pivot: {x: 0.42857143, y: 0.42857143}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fa123f1434d0b943b762851d0558b65
+      internalID: -1064933686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR _SLASH__15
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 266
+        width: 7
+        height: 7
+      alignment: 9
+      pivot: {x: 0.42857143, y: 0.42857143}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 746654411c6006a438adda3f75f9dc40
+      internalID: -1009952374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR _SLASH__16
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 266
+        width: 7
+        height: 7
+      alignment: 9
+      pivot: {x: 0.42857143, y: 0.42857143}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85f8c4484e08a8a479c04bfc5dfdf842
+      internalID: -505428630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR _SLASH__17
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 266
+        width: 7
+        height: 7
+      alignment: 9
+      pivot: {x: 0.42857143, y: 0.42857143}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27376f19000683047a4fcf19113af2ce
+      internalID: 49922096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR _SLASH__18
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 266
+        width: 7
+        height: 7
+      alignment: 9
+      pivot: {x: 0.42857143, y: 0.42857143}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71a141f8f7a799f4685d13875879f442
+      internalID: 1650834399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR _SLASH__19
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 266
+        width: 7
+        height: 7
+      alignment: 9
+      pivot: {x: 0.42857143, y: 0.42857143}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e047bb5a1ba6db344b1c399c9d8aeb12
+      internalID: -722418438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: b235bf3ab4f3d2c49a0d6a7ba3db3ba5
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      CFXR _SLASH__00: -2108383644
+      CFXR _SLASH__01: 448182188
+      CFXR _SLASH__02: -951657565
+      CFXR _SLASH__03: -2053328039
+      CFXR _SLASH__04: 1768511800
+      CFXR _SLASH__05: -1748273788
+      CFXR _SLASH__06: -677733748
+      CFXR _SLASH__07: -2086586086
+      CFXR _SLASH__08: 2044658531
+      CFXR _SLASH__09: 110993514
+      CFXR _SLASH__10: 923895083
+      CFXR _SLASH__11: 380325066
+      CFXR _SLASH__12: 113522875
+      CFXR _SLASH__13: 1058866631
+      CFXR _SLASH__14: -1064933686
+      CFXR _SLASH__15: -1009952374
+      CFXR _SLASH__16: -505428630
+      CFXR _SLASH__17: 49922096
+      CFXR _SLASH__18: 1650834399
+      CFXR _SLASH__19: -722418438
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

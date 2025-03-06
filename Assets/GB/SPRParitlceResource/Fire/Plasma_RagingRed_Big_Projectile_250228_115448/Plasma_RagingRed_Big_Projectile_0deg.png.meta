@@ -1,0 +1,360 @@
+fileFormatVersion: 2
+guid: 37a1bcc21f23a0a43b993166f1cbd600
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Plasma_RagingRed_Big_Projectile_0
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 174
+        width: 151
+        height: 152
+      alignment: 9
+      pivot: {x: 0.49006623, y: 0.53289473}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c32728658a33cc4fab49fa5444ce223
+      internalID: 784492078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plasma_RagingRed_Big_Projectile_1
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 0
+        width: 157
+        height: 157
+      alignment: 9
+      pivot: {x: 0.49044585, y: 0.52866244}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c161fc356ebbfc41a28ddf093546015
+      internalID: -1765285511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plasma_RagingRed_Big_Projectile_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 330
+        width: 147
+        height: 148
+      alignment: 9
+      pivot: {x: 0.48979592, y: 0.5337838}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 401828df2e6d8234ea7f65edce5ab285
+      internalID: -54687396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plasma_RagingRed_Big_Projectile_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 173
+        height: 174
+      alignment: 9
+      pivot: {x: 0.4913295, y: 0.52873564}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c94d5e56b20917b41beffeb00349c6a9
+      internalID: -1219976174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plasma_RagingRed_Big_Projectile_4
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 330
+        width: 133
+        height: 133
+      alignment: 9
+      pivot: {x: 0.48872182, y: 0.5338346}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fcc5c4fdb3842d40956bf44f8f3f4a8
+      internalID: -949310690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plasma_RagingRed_Big_Projectile_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 478
+        width: 121
+        height: 122
+      alignment: 9
+      pivot: {x: 0.4876033, y: 0.5327869}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ca77c9b75b53434c8c3bcae4a677472
+      internalID: 2128339252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plasma_RagingRed_Big_Projectile_6
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 0
+        width: 166
+        height: 166
+      alignment: 9
+      pivot: {x: 0.48795182, y: 0.5301205}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e8e60b767f930643ac14ea71acc82fa
+      internalID: -1463459575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plasma_RagingRed_Big_Projectile_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 174
+        width: 155
+        height: 156
+      alignment: 9
+      pivot: {x: 0.4903226, y: 0.53205127}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e86b5907a368a7246925e36d10d135b2
+      internalID: -1928014205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plasma_RagingRed_Big_Projectile_8
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 330
+        width: 143
+        height: 143
+      alignment: 9
+      pivot: {x: 0.48951048, y: 0.5314685}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8da9d4805621a9147a312f7066b84821
+      internalID: -2008914656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plasma_RagingRed_Big_Projectile_9
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 174
+        width: 149
+        height: 149
+      alignment: 9
+      pivot: {x: 0.4899329, y: 0.5302013}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e815981f289c7a45b58c4ac3f9d67ca
+      internalID: 1548417073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 309941a498507764ca797f1173bf64fd
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Plasma_RagingRed_Big_Projectile_0: 784492078
+      Plasma_RagingRed_Big_Projectile_1: -1765285511
+      Plasma_RagingRed_Big_Projectile_2: -54687396
+      Plasma_RagingRed_Big_Projectile_3: -1219976174
+      Plasma_RagingRed_Big_Projectile_4: -949310690
+      Plasma_RagingRed_Big_Projectile_5: 2128339252
+      Plasma_RagingRed_Big_Projectile_6: -1463459575
+      Plasma_RagingRed_Big_Projectile_7: -1928014205
+      Plasma_RagingRed_Big_Projectile_8: -2008914656
+      Plasma_RagingRed_Big_Projectile_9: 1548417073
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

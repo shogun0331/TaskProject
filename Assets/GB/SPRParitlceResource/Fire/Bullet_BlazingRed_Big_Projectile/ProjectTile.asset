@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 148ba5ea8e22b3a499e2aae2ef746a94, type: 3}
+  m_Name: ProjectTile
+  m_EditorClassIdentifier: 
+  _sprites:
+  - {fileID: -83538818, guid: c662d84b6223104488b1e6ca81727fc0, type: 3}
+  - {fileID: -909627724, guid: c662d84b6223104488b1e6ca81727fc0, type: 3}
+  - {fileID: -1534008333, guid: c662d84b6223104488b1e6ca81727fc0, type: 3}
+  - {fileID: -871674863, guid: c662d84b6223104488b1e6ca81727fc0, type: 3}
+  - {fileID: -645652669, guid: c662d84b6223104488b1e6ca81727fc0, type: 3}
+  - {fileID: 2009218990, guid: c662d84b6223104488b1e6ca81727fc0, type: 3}
+  - {fileID: 844755379, guid: c662d84b6223104488b1e6ca81727fc0, type: 3}
+  - {fileID: -428749176, guid: c662d84b6223104488b1e6ca81727fc0, type: 3}
+  - {fileID: 1247882624, guid: c662d84b6223104488b1e6ca81727fc0, type: 3}
+  - {fileID: 868406932, guid: c662d84b6223104488b1e6ca81727fc0, type: 3}
+  Speed: 2
+  IsLoop: 1
+  skins:
+    list: []
+  Triggers:
+    list: []

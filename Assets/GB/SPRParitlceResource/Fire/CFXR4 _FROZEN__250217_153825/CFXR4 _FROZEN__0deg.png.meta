@@ -1,0 +1,580 @@
+fileFormatVersion: 2
+guid: e8a3356acb3a1fb46a18e270c710f3af
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CFXR4 _FROZEN__00
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 100
+        width: 7
+        height: 7
+      alignment: 9
+      pivot: {x: 0.42857143, y: 0.42857143}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3372976e4e644c9449c8627880c20ad0
+      internalID: 1807660015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR4 _FROZEN__01
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 0
+        width: 71
+        height: 24
+      alignment: 9
+      pivot: {x: 0.52112675, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7186b0e0831f2064196a07b004b5a6f7
+      internalID: -1980150162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR4 _FROZEN__02
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 527
+        width: 145
+        height: 46
+      alignment: 9
+      pivot: {x: 0.51724136, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57f3122e3467ec94b88ffebf56d93697
+      internalID: -1088082456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR4 _FROZEN__03
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 527
+        width: 205
+        height: 64
+      alignment: 9
+      pivot: {x: 0.51707315, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8c39bff3c2056847b938d7adb4796fe
+      internalID: -987237325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR4 _FROZEN__04
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 312
+        width: 230
+        height: 71
+      alignment: 9
+      pivot: {x: 0.5173913, y: 0.5070422}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 062ed11e4165d3d4caba57023f257b14
+      internalID: 1936288219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR4 _FROZEN__05
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 312
+        width: 230
+        height: 71
+      alignment: 9
+      pivot: {x: 0.5173913, y: 0.5070422}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dee339484b04b9f48b8ba4ece86952c5
+      internalID: -1790490461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR4 _FROZEN__06
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 383
+        width: 229
+        height: 71
+      alignment: 9
+      pivot: {x: 0.51965064, y: 0.5070422}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7de118c56c25e6845b7f7f51977d6933
+      internalID: 1043352501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR4 _FROZEN__07
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 383
+        width: 228
+        height: 71
+      alignment: 9
+      pivot: {x: 0.51754385, y: 0.5070422}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddc194747d682dc499f29be0fdeb7e6e
+      internalID: -213669220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR4 _FROZEN__08
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 454
+        width: 226
+        height: 71
+      alignment: 9
+      pivot: {x: 0.5176991, y: 0.5070422}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08cd74baf3ed4bc49962406c5e695bb3
+      internalID: -256510137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR4 _FROZEN__09
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 454
+        width: 222
+        height: 73
+      alignment: 9
+      pivot: {x: 0.518018, y: 0.5068493}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a66a0564037a4940bfa459a3039cf46
+      internalID: 209847575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR4 _FROZEN__10
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 228
+        width: 218
+        height: 77
+      alignment: 9
+      pivot: {x: 0.51834863, y: 0.5064935}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dde21a86c42da9c43886d646bdcc5ab3
+      internalID: 1752361233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR4 _FROZEN__11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 228
+        width: 211
+        height: 84
+      alignment: 9
+      pivot: {x: 0.5165877, y: 0.5119048}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cbb85760b81c2a4187041ffac932610
+      internalID: -245528911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR4 _FROZEN__12
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 110
+        width: 203
+        height: 92
+      alignment: 9
+      pivot: {x: 0.51724136, y: 0.51086956}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1718bef479ec0764b885a796beb102d2
+      internalID: -1322078338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR4 _FROZEN__13
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 0
+        width: 195
+        height: 100
+      alignment: 9
+      pivot: {x: 0.51794875, y: 0.51}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f28eda3bf61df544c96b06f9e620b41e
+      internalID: 2144408814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR4 _FROZEN__14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 183
+        height: 110
+      alignment: 9
+      pivot: {x: 0.5191257, y: 0.5090909}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40b51adacb1daa648a7d4ca7d054261d
+      internalID: 1723995469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR4 _FROZEN__15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 110
+        width: 170
+        height: 118
+      alignment: 9
+      pivot: {x: 0.5176471, y: 0.5084746}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5587d1abd977bfc4c81a31a25bd767c1
+      internalID: -1083018843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR4 _FROZEN__16
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 100
+        width: 7
+        height: 7
+      alignment: 9
+      pivot: {x: 0.42857143, y: 0.42857143}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cc7dd2b96168654ea8fa1ef86f0cf2b
+      internalID: 1655989399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR4 _FROZEN__17
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 100
+        width: 7
+        height: 7
+      alignment: 9
+      pivot: {x: 0.42857143, y: 0.42857143}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ed3ab0ceb4d72241af9490835ecd8d6
+      internalID: 1046502949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR4 _FROZEN__18
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 100
+        width: 7
+        height: 7
+      alignment: 9
+      pivot: {x: 0.42857143, y: 0.42857143}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0af12a8d45348046b5b0f4137fe1183
+      internalID: -626267898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR4 _FROZEN__19
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 100
+        width: 7
+        height: 7
+      alignment: 9
+      pivot: {x: 0.42857143, y: 0.42857143}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a453a4ad11ffc748b598603120c94ce
+      internalID: -275736190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: e92801ee5593cf24cad08574f4cae9df
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      CFXR4 _FROZEN__00: 1807660015
+      CFXR4 _FROZEN__01: -1980150162
+      CFXR4 _FROZEN__02: -1088082456
+      CFXR4 _FROZEN__03: -987237325
+      CFXR4 _FROZEN__04: 1936288219
+      CFXR4 _FROZEN__05: -1790490461
+      CFXR4 _FROZEN__06: 1043352501
+      CFXR4 _FROZEN__07: -213669220
+      CFXR4 _FROZEN__08: -256510137
+      CFXR4 _FROZEN__09: 209847575
+      CFXR4 _FROZEN__10: 1752361233
+      CFXR4 _FROZEN__11: -245528911
+      CFXR4 _FROZEN__12: -1322078338
+      CFXR4 _FROZEN__13: 2144408814
+      CFXR4 _FROZEN__14: 1723995469
+      CFXR4 _FROZEN__15: -1083018843
+      CFXR4 _FROZEN__16: 1655989399
+      CFXR4 _FROZEN__17: 1046502949
+      CFXR4 _FROZEN__18: -626267898
+      CFXR4 _FROZEN__19: -275736190
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

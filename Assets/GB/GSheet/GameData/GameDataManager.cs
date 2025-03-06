@@ -34,6 +34,10 @@ public class GameDataManager : AutoSingleton<GameDataManager>
             gbCoroutine.AddIEnumerator(JsonLoader.LoadDataCoroutine<MobTable>(MobTabledata,(result)=>{ I._Tables[TABLE.MobTable] = result;}));
                 string NomalWaveTabledata = Gzip.DeCompression( Resources.Load<TextAsset>("Json/NomalWaveTable").text);
             gbCoroutine.AddIEnumerator(JsonLoader.LoadDataCoroutine<NomalWaveTable>(NomalWaveTabledata,(result)=>{ I._Tables[TABLE.NomalWaveTable] = result;}));
+                string UnitTabledata = Gzip.DeCompression( Resources.Load<TextAsset>("Json/UnitTable").text);
+            gbCoroutine.AddIEnumerator(JsonLoader.LoadDataCoroutine<UnitTable>(UnitTabledata,(result)=>{ I._Tables[TABLE.UnitTable] = result;}));
+                string SkillTabledata = Gzip.DeCompression( Resources.Load<TextAsset>("Json/SkillTable").text);
+            gbCoroutine.AddIEnumerator(JsonLoader.LoadDataCoroutine<SkillTable>(SkillTabledata,(result)=>{ I._Tables[TABLE.SkillTable] = result;}));
                 
 
         gbCoroutine.OnComplete(()=>{complete?.Invoke();}).Play();
@@ -103,6 +107,16 @@ case TABLE.NomalWaveTable:
         NomalWaveTable d_NomalWaveTable = new NomalWaveTable();
         d_NomalWaveTable.SetJson(data);
         obj  = d_NomalWaveTable;
+        break;
+case TABLE.UnitTable:
+        UnitTable d_UnitTable = new UnitTable();
+        d_UnitTable.SetJson(data);
+        obj  = d_UnitTable;
+        break;
+case TABLE.SkillTable:
+        SkillTable d_SkillTable = new SkillTable();
+        d_SkillTable.SetJson(data);
+        obj  = d_SkillTable;
         break;
         }
 
@@ -206,5 +220,7 @@ public enum TABLE
 	Empty,
 	MobTable,
 	NomalWaveTable,
+	UnitTable,
+	SkillTable,
 
 }

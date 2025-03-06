@@ -1,0 +1,580 @@
+fileFormatVersion: 2
+guid: a73db308874118a4baa6306478fe75dd
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CFXR3 Hit Ice B (Air)_00
+      rect:
+        serializedVersion: 2
+        x: 2038
+        y: 0
+        width: 7
+        height: 7
+      alignment: 9
+      pivot: {x: 0.42857143, y: 0.42857143}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d95ff105ad4518f44b3e53bdb86b3764
+      internalID: 1678918620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR3 Hit Ice B (Air)_01
+      rect:
+        serializedVersion: 2
+        x: 1934
+        y: 0
+        width: 104
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 149c52c99a876f64493a4dd391a25c34
+      internalID: 1801117593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR3 Hit Ice B (Air)_02
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 1724
+        width: 116
+        height: 108
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e77d466f82c658479ae45a9dc417022
+      internalID: -276534831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR3 Hit Ice B (Air)_03
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 1528
+        width: 146
+        height: 124
+      alignment: 9
+      pivot: {x: 0.45890412, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa5f1fbc6c4a19c41b5148256890a839
+      internalID: -578485354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR3 Hit Ice B (Air)_04
+      rect:
+        serializedVersion: 2
+        x: 1844
+        y: 572
+        width: 167
+        height: 144
+      alignment: 9
+      pivot: {x: 0.46706587, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faf5dd4597f64314ea5b996fbea3268a
+      internalID: 442572839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR3 Hit Ice B (Air)_05
+      rect:
+        serializedVersion: 2
+        x: 1844
+        y: 404
+        width: 189
+        height: 168
+      alignment: 9
+      pivot: {x: 0.4814815, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25d7ac28e17f9534a81120e32a5d28cf
+      internalID: -247507724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR3 Hit Ice B (Air)_06
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 1528
+        width: 212
+        height: 196
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0575ce0f2ac330447a54bf45f9ca72e7
+      internalID: 1536075478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR3 Hit Ice B (Air)_07
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 1155
+        width: 379
+        height: 373
+      alignment: 9
+      pivot: {x: 0.530343, y: 0.49597856}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9bdff42ab99de34da3681eb2efbb736
+      internalID: 753134846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR3 Hit Ice B (Air)_08
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 404
+        width: 426
+        height: 404
+      alignment: 9
+      pivot: {x: 0.5399061, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8103cee29c009f41ae5aab2f8eee0ca
+      internalID: -1534872887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR3 Hit Ice B (Air)_09
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 404
+        width: 457
+        height: 404
+      alignment: 9
+      pivot: {x: 0.54485774, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc34e131cf002774ebb398e027113a61
+      internalID: -909166476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR3 Hit Ice B (Air)_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1616
+        width: 468
+        height: 404
+      alignment: 9
+      pivot: {x: 0.53846157, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d50061d403b2e247a36b3e155643260
+      internalID: 627473633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR3 Hit Ice B (Air)_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1212
+        width: 474
+        height: 404
+      alignment: 9
+      pivot: {x: 0.5316456, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8391dca9a7d9dfd4cb9e67a5f1901fb4
+      internalID: 1810130641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR3 Hit Ice B (Air)_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 485
+        height: 404
+      alignment: 9
+      pivot: {x: 0.51958764, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32667df674c13fc4bb9a7e523a6059a6
+      internalID: -633890724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR3 Hit Ice B (Air)_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 808
+        width: 480
+        height: 404
+      alignment: 9
+      pivot: {x: 0.525, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f94adc2ea2661ef48a91b0748e317f47
+      internalID: 1720864129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR3 Hit Ice B (Air)_14
+      rect:
+        serializedVersion: 2
+        x: 1452
+        y: 0
+        width: 482
+        height: 404
+      alignment: 9
+      pivot: {x: 0.5228216, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e237c1c3522fb2d499cb945c50cbbcad
+      internalID: -185068173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR3 Hit Ice B (Air)_15
+      rect:
+        serializedVersion: 2
+        x: 969
+        y: 0
+        width: 483
+        height: 404
+      alignment: 9
+      pivot: {x: 0.5217391, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 846c92f4af5693f41936716dcbfc0598
+      internalID: 292170307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR3 Hit Ice B (Air)_16
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 0
+        width: 484
+        height: 404
+      alignment: 9
+      pivot: {x: 0.5206612, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f9fff19bbe6e8d4c9fc56d9366fa2ba
+      internalID: -895152108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR3 Hit Ice B (Air)_17
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 404
+        width: 481
+        height: 404
+      alignment: 9
+      pivot: {x: 0.51975054, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6fabcf6e7cae3542af6e70ab4be9a5d
+      internalID: 74588948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR3 Hit Ice B (Air)_18
+      rect:
+        serializedVersion: 2
+        x: 1364
+        y: 404
+        width: 480
+        height: 348
+      alignment: 9
+      pivot: {x: 0.5208333, y: 0.41954023}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9d1842435a569c4a86fa1732725b072
+      internalID: 1279928172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR3 Hit Ice B (Air)_19
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 808
+        width: 446
+        height: 347
+      alignment: 9
+      pivot: {x: 0.5605381, y: 0.41786742}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0270c52f20c62a24dbdf8ff8daf76d89
+      internalID: 1012383990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 68d1fd2a0a2af114cbc02e53dfa76d22
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      CFXR3 Hit Ice B (Air)_00: 1678918620
+      CFXR3 Hit Ice B (Air)_01: 1801117593
+      CFXR3 Hit Ice B (Air)_02: -276534831
+      CFXR3 Hit Ice B (Air)_03: -578485354
+      CFXR3 Hit Ice B (Air)_04: 442572839
+      CFXR3 Hit Ice B (Air)_05: -247507724
+      CFXR3 Hit Ice B (Air)_06: 1536075478
+      CFXR3 Hit Ice B (Air)_07: 753134846
+      CFXR3 Hit Ice B (Air)_08: -1534872887
+      CFXR3 Hit Ice B (Air)_09: -909166476
+      CFXR3 Hit Ice B (Air)_10: 627473633
+      CFXR3 Hit Ice B (Air)_11: 1810130641
+      CFXR3 Hit Ice B (Air)_12: -633890724
+      CFXR3 Hit Ice B (Air)_13: 1720864129
+      CFXR3 Hit Ice B (Air)_14: -185068173
+      CFXR3 Hit Ice B (Air)_15: 292170307
+      CFXR3 Hit Ice B (Air)_16: -895152108
+      CFXR3 Hit Ice B (Air)_17: 74588948
+      CFXR3 Hit Ice B (Air)_18: 1279928172
+      CFXR3 Hit Ice B (Air)_19: 1012383990
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

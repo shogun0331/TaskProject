@@ -27,3 +27,21 @@ MonoBehaviour:
     - key: Mobs/RedPig
       value: {fileID: 6737120119035961191, guid: 451a7bcc0fa396749bd2cbf5b5fc2188, type: 3}
       duplicatedKey: 0
+    - key: Unit/Bee
+      value: {fileID: 6849583961012322804, guid: f08f84fc73a9565479d80c48edaf5086, type: 3}
+      duplicatedKey: 0
+    - key: Unit/BlueBird
+      value: {fileID: 2897065981780611246, guid: 7734341d99aada74a9a315e09a0a25e6, type: 3}
+      duplicatedKey: 0
+    - key: Unit/Chicken
+      value: {fileID: 4104298866019919363, guid: 8cfe1e7fc6c69ed4681ca8abfc8e27bc, type: 3}
+      duplicatedKey: 0
+    - key: Unit/Mushroom
+      value: {fileID: 2373066132874778384, guid: b5e2ba230c0149544a4539320dbcf531, type: 3}
+      duplicatedKey: 0
+    - key: Unit/Plant
+      value: {fileID: 5581308148909295246, guid: abc56ed2e4db3704c815ad37b8ff097a, type: 3}
+      duplicatedKey: 0
+    - key: Unit/Trunk
+      value: {fileID: 1227972054875483744, guid: c0b5c867d85e5b24fbfc804e05479c26, type: 3}
+      duplicatedKey: 0

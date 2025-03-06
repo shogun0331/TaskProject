@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 148ba5ea8e22b3a499e2aae2ef746a94, type: 3}
+  m_Name: SPRAnimationClip
+  m_EditorClassIdentifier: 
+  _sprites:
+  - {fileID: -1681286050, guid: 04aca9514597e444989babe2300696cc, type: 3}
+  - {fileID: -1143063852, guid: 04aca9514597e444989babe2300696cc, type: 3}
+  - {fileID: 1126452949, guid: 04aca9514597e444989babe2300696cc, type: 3}
+  - {fileID: -700832982, guid: 04aca9514597e444989babe2300696cc, type: 3}
+  - {fileID: -1466427211, guid: 04aca9514597e444989babe2300696cc, type: 3}
+  - {fileID: -901681654, guid: 04aca9514597e444989babe2300696cc, type: 3}
+  - {fileID: -1108395143, guid: 04aca9514597e444989babe2300696cc, type: 3}
+  - {fileID: -1890089444, guid: 04aca9514597e444989babe2300696cc, type: 3}
+  - {fileID: -2137874630, guid: 04aca9514597e444989babe2300696cc, type: 3}
+  - {fileID: 1764439742, guid: 04aca9514597e444989babe2300696cc, type: 3}
+  - {fileID: 1423183974, guid: 04aca9514597e444989babe2300696cc, type: 3}
+  - {fileID: -1177767189, guid: 04aca9514597e444989babe2300696cc, type: 3}
+  - {fileID: 2117931221, guid: 04aca9514597e444989babe2300696cc, type: 3}
+  - {fileID: 42227223, guid: 04aca9514597e444989babe2300696cc, type: 3}
+  - {fileID: -1542754220, guid: 04aca9514597e444989babe2300696cc, type: 3}
+  - {fileID: -1296553316, guid: 04aca9514597e444989babe2300696cc, type: 3}
+  - {fileID: -1389509094, guid: 04aca9514597e444989babe2300696cc, type: 3}
+  - {fileID: 1398353371, guid: 04aca9514597e444989babe2300696cc, type: 3}
+  - {fileID: -69985018, guid: 04aca9514597e444989babe2300696cc, type: 3}
+  - {fileID: 868503648, guid: 04aca9514597e444989babe2300696cc, type: 3}
+  Speed: 10
+  IsLoop: 1
+  skins:
+    list: []
+  Triggers:
+    list: []

@@ -1,0 +1,580 @@
+fileFormatVersion: 2
+guid: 24edaed31ba2020488111cefbc17dfe7
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CFXR3 _WOW__00
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 60
+        width: 7
+        height: 7
+      alignment: 9
+      pivot: {x: 0.42857143, y: 0.42857143}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1370f2ff5dea6c43bf912b4127e2f4d
+      internalID: -1147226058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR3 _WOW__01
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 174
+        width: 39
+        height: 24
+      alignment: 9
+      pivot: {x: 0.82051283, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41f551843e433ef42a0d1e5f84a34c17
+      internalID: -1773536499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR3 _WOW__02
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 42
+        width: 105
+        height: 46
+      alignment: 9
+      pivot: {x: 0.63809526, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fb112b2e8e8b084589ef5e1b6988762
+      internalID: -1093122252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR3 _WOW__03
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 60
+        width: 157
+        height: 58
+      alignment: 9
+      pivot: {x: 0.5477707, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00d33d4331d1d634fbaa63787c599be6
+      internalID: -615489297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR3 _WOW__04
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 179
+        height: 60
+      alignment: 9
+      pivot: {x: 0.43575418, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2bcf33bdd2d142449a36b2c04a7e4bd
+      internalID: -95149946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR3 _WOW__05
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 118
+        width: 161
+        height: 56
+      alignment: 9
+      pivot: {x: 0.4099379, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a168e668f1b0bc419bb75359a904022
+      internalID: -1925093743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR3 _WOW__06
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 174
+        width: 138
+        height: 48
+      alignment: 9
+      pivot: {x: 0.41304347, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 052e700ef7fe5dc489f7450d8909d806
+      internalID: -1641265305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR3 _WOW__07
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 0
+        width: 118
+        height: 42
+      alignment: 9
+      pivot: {x: 0.41525424, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f572d664e8a9f9748898f39b562675fc
+      internalID: 361914520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR3 _WOW__08
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 88
+        width: 103
+        height: 36
+      alignment: 9
+      pivot: {x: 0.41747573, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 353761bf31c71924ca8ba14ce9b76c35
+      internalID: -719853050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR3 _WOW__09
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 222
+        width: 92
+        height: 32
+      alignment: 9
+      pivot: {x: 0.42391303, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87d0b78bf3ea751449b00e581e4e027f
+      internalID: 603892802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR3 _WOW__10
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 124
+        width: 83
+        height: 30
+      alignment: 9
+      pivot: {x: 0.43373495, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 677919d0ef8e2d54ab4555d92e95427b
+      internalID: -689073008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR3 _WOW__11
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 154
+        width: 77
+        height: 28
+      alignment: 9
+      pivot: {x: 0.44155845, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f42ca175659989646be896910d9b63eb
+      internalID: -1196701973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR3 _WOW__12
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 182
+        width: 74
+        height: 26
+      alignment: 9
+      pivot: {x: 0.44594595, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53502fb824b401e44be002801ad4c48d
+      internalID: -1528006234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR3 _WOW__13
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 208
+        width: 71
+        height: 24
+      alignment: 9
+      pivot: {x: 0.45070422, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdeedd10314228c41824bd1bb6b4ab1d
+      internalID: -152782830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR3 _WOW__14
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 232
+        width: 70
+        height: 24
+      alignment: 9
+      pivot: {x: 0.45714286, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 481fbdea3bd19f74ea7773b5d77d4b42
+      internalID: -288092916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR3 _WOW__15
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 0
+        width: 70
+        height: 24
+      alignment: 9
+      pivot: {x: 0.45714286, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c92a07396d1af442a5e2c90e7d51d9c
+      internalID: 775650997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR3 _WOW__16
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 0
+        width: 52
+        height: 24
+      alignment: 9
+      pivot: {x: 0.26923078, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ede47b99bcd3641448eff09eccd587d2
+      internalID: 1282020613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR3 _WOW__17
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 222
+        width: 40
+        height: 24
+      alignment: 9
+      pivot: {x: 0.05, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfaa48d684942764ca9b66ec8218cd0c
+      internalID: 441328656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR3 _WOW__18
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 60
+        width: 7
+        height: 7
+      alignment: 9
+      pivot: {x: 0.42857143, y: 0.42857143}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59b608f359ea359418f1552d878e9782
+      internalID: -7177911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR3 _WOW__19
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 60
+        width: 7
+        height: 7
+      alignment: 9
+      pivot: {x: 0.42857143, y: 0.42857143}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8c4ebadafb4a4647becdd7a2c141494
+      internalID: -353143263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: b8e96f295d28d6c458f1419e982df894
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      CFXR3 _WOW__00: -1147226058
+      CFXR3 _WOW__01: -1773536499
+      CFXR3 _WOW__02: -1093122252
+      CFXR3 _WOW__03: -615489297
+      CFXR3 _WOW__04: -95149946
+      CFXR3 _WOW__05: -1925093743
+      CFXR3 _WOW__06: -1641265305
+      CFXR3 _WOW__07: 361914520
+      CFXR3 _WOW__08: -719853050
+      CFXR3 _WOW__09: 603892802
+      CFXR3 _WOW__10: -689073008
+      CFXR3 _WOW__11: -1196701973
+      CFXR3 _WOW__12: -1528006234
+      CFXR3 _WOW__13: -152782830
+      CFXR3 _WOW__14: -288092916
+      CFXR3 _WOW__15: 775650997
+      CFXR3 _WOW__16: 1282020613
+      CFXR3 _WOW__17: 441328656
+      CFXR3 _WOW__18: -7177911
+      CFXR3 _WOW__19: -353143263
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

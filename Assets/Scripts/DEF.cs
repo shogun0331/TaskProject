@@ -6,5 +6,6 @@ public static class DEF
 	public const string P_GameScene = "GameScene";
 	public const string P_WAVE_END = "WaveEnd";
 	public const int MOB_MAXCOUNT = 100;
+	public const string DEAD_MOB = "DEAD_MOB";
 
 }

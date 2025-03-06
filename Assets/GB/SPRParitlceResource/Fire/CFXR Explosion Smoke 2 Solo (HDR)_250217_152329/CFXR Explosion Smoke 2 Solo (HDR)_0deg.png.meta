@@ -1,0 +1,580 @@
+fileFormatVersion: 2
+guid: 3f3ebcb999f386f46a8b9de0ad8352ad
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CFXR Explosion Smoke 2 Solo (HDR)_00
+      rect:
+        serializedVersion: 2
+        x: 983
+        y: 396
+        width: 7
+        height: 7
+      alignment: 9
+      pivot: {x: 0.42857143, y: 0.42857143}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2e1afa4956cc0b488803db97e9fb227
+      internalID: 770750239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR Explosion Smoke 2 Solo (HDR)_01
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 504
+        height: 404
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f8f6ec9f2721da4ebc8328ebfd18595
+      internalID: -1255658177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR Explosion Smoke 2 Solo (HDR)_02
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 0
+        width: 479
+        height: 404
+      alignment: 9
+      pivot: {x: 0.52609605, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4f7bb9f43355c1448fe529c9044665d
+      internalID: 743130319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR Explosion Smoke 2 Solo (HDR)_03
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 404
+        width: 471
+        height: 339
+      alignment: 9
+      pivot: {x: 0.507431, y: 0.4719764}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd05b3851dea9c74aa4d0fdf8d133076
+      internalID: 1801086626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR Explosion Smoke 2 Solo (HDR)_04
+      rect:
+        serializedVersion: 2
+        x: 1437
+        y: 0
+        width: 471
+        height: 358
+      alignment: 9
+      pivot: {x: 0.507431, y: 0.5111732}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dae303a772a1d740b4e3a7baa4e2fc9
+      internalID: 1108225560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR Explosion Smoke 2 Solo (HDR)_05
+      rect:
+        serializedVersion: 2
+        x: 983
+        y: 0
+        width: 454
+        height: 396
+      alignment: 9
+      pivot: {x: 0.52422905, y: 0.510101}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de3d79c71103c4c4e9500615e1c89588
+      internalID: -1073947920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR Explosion Smoke 2 Solo (HDR)_06
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 404
+        width: 354
+        height: 404
+      alignment: 9
+      pivot: {x: 0.460452, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 370ec139cb972434bb0882bda7b38cbd
+      internalID: 162127038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR Explosion Smoke 2 Solo (HDR)_07
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1545
+        width: 368
+        height: 404
+      alignment: 9
+      pivot: {x: 0.46195653, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06c7c013dc1544244a736deed3d46341
+      internalID: -1923164364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR Explosion Smoke 2 Solo (HDR)_08
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1141
+        width: 385
+        height: 404
+      alignment: 9
+      pivot: {x: 0.46233767, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fa26fc8c8cd7cd4f9af5588c84b3945
+      internalID: 295470331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR Explosion Smoke 2 Solo (HDR)_09
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 743
+        width: 399
+        height: 398
+      alignment: 9
+      pivot: {x: 0.46365914, y: 0.50753766}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59eaa3eb40e643e42945e4acf2abd10d
+      internalID: 1442320776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR Explosion Smoke 2 Solo (HDR)_10
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 404
+        width: 406
+        height: 303
+      alignment: 9
+      pivot: {x: 0.46059114, y: 0.43234324}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe3ae7e02fb6da04a899594c7f9f5832
+      internalID: 864596060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR Explosion Smoke 2 Solo (HDR)_11
+      rect:
+        serializedVersion: 2
+        x: 1231
+        y: 404
+        width: 304
+        height: 292
+      alignment: 9
+      pivot: {x: 0.28289473, y: 0.41438356}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea603855981d3a842963a1877159bde4
+      internalID: 290744154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR Explosion Smoke 2 Solo (HDR)_12
+      rect:
+        serializedVersion: 2
+        x: 1535
+        y: 404
+        width: 266
+        height: 217
+      alignment: 9
+      pivot: {x: 0.2556391, y: 0.23502304}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 989e60541b98e79458eab6224f1f8061
+      internalID: 1926327753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR Explosion Smoke 2 Solo (HDR)_13
+      rect:
+        serializedVersion: 2
+        x: 1437
+        y: 358
+        width: 143
+        height: 16
+      alignment: 9
+      pivot: {x: 0.013986014, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b3964f5d1680fb4ca4a093e5b220979
+      internalID: -686133655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR Explosion Smoke 2 Solo (HDR)_14
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 396
+        width: 7
+        height: 7
+      alignment: 9
+      pivot: {x: 0.42857143, y: 0.42857143}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81031e4050dfa994d9687908e8cd2079
+      internalID: -519537990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR Explosion Smoke 2 Solo (HDR)_15
+      rect:
+        serializedVersion: 2
+        x: 997
+        y: 396
+        width: 7
+        height: 7
+      alignment: 9
+      pivot: {x: 0.42857143, y: 0.42857143}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed94c31eb28ce2f4c9589450d0a27c88
+      internalID: -1391140836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR Explosion Smoke 2 Solo (HDR)_16
+      rect:
+        serializedVersion: 2
+        x: 1004
+        y: 396
+        width: 7
+        height: 7
+      alignment: 9
+      pivot: {x: 0.42857143, y: 0.42857143}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e3f43f2509ed2648897b1ce8d0157e0
+      internalID: 224019122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR Explosion Smoke 2 Solo (HDR)_17
+      rect:
+        serializedVersion: 2
+        x: 1011
+        y: 396
+        width: 7
+        height: 7
+      alignment: 9
+      pivot: {x: 0.42857143, y: 0.42857143}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd3dc79d8ef5763478131b062c4a8378
+      internalID: -1360600432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR Explosion Smoke 2 Solo (HDR)_18
+      rect:
+        serializedVersion: 2
+        x: 1018
+        y: 396
+        width: 7
+        height: 7
+      alignment: 9
+      pivot: {x: 0.42857143, y: 0.42857143}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 519909adb2f22094b851f43943509072
+      internalID: -916682735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR Explosion Smoke 2 Solo (HDR)_19
+      rect:
+        serializedVersion: 2
+        x: 1025
+        y: 396
+        width: 7
+        height: 7
+      alignment: 9
+      pivot: {x: 0.42857143, y: 0.42857143}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2efa6cd25eae6447b3c554c080cd6fc
+      internalID: -1591527589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: e375ecff08a57eb409ddd2ce0445c7ab
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      CFXR Explosion Smoke 2 Solo (HDR)_00: 770750239
+      CFXR Explosion Smoke 2 Solo (HDR)_01: -1255658177
+      CFXR Explosion Smoke 2 Solo (HDR)_02: 743130319
+      CFXR Explosion Smoke 2 Solo (HDR)_03: 1801086626
+      CFXR Explosion Smoke 2 Solo (HDR)_04: 1108225560
+      CFXR Explosion Smoke 2 Solo (HDR)_05: -1073947920
+      CFXR Explosion Smoke 2 Solo (HDR)_06: 162127038
+      CFXR Explosion Smoke 2 Solo (HDR)_07: -1923164364
+      CFXR Explosion Smoke 2 Solo (HDR)_08: 295470331
+      CFXR Explosion Smoke 2 Solo (HDR)_09: 1442320776
+      CFXR Explosion Smoke 2 Solo (HDR)_10: 864596060
+      CFXR Explosion Smoke 2 Solo (HDR)_11: 290744154
+      CFXR Explosion Smoke 2 Solo (HDR)_12: 1926327753
+      CFXR Explosion Smoke 2 Solo (HDR)_13: -686133655
+      CFXR Explosion Smoke 2 Solo (HDR)_14: -519537990
+      CFXR Explosion Smoke 2 Solo (HDR)_15: -1391140836
+      CFXR Explosion Smoke 2 Solo (HDR)_16: 224019122
+      CFXR Explosion Smoke 2 Solo (HDR)_17: -1360600432
+      CFXR Explosion Smoke 2 Solo (HDR)_18: -916682735
+      CFXR Explosion Smoke 2 Solo (HDR)_19: -1591527589
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

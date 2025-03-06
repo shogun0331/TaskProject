@@ -1,0 +1,580 @@
+fileFormatVersion: 2
+guid: f3f1c898863fce440b236f2ceccc28f4
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CFXR2 Souls Escape_00
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 241
+        width: 7
+        height: 7
+      alignment: 9
+      pivot: {x: 0.42857143, y: 0.42857143}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb27e8fdc1822154ca2f89bf9a064d8b
+      internalID: 488987375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR2 Souls Escape_01
+      rect:
+        serializedVersion: 2
+        x: 1877
+        y: 0
+        width: 75
+        height: 115
+      alignment: 9
+      pivot: {x: 0.50666666, y: 0.22608696}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27f59a9a878149c4ba05fe68d474ad2f
+      internalID: -1159493664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR2 Souls Escape_02
+      rect:
+        serializedVersion: 2
+        x: 1739
+        y: 471
+        width: 138
+        height: 232
+      alignment: 9
+      pivot: {x: 0.4347826, y: 0.1637931}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a01b983fa857ca48a67934abd019025
+      internalID: 1601211884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR2 Souls Escape_03
+      rect:
+        serializedVersion: 2
+        x: 1805
+        y: 227
+        width: 239
+        height: 243
+      alignment: 9
+      pivot: {x: 0.37656903, y: 0.16872428}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7d387c839cbf2149ad3051623ec0631
+      internalID: 971642368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR2 Souls Escape_04
+      rect:
+        serializedVersion: 2
+        x: 1398
+        y: 712
+        width: 295
+        height: 246
+      alignment: 9
+      pivot: {x: 0.48474577, y: 0.17886178}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8b2a2f4c92ec164b95bdfee66b23825
+      internalID: 935266638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR2 Souls Escape_05
+      rect:
+        serializedVersion: 2
+        x: 1398
+        y: 471
+        width: 341
+        height: 241
+      alignment: 9
+      pivot: {x: 0.55718476, y: 0.16182573}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bd803f18260e2f4eb80387a668e6537
+      internalID: -1283468068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR2 Souls Escape_06
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 691
+        width: 394
+        height: 253
+      alignment: 9
+      pivot: {x: 0.61675125, y: 0.20158103}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f791bcc39f46084c9cafa8b9cd5e74d
+      internalID: 1589053981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR2 Souls Escape_07
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 244
+        width: 405
+        height: 266
+      alignment: 9
+      pivot: {x: 0.62222224, y: 0.24060151}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a081388eec17964fae656454614e057
+      internalID: 122482571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR2 Souls Escape_08
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 459
+        width: 430
+        height: 232
+      alignment: 9
+      pivot: {x: 0.5860465, y: 0.12931034}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64c18c926e08ac7478f98f6a1a9ab717
+      internalID: -957045086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR2 Souls Escape_09
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 227
+        width: 449
+        height: 232
+      alignment: 9
+      pivot: {x: 0.5612472, y: 0.12931034}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fe88f268dc673347a415b20f3197f1d
+      internalID: 618760220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR2 Souls Escape_10
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 0
+        width: 445
+        height: 244
+      alignment: 9
+      pivot: {x: 0.5662921, y: 0.17213115}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3ca91c0426f32f4fb876328084409f1
+      internalID: -1418832380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR2 Souls Escape_11
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 510
+        width: 438
+        height: 244
+      alignment: 9
+      pivot: {x: 0.5753425, y: 0.17213115}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3748e98e618b4b345a0dbc4b07484e78
+      internalID: -514762952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR2 Souls Escape_12
+      rect:
+        serializedVersion: 2
+        x: 1398
+        y: 227
+        width: 407
+        height: 244
+      alignment: 9
+      pivot: {x: 0.42751843, y: 0.17213115}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c701c7c6792b7149b51b9042ca66340
+      internalID: -1471244110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR2 Souls Escape_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 738
+        width: 443
+        height: 250
+      alignment: 9
+      pivot: {x: 0.43115124, y: 0.192}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 182d81d5e7b291543866e9cac228e1bb
+      internalID: -1577392152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR2 Souls Escape_14
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 754
+        width: 441
+        height: 237
+      alignment: 9
+      pivot: {x: 0.42857143, y: 0.14767933}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b027ae1b44480b744b11bda22e7be8c2
+      internalID: -546974499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR2 Souls Escape_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 504
+        height: 241
+      alignment: 9
+      pivot: {x: 0.5, y: 0.16182573}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31972ba5ed1a04745b58f43a529a8005
+      internalID: 1301924101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR2 Souls Escape_16
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 0
+        width: 464
+        height: 227
+      alignment: 9
+      pivot: {x: 0.54310346, y: 0.11013216}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b22a8768948de449b3f2cb7013d034f
+      internalID: -1904214495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR2 Souls Escape_17
+      rect:
+        serializedVersion: 2
+        x: 1413
+        y: 0
+        width: 464
+        height: 227
+      alignment: 9
+      pivot: {x: 0.54310346, y: 0.11013216}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81fcd460087b4fa4db9c62ac7f3553f1
+      internalID: 438918102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR2 Souls Escape_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 241
+        width: 464
+        height: 243
+      alignment: 9
+      pivot: {x: 0.54310346, y: 0.16872428}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af2048121dc12b84a8dd8fbf71555b57
+      internalID: 1736279614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR2 Souls Escape_19
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 484
+        width: 441
+        height: 254
+      alignment: 9
+      pivot: {x: 0.51927435, y: 0.20472442}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22d88625a4e84824499b9abaeb29e9ce
+      internalID: -1703478550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: a596279941cb8d347b5bc2a5527d4a80
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      CFXR2 Souls Escape_00: 488987375
+      CFXR2 Souls Escape_01: -1159493664
+      CFXR2 Souls Escape_02: 1601211884
+      CFXR2 Souls Escape_03: 971642368
+      CFXR2 Souls Escape_04: 935266638
+      CFXR2 Souls Escape_05: -1283468068
+      CFXR2 Souls Escape_06: 1589053981
+      CFXR2 Souls Escape_07: 122482571
+      CFXR2 Souls Escape_08: -957045086
+      CFXR2 Souls Escape_09: 618760220
+      CFXR2 Souls Escape_10: -1418832380
+      CFXR2 Souls Escape_11: -514762952
+      CFXR2 Souls Escape_12: -1471244110
+      CFXR2 Souls Escape_13: -1577392152
+      CFXR2 Souls Escape_14: -546974499
+      CFXR2 Souls Escape_15: 1301924101
+      CFXR2 Souls Escape_16: -1904214495
+      CFXR2 Souls Escape_17: 438918102
+      CFXR2 Souls Escape_18: 1736279614
+      CFXR2 Souls Escape_19: -1703478550
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

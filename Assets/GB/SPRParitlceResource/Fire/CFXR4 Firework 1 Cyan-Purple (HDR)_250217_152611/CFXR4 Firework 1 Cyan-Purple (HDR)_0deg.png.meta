@@ -1,0 +1,580 @@
+fileFormatVersion: 2
+guid: e6b707dd3770c7a4b9bb67f487c41b22
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CFXR4 Firework 1 Cyan-Purple (HDR)_00
+      rect:
+        serializedVersion: 2
+        x: 2016
+        y: 0
+        width: 7
+        height: 7
+      alignment: 9
+      pivot: {x: 0.42857143, y: 0.42857143}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e684eaae74427b04aa103f987cf286c1
+      internalID: 1868508428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR4 Firework 1 Cyan-Purple (HDR)_01
+      rect:
+        serializedVersion: 2
+        x: 1387
+        y: 1212
+        width: 194
+        height: 188
+      alignment: 9
+      pivot: {x: 0.49484536, y: 0.5053192}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d906a02405c3735449fdb546084ad80e
+      internalID: -618775027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR4 Firework 1 Cyan-Purple (HDR)_02
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 1580
+        width: 306
+        height: 297
+      alignment: 9
+      pivot: {x: 0.49673203, y: 0.5117845}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afe20e06ab9d90e4cb94fe332741fcb9
+      internalID: -267821642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR4 Firework 1 Cyan-Purple (HDR)_03
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 1212
+        width: 379
+        height: 368
+      alignment: 9
+      pivot: {x: 0.49604222, y: 0.51902175}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee55dbbfa3e344245ada27a16e1b6279
+      internalID: 492386211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR4 Firework 1 Cyan-Purple (HDR)_04
+      rect:
+        serializedVersion: 2
+        x: 1468
+        y: 808
+        width: 427
+        height: 399
+      alignment: 9
+      pivot: {x: 0.4964871, y: 0.50626564}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7beedabbdf993e74baa8889b00f20fb7
+      internalID: -1676569967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR4 Firework 1 Cyan-Purple (HDR)_05
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 808
+        width: 460
+        height: 404
+      alignment: 9
+      pivot: {x: 0.4978261, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ed7bfe1822c4de468b476abcfad1b2a
+      internalID: -1350123948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR4 Firework 1 Cyan-Purple (HDR)_06
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 1601
+        width: 484
+        height: 404
+      alignment: 9
+      pivot: {x: 0.4979339, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00c375c254a1271448b744985f46cc45
+      internalID: 38042804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR4 Firework 1 Cyan-Purple (HDR)_07
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1616
+        width: 502
+        height: 404
+      alignment: 9
+      pivot: {x: 0.49800798, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0311b51382af4c49aee20469d017cbe
+      internalID: -1600477683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR4 Firework 1 Cyan-Purple (HDR)_08
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 504
+        height: 404
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7012a7e120651be4cb81104b99fc7afd
+      internalID: 1161164540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR4 Firework 1 Cyan-Purple (HDR)_09
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 0
+        width: 504
+        height: 404
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c9ae7384f3ccf34d8be408e1cbaa664
+      internalID: 1547558025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR4 Firework 1 Cyan-Purple (HDR)_10
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 0
+        width: 504
+        height: 404
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b9be99de0712ed4c97c130bf26f7342
+      internalID: -617693195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR4 Firework 1 Cyan-Purple (HDR)_11
+      rect:
+        serializedVersion: 2
+        x: 1512
+        y: 0
+        width: 504
+        height: 404
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 521b2a18a46af084da3031c94258d8db
+      internalID: -1893931714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR4 Firework 1 Cyan-Purple (HDR)_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 404
+        width: 504
+        height: 404
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0fc575e06214e34c87c229f38ec03c8
+      internalID: 2130119933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR4 Firework 1 Cyan-Purple (HDR)_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 808
+        width: 504
+        height: 404
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e0e8731eb1de6945bf648d5ea60211d
+      internalID: 212728640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR4 Firework 1 Cyan-Purple (HDR)_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1212
+        width: 504
+        height: 404
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0933a9cde5360146911c22583c432a5
+      internalID: -435876585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR4 Firework 1 Cyan-Purple (HDR)_15
+      rect:
+        serializedVersion: 2
+        x: 1006
+        y: 404
+        width: 501
+        height: 404
+      alignment: 9
+      pivot: {x: 0.502994, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f35f28cfcf79064e870465021c99357
+      internalID: -1801070560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR4 Firework 1 Cyan-Purple (HDR)_16
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 404
+        width: 502
+        height: 404
+      alignment: 9
+      pivot: {x: 0.50199205, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50c33e9b11136274fb13c9fd2d8d8177
+      internalID: 112060721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR4 Firework 1 Cyan-Purple (HDR)_17
+      rect:
+        serializedVersion: 2
+        x: 1507
+        y: 404
+        width: 503
+        height: 402
+      alignment: 9
+      pivot: {x: 0.500994, y: 0.50248754}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c30ad0e4583eac43a4ea01573298316
+      internalID: 811311508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR4 Firework 1 Cyan-Purple (HDR)_18
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 808
+        width: 504
+        height: 399
+      alignment: 9
+      pivot: {x: 0.5, y: 0.50626564}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a9e049eef70f4b48bb00c5e96fcd2d8
+      internalID: -1323221599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR4 Firework 1 Cyan-Purple (HDR)_19
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 1207
+        width: 504
+        height: 394
+      alignment: 9
+      pivot: {x: 0.5, y: 0.51269037}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0aa2e24a2c268f3418294a1da6a2e3e8
+      internalID: -2128071851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: bfa0863aa3bcab343abe5bf297c38aed
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      CFXR4 Firework 1 Cyan-Purple (HDR)_00: 1868508428
+      CFXR4 Firework 1 Cyan-Purple (HDR)_01: -618775027
+      CFXR4 Firework 1 Cyan-Purple (HDR)_02: -267821642
+      CFXR4 Firework 1 Cyan-Purple (HDR)_03: 492386211
+      CFXR4 Firework 1 Cyan-Purple (HDR)_04: -1676569967
+      CFXR4 Firework 1 Cyan-Purple (HDR)_05: -1350123948
+      CFXR4 Firework 1 Cyan-Purple (HDR)_06: 38042804
+      CFXR4 Firework 1 Cyan-Purple (HDR)_07: -1600477683
+      CFXR4 Firework 1 Cyan-Purple (HDR)_08: 1161164540
+      CFXR4 Firework 1 Cyan-Purple (HDR)_09: 1547558025
+      CFXR4 Firework 1 Cyan-Purple (HDR)_10: -617693195
+      CFXR4 Firework 1 Cyan-Purple (HDR)_11: -1893931714
+      CFXR4 Firework 1 Cyan-Purple (HDR)_12: 2130119933
+      CFXR4 Firework 1 Cyan-Purple (HDR)_13: 212728640
+      CFXR4 Firework 1 Cyan-Purple (HDR)_14: -435876585
+      CFXR4 Firework 1 Cyan-Purple (HDR)_15: -1801070560
+      CFXR4 Firework 1 Cyan-Purple (HDR)_16: 112060721
+      CFXR4 Firework 1 Cyan-Purple (HDR)_17: 811311508
+      CFXR4 Firework 1 Cyan-Purple (HDR)_18: -1323221599
+      CFXR4 Firework 1 Cyan-Purple (HDR)_19: -2128071851
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

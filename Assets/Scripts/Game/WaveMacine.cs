@@ -21,7 +21,7 @@ public class WaveMacine
     Action _result;
     int _MobCount;
 
-    [SerializeField] List<GameObject> _mobList = new List<GameObject>();
+    
 
 
 
@@ -91,17 +91,13 @@ public class WaveMacine
         string mobName = _mobTable[_nomalTable[_waveID].MobID].Name;
         var mob = ObjectPooling.Create("Mobs/" + mobName).GetComponent<Mob>();
         mob.MobSetting(_nomalTable[_waveID].MobID).SetMovePath(BOT_PATH).Play();
-        mob.transform.SetParent(_board.transform);
-        _mobList.Add(mob.gameObject);
-        
+        _board.AddMob(mob.gameObject);
+
         mob = ObjectPooling.Create("Mobs/" + mobName).GetComponent<Mob>();
         mob.MobSetting(_nomalTable[_waveID].MobID).SetMovePath(TOP_PATH).Play();
-        mob.transform.SetParent(_board.transform);
-        _mobList.Add(mob.gameObject);
+        _board.AddMob(mob.gameObject);
         
         _waveCount += 2;
-        Presenter.Send(DEF.P_GameScene, "WaveCount", _mobList.Count);
-
         
 
     }
@@ -136,12 +132,6 @@ public class WaveMacine
             {
                 Stop();
                 _result?.Invoke();
-            }
-            //몬스터가 MAXCOUNT 보다 많은 경우 게임오버
-            if (_mobList.Count > DEF.MOB_MAXCOUNT)
-            {
-                Stop();
-                Presenter.Send(DEF.Game, DEF.GameOver);
             }
         }
         else

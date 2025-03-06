@@ -127,8 +127,7 @@ namespace GB
         {
 
             _isPlaying = false;
-            _callBack?.Invoke(State.End, _curIDX, null);
-
+            OnTriggerCallBack(State.End, _curIDX, null);
         }
 
         public void Resume()
@@ -157,7 +156,7 @@ namespace GB
         public bool IsLoop { get { return _IsLoop; } }
         float _fixTimer;
 
-        Action<State, int, TriggerData> _callBack;
+        
         const float TIMER = 0.08f;
 
 
@@ -204,7 +203,7 @@ namespace GB
                     if (_SPRAnimation.Triggers != null)
                     {
                         for (int i = 0; i < _SPRAnimation.Triggers[_curIDX].Count; ++i)
-                            _callBack?.Invoke(State.Trigger, _curIDX, _SPRAnimation.Triggers[_curIDX][i]);
+                            OnTriggerCallBack(State.Trigger, _curIDX, _SPRAnimation.Triggers[_curIDX][i]);
                     }
                 }
             }

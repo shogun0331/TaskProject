@@ -1,0 +1,580 @@
+fileFormatVersion: 2
+guid: 49e34b19f18aa0743aa9ae762992ac74
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CFXR4 Bouncing Glows Bubble (Blue Purple)_00
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 241
+        width: 7
+        height: 7
+      alignment: 9
+      pivot: {x: 0.42857143, y: 0.42857143}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c48c349e714efa2459ccf32f1a22a596
+      internalID: 85532723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR4 Bouncing Glows Bubble (Blue Purple)_01
+      rect:
+        serializedVersion: 2
+        x: 717
+        y: 516
+        width: 72
+        height: 75
+      alignment: 9
+      pivot: {x: 0.5, y: 0.48}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25ca2221a7a0d81489ee94db6a94c75b
+      internalID: -1149258674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR4 Bouncing Glows Bubble (Blue Purple)_02
+      rect:
+        serializedVersion: 2
+        x: 890
+        y: 430
+        width: 86
+        height: 86
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fe89d66bb1715542863a9845a863800
+      internalID: 24568854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR4 Bouncing Glows Bubble (Blue Purple)_03
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 516
+        width: 98
+        height: 100
+      alignment: 9
+      pivot: {x: 0.5, y: 0.49}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4091a873c7740cd44bc2a7ee91e0ca8b
+      internalID: 1846421621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR4 Bouncing Glows Bubble (Blue Purple)_04
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 850
+        width: 110
+        height: 117
+      alignment: 9
+      pivot: {x: 0.5, y: 0.47863248}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bac54d8b6e289744cb9d63598b9a0b7b
+      internalID: 859014477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR4 Bouncing Glows Bubble (Blue Purple)_05
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 710
+        width: 122
+        height: 140
+      alignment: 9
+      pivot: {x: 0.5, y: 0.47857141}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a87d1ce58e5a8144597e071dc0462cf9
+      internalID: -1097983609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR4 Bouncing Glows Bubble (Blue Purple)_06
+      rect:
+        serializedVersion: 2
+        x: 890
+        y: 264
+        width: 134
+        height: 166
+      alignment: 9
+      pivot: {x: 0.5, y: 0.48192772}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b607f36d2b5e6b43baf3888418a8c25
+      internalID: 1190128455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR4 Bouncing Glows Bubble (Blue Purple)_07
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 516
+        width: 151
+        height: 194
+      alignment: 9
+      pivot: {x: 0.47682118, y: 0.48969072}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09f6fc76b50760c44a9f64c22e51e07b
+      internalID: 1169413837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR4 Bouncing Glows Bubble (Blue Purple)_08
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 788
+        width: 168
+        height: 220
+      alignment: 9
+      pivot: {x: 0.45833334, y: 0.49545455}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d5625ac17c254549bd216f9530e589f
+      internalID: 71693296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR4 Bouncing Glows Bubble (Blue Purple)_09
+      rect:
+        serializedVersion: 2
+        x: 701
+        y: 264
+        width: 189
+        height: 242
+      alignment: 9
+      pivot: {x: 0.46560848, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68829a8da77dff3479b64e7be50c8920
+      internalID: 207528393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR4 Bouncing Glows Bubble (Blue Purple)_10
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 530
+        width: 208
+        height: 258
+      alignment: 9
+      pivot: {x: 0.47596154, y: 0.50775194}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 201d15fe80bca434a8fa6336d6357bf4
+      internalID: -2009749875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR4 Bouncing Glows Bubble (Blue Purple)_11
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 264
+        width: 221
+        height: 266
+      alignment: 9
+      pivot: {x: 0.48868778, y: 0.518797}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d355cfa3c98cc14781de2f0d25ac2b6
+      internalID: -1855960139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR4 Bouncing Glows Bubble (Blue Purple)_12
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 0
+        width: 230
+        height: 264
+      alignment: 9
+      pivot: {x: 0.49565217, y: 0.5265151}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c057d733dd7d36419904028018c0b2b
+      internalID: 1222747427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR4 Bouncing Glows Bubble (Blue Purple)_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 766
+        width: 242
+        height: 252
+      alignment: 9
+      pivot: {x: 0.4752066, y: 0.53571427}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52529355f080a2d45b82186eb002c30f
+      internalID: -501783988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR4 Bouncing Glows Bubble (Blue Purple)_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 247
+        height: 256
+      alignment: 9
+      pivot: {x: 0.45748988, y: 0.51953125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ade87da6996a0d647b423d430ae90361
+      internalID: 460707192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR4 Bouncing Glows Bubble (Blue Purple)_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 243
+        height: 255
+      alignment: 9
+      pivot: {x: 0.44032922, y: 0.5058824}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba5e89322eb16a244afb7749467a9c0b
+      internalID: -2009129203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR4 Bouncing Glows Bubble (Blue Purple)_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 511
+        width: 241
+        height: 255
+      alignment: 9
+      pivot: {x: 0.44813278, y: 0.50980395}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf035326907b4414d95f3f798388f965
+      internalID: -1074911617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR4 Bouncing Glows Bubble (Blue Purple)_17
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 264
+        width: 233
+        height: 252
+      alignment: 9
+      pivot: {x: 0.4635193, y: 0.52380955}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 094b5d3f6aaa7c2478b20617f5cab712
+      internalID: -1740452998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR4 Bouncing Glows Bubble (Blue Purple)_18
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 0
+        width: 249
+        height: 241
+      alignment: 9
+      pivot: {x: 0.48594376, y: 0.53526974}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54789a5a140d65649986c198be35b9f6
+      internalID: 230422126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXR4 Bouncing Glows Bubble (Blue Purple)_19
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 0
+        width: 258
+        height: 232
+      alignment: 9
+      pivot: {x: 0.50775194, y: 0.5215517}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a20713fed2665934eba9daa3a98d1ba8
+      internalID: -1787733821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 217ae296126c2e745816a40f37cce117
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      CFXR4 Bouncing Glows Bubble (Blue Purple)_00: 85532723
+      CFXR4 Bouncing Glows Bubble (Blue Purple)_01: -1149258674
+      CFXR4 Bouncing Glows Bubble (Blue Purple)_02: 24568854
+      CFXR4 Bouncing Glows Bubble (Blue Purple)_03: 1846421621
+      CFXR4 Bouncing Glows Bubble (Blue Purple)_04: 859014477
+      CFXR4 Bouncing Glows Bubble (Blue Purple)_05: -1097983609
+      CFXR4 Bouncing Glows Bubble (Blue Purple)_06: 1190128455
+      CFXR4 Bouncing Glows Bubble (Blue Purple)_07: 1169413837
+      CFXR4 Bouncing Glows Bubble (Blue Purple)_08: 71693296
+      CFXR4 Bouncing Glows Bubble (Blue Purple)_09: 207528393
+      CFXR4 Bouncing Glows Bubble (Blue Purple)_10: -2009749875
+      CFXR4 Bouncing Glows Bubble (Blue Purple)_11: -1855960139
+      CFXR4 Bouncing Glows Bubble (Blue Purple)_12: 1222747427
+      CFXR4 Bouncing Glows Bubble (Blue Purple)_13: -501783988
+      CFXR4 Bouncing Glows Bubble (Blue Purple)_14: 460707192
+      CFXR4 Bouncing Glows Bubble (Blue Purple)_15: -2009129203
+      CFXR4 Bouncing Glows Bubble (Blue Purple)_16: -1074911617
+      CFXR4 Bouncing Glows Bubble (Blue Purple)_17: -1740452998
+      CFXR4 Bouncing Glows Bubble (Blue Purple)_18: 230422126
+      CFXR4 Bouncing Glows Bubble (Blue Purple)_19: -1787733821
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

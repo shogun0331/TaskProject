@@ -1,0 +1,360 @@
+fileFormatVersion: 2
+guid: f9a19eefa14da54428f288add6e7ba97
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Plasma_LightBlue_Big_Projectile_Template_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 462
+        width: 124
+        height: 123
+      alignment: 9
+      pivot: {x: 0.4919355, y: 0.5365854}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a130506eb0938c8428e1ef7130c1be4e
+      internalID: -875760808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plasma_LightBlue_Big_Projectile_Template_1
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 319
+        width: 135
+        height: 134
+      alignment: 9
+      pivot: {x: 0.4888889, y: 0.53731346}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f920221b2e8a0e9489441ca9df62eae1
+      internalID: 929546268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plasma_LightBlue_Big_Projectile_Template_2
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 0
+        width: 165
+        height: 164
+      alignment: 9
+      pivot: {x: 0.4909091, y: 0.5304878}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8324a1e1f8b84b45971c93784d0b4f7
+      internalID: 1133233406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plasma_LightBlue_Big_Projectile_Template_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 172
+        width: 147
+        height: 147
+      alignment: 9
+      pivot: {x: 0.48979592, y: 0.53061223}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53be8ad9e71058c4e84c2afea2bc6ff0
+      internalID: -1946406653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plasma_LightBlue_Big_Projectile_Template_4
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 172
+        width: 143
+        height: 143
+      alignment: 9
+      pivot: {x: 0.48951048, y: 0.5314685}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ec89c8f5627ba249908fc20cfe67275
+      internalID: -149891927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plasma_LightBlue_Big_Projectile_Template_5
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 319
+        width: 131
+        height: 131
+      alignment: 9
+      pivot: {x: 0.48854962, y: 0.53435117}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d85bdd67e58644f4f8a58fcc2f3f328e
+      internalID: -15529146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plasma_LightBlue_Big_Projectile_Template_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 319
+        width: 143
+        height: 143
+      alignment: 9
+      pivot: {x: 0.48951048, y: 0.5314685}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a845a6c9e0d6cd42bf92fc5ceb7233d
+      internalID: 1062951223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plasma_LightBlue_Big_Projectile_Template_7
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 172
+        width: 145
+        height: 145
+      alignment: 9
+      pivot: {x: 0.48965517, y: 0.53103447}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4867819bd85f94b4a89028684d03970a
+      internalID: -2024293257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plasma_LightBlue_Big_Projectile_Template_8
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 0
+        width: 163
+        height: 163
+      alignment: 9
+      pivot: {x: 0.49079755, y: 0.5276074}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 262475f0b224111428387e520a87a505
+      internalID: -1587800525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plasma_LightBlue_Big_Projectile_Template_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 171
+        height: 172
+      alignment: 9
+      pivot: {x: 0.49122807, y: 0.5290698}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9726e7c8cd7617748927395acedf6cae
+      internalID: -1842285451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 9814b5f4af0495145935050ede3aa8c9
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Plasma_LightBlue_Big_Projectile_Template_0: -875760808
+      Plasma_LightBlue_Big_Projectile_Template_1: 929546268
+      Plasma_LightBlue_Big_Projectile_Template_2: 1133233406
+      Plasma_LightBlue_Big_Projectile_Template_3: -1946406653
+      Plasma_LightBlue_Big_Projectile_Template_4: -149891927
+      Plasma_LightBlue_Big_Projectile_Template_5: -15529146
+      Plasma_LightBlue_Big_Projectile_Template_6: 1062951223
+      Plasma_LightBlue_Big_Projectile_Template_7: -2024293257
+      Plasma_LightBlue_Big_Projectile_Template_8: -1587800525
+      Plasma_LightBlue_Big_Projectile_Template_9: -1842285451
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -6,25 +6,47 @@ using UnityEngine;
 
 public class Board : MonoBehaviour
 {
+    const float TILE_SZ = 1;
     const int TILE_WIDTH = 6;
     const int TILE_HEIGHT = 3;
 
     Tile[] _myTiles;
     Tile[] _friendTiles;
-
     WaveMacine _waveMacine;
 
     public void Init()
     {
         _myTiles = new Tile[TILE_WIDTH * TILE_HEIGHT];
-        for (int i = 0; i < _myTiles.Length; ++i) _myTiles[i] = new Tile();
+        Vector2 startPos = new Vector2(-2.5f,-1.5f);
+        for (int i = 0; i < _myTiles.Length; ++i) 
+        {
+            _myTiles[i] = new Tile();
+            float w = i % TILE_WIDTH;
+            float h =  i / TILE_WIDTH;
+            _myTiles[i].Position = new Vector2(startPos.x + w, startPos.y - h);
+        }
 
         _friendTiles = new Tile[TILE_WIDTH * TILE_HEIGHT];
-        for (int i = 0; i < _friendTiles.Length; ++i) _friendTiles[i] = new Tile();
+        startPos = new Vector2(-2.5f,2.5f);
+        for (int i = 0; i < _friendTiles.Length; ++i) 
+        {
+            _friendTiles[i] = new Tile();
+            float w = i % TILE_WIDTH;
+            float h =  i / TILE_WIDTH;
+            _friendTiles[i].Position = new Vector2(startPos.x + w, startPos.y - h);
+        }
 
         _waveMacine = new WaveMacine();
         _waveMacine.Init(this);
     }
+
+    public Tile GetTile(Vector2 point)
+    {
+        int idx = GetTouchTileIndex(point);
+        if(idx == -1) return null;
+        return _myTiles[idx];
+    }
+
 
 
     /// <summary>
@@ -61,7 +83,30 @@ public class Board : MonoBehaviour
 
     void Update()
     {
-        _waveMacine.Update(GBTime.GetDeltaTime(DEF.Game));
+        _waveMacine.Update(GBTime.GetDeltaTime(DEF.T_GAME));
+    }
+
+    List<GameObject> _mobList = new List<GameObject>();
+
+    public void AddMob(GameObject mob)
+    {
+        mob.transform.SetParent(transform);
+        _mobList.Add(mob);
+
+        //몬스터가 MAXCOUNT 보다 많은 경우 게임오버
+        if (_mobList.Count > DEF.MOB_MAXCOUNT)
+        {
+            _waveMacine.Stop();
+            Presenter.Send(DEF.Game, DEF.GameOver);
+        }
+
+        Presenter.Send(DEF.P_GameScene, "WaveCount", _mobList.Count);
+    }
+    public void RemoveMob(GameObject mob)
+    {
+        _mobList.Remove(mob);
+
+        Presenter.Send(DEF.P_GameScene, "WaveCount", _mobList.Count);
     }
 
 }

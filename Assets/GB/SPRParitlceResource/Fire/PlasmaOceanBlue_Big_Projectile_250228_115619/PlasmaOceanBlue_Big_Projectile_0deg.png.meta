@@ -1,0 +1,360 @@
+fileFormatVersion: 2
+guid: 8d4ebb06b7b758a40a7eda00b8703857
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PlasmaOceanBlue_Big_Projectile_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 167
+        height: 167
+      alignment: 9
+      pivot: {x: 0.49101797, y: 0.5269461}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44a99a73a1d82c6479fa3926e6d6faf5
+      internalID: -339578397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlasmaOceanBlue_Big_Projectile_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 300
+        width: 132
+        height: 131
+      alignment: 9
+      pivot: {x: 0.49242425, y: 0.53435117}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a514670e241549e49a5e47b11e1b34f0
+      internalID: 832549764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlasmaOceanBlue_Big_Projectile_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 167
+        width: 133
+        height: 133
+      alignment: 9
+      pivot: {x: 0.48872182, y: 0.5338346}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b81dcced0659b144bb04b9638ff4b21c
+      internalID: 1697970112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlasmaOceanBlue_Big_Projectile_3
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 167
+        width: 124
+        height: 123
+      alignment: 9
+      pivot: {x: 0.4919355, y: 0.5365854}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74b0d65f1484c4b4d89e91d8635bdc64
+      internalID: -1353403355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlasmaOceanBlue_Big_Projectile_4
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 287
+        width: 120
+        height: 121
+      alignment: 9
+      pivot: {x: 0.49166667, y: 0.5371901}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80de6ecf19544444887109b656148174
+      internalID: -1919579092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlasmaOceanBlue_Big_Projectile_5
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 167
+        width: 122
+        height: 120
+      alignment: 9
+      pivot: {x: 0.5081967, y: 0.55}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3bd718e4fd8567468a3f1001a6a04f4
+      internalID: -153014489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlasmaOceanBlue_Big_Projectile_6
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 290
+        width: 122
+        height: 123
+      alignment: 9
+      pivot: {x: 0.4918033, y: 0.5365854}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c50f502b809607c4a928865347f40df3
+      internalID: 3727618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlasmaOceanBlue_Big_Projectile_7
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 287
+        width: 116
+        height: 122
+      alignment: 9
+      pivot: {x: 0.49137932, y: 0.5163934}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3890f253ccd5f514ea33493caa00cdb1
+      internalID: -271644185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlasmaOceanBlue_Big_Projectile_8
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 0
+        width: 139
+        height: 139
+      alignment: 9
+      pivot: {x: 0.48920864, y: 0.5323741}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 866260b20a559d2478c0e16c166a5532
+      internalID: 886787554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlasmaOceanBlue_Big_Projectile_9
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 0
+        width: 161
+        height: 162
+      alignment: 9
+      pivot: {x: 0.49068323, y: 0.5308642}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e82250376ccaf654b8bff9d77830fec6
+      internalID: -1287087752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: cbe899f1cf66be646a45642b9a1ae807
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      PlasmaOceanBlue_Big_Projectile_0: -339578397
+      PlasmaOceanBlue_Big_Projectile_1: 832549764
+      PlasmaOceanBlue_Big_Projectile_2: 1697970112
+      PlasmaOceanBlue_Big_Projectile_3: -1353403355
+      PlasmaOceanBlue_Big_Projectile_4: -1919579092
+      PlasmaOceanBlue_Big_Projectile_5: -153014489
+      PlasmaOceanBlue_Big_Projectile_6: 3727618
+      PlasmaOceanBlue_Big_Projectile_7: -271644185
+      PlasmaOceanBlue_Big_Projectile_8: 886787554
+      PlasmaOceanBlue_Big_Projectile_9: -1287087752
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

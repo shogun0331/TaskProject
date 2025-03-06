@@ -1,0 +1,360 @@
+fileFormatVersion: 2
+guid: 535ff9552990363409567b817e0fec50
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Plasma_PoisonGreen_Big_Projectile_0
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 0
+        width: 158
+        height: 158
+      alignment: 9
+      pivot: {x: 0.48734176, y: 0.5316456}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9a6eeb8fb979234db38661ce4825d59
+      internalID: 888224217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plasma_PoisonGreen_Big_Projectile_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 316
+        width: 137
+        height: 137
+      alignment: 9
+      pivot: {x: 0.4890511, y: 0.5328467}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ff3c7589ef2dfc49bae4a83a5f1c0ac
+      internalID: -804875728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plasma_PoisonGreen_Big_Projectile_2
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 166
+        width: 139
+        height: 139
+      alignment: 9
+      pivot: {x: 0.48920864, y: 0.5323741}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f7be299d2ea6e54bb479922b2921521
+      internalID: -276853321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plasma_PoisonGreen_Big_Projectile_3
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 316
+        width: 124
+        height: 134
+      alignment: 9
+      pivot: {x: 0.4919355, y: 0.5671642}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb3cdf819b29bb645bc149ae45b784df
+      internalID: -1218253269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plasma_PoisonGreen_Big_Projectile_4
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 166
+        width: 139
+        height: 139
+      alignment: 9
+      pivot: {x: 0.48920864, y: 0.5323741}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b628a6f0df10c654ba5c057798f08490
+      internalID: 448075588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plasma_PoisonGreen_Big_Projectile_5
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 316
+        width: 137
+        height: 137
+      alignment: 9
+      pivot: {x: 0.4890511, y: 0.5328467}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3b84384bd2d59741acc1bffef15bdbe
+      internalID: 366434406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plasma_PoisonGreen_Big_Projectile_6
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 0
+        width: 165
+        height: 165
+      alignment: 9
+      pivot: {x: 0.4909091, y: 0.5272727}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54c94838502a4034493c0b4c0eb57ef9
+      internalID: 821413824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plasma_PoisonGreen_Big_Projectile_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 166
+        width: 149
+        height: 150
+      alignment: 9
+      pivot: {x: 0.4899329, y: 0.53333336}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f3ebc8d622af5b4c822417f8d6e6d98
+      internalID: 438687720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plasma_PoisonGreen_Big_Projectile_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 167
+        height: 166
+      alignment: 9
+      pivot: {x: 0.49101797, y: 0.5301205}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e994f7acf8af019429996df95089d3f7
+      internalID: -809621698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plasma_PoisonGreen_Big_Projectile_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 453
+        width: 116
+        height: 133
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5338346}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 716db528881cb0343af00f7855fa72da
+      internalID: 814688705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: cef41544417a848449e4ce59a098e75c
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Plasma_PoisonGreen_Big_Projectile_0: 888224217
+      Plasma_PoisonGreen_Big_Projectile_1: -804875728
+      Plasma_PoisonGreen_Big_Projectile_2: -276853321
+      Plasma_PoisonGreen_Big_Projectile_3: -1218253269
+      Plasma_PoisonGreen_Big_Projectile_4: 448075588
+      Plasma_PoisonGreen_Big_Projectile_5: 366434406
+      Plasma_PoisonGreen_Big_Projectile_6: 821413824
+      Plasma_PoisonGreen_Big_Projectile_7: 438687720
+      Plasma_PoisonGreen_Big_Projectile_8: -809621698
+      Plasma_PoisonGreen_Big_Projectile_9: 814688705
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
