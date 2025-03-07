@@ -4,18 +4,18 @@ using Newtonsoft.Json;
 
 
 [Serializable]
-public class MobTable  : GameData
+public class GachaTable  : GameData
 {	
-	 [JsonProperty] public MobTableProb[] Datas{get; private set;}
-	 IReadOnlyDictionary<string, MobTableProb> _DicDatas;
+	 [JsonProperty] public GachaTableProb[] Datas{get; private set;}
+	 IReadOnlyDictionary<string, GachaTableProb> _DicDatas;
 
 	public void SetJson(string json)
     {
-        var data = JsonConvert.DeserializeObject <MobTable> (json);
-        MobTableProb[] arr = data.Datas;
+        var data = JsonConvert.DeserializeObject <GachaTable> (json);
+        GachaTableProb[] arr = data.Datas;
         Datas = arr;
 
-		var dic = new Dictionary<string, MobTableProb>();
+		var dic = new Dictionary<string, GachaTableProb>();
 
         for (int i = 0; i < Datas.Length; ++i)
             dic[Datas[i].ID.ToString()] = Datas[i];
@@ -29,12 +29,9 @@ public class MobTable  : GameData
         switch (name)
         {
 				case "ID": return true;
-				case "Name": return true;
-				case "MAX_HP": return true;
-				case "M_SPD": return true;
-				case "DEF": return true;
-				case "Gold": return true;
-				case "Luck": return true;
+				case "Weight": return true;
+				case "PriceID": return true;
+				case "PriceValue": return true;
 
 		  default: return false;
 
@@ -56,16 +53,13 @@ public class MobTable  : GameData
     {
         get
         {
-            MobTableProb data = this[row];
+            GachaTableProb data = this[row];
             switch (col)
             {
 				case "ID": return data.ID;
-				case "Name": return data.Name;
-				case "MAX_HP": return data.MAX_HP;
-				case "M_SPD": return data.M_SPD;
-				case "DEF": return data.DEF;
-				case "Gold": return data.Gold;
-				case "Luck": return data.Luck;
+				case "Weight": return data.Weight;
+				case "PriceID": return data.PriceID;
+				case "PriceValue": return data.PriceValue;
 
 
                 default: return null;
@@ -78,16 +72,13 @@ public class MobTable  : GameData
     {
         get
         {
-             MobTableProb data = this[row];
+             GachaTableProb data = this[row];
             switch (col)
             {
 				case "ID": return data.ID;
-				case "Name": return data.Name;
-				case "MAX_HP": return data.MAX_HP;
-				case "M_SPD": return data.M_SPD;
-				case "DEF": return data.DEF;
-				case "Gold": return data.Gold;
-				case "Luck": return data.Luck;
+				case "Weight": return data.Weight;
+				case "PriceID": return data.PriceID;
+				case "PriceValue": return data.PriceValue;
 
 
                 default: return null;
@@ -100,24 +91,21 @@ public class MobTable  : GameData
     {
         get
         {
-            MobTableProb data = Datas[row];
+            GachaTableProb data = Datas[row];
 
             switch (col)
             {
 				case 0: return data.ID;
-				case 1: return data.Name;
-				case 2: return data.MAX_HP;
-				case 3: return data.M_SPD;
-				case 4: return data.DEF;
-				case 5: return data.Gold;
-				case 6: return data.Luck;
+				case 1: return data.Weight;
+				case 2: return data.PriceID;
+				case 3: return data.PriceValue;
 
                 default: return null;
             }
         }
     }
 
-    public MobTableProb this[string name]
+    public GachaTableProb this[string name]
     {
         get
         {
@@ -126,7 +114,7 @@ public class MobTable  : GameData
     }
 
 
-    public MobTableProb this[int index]
+    public GachaTableProb this[int index]
     {
         get
         {
@@ -151,14 +139,11 @@ public class MobTable  : GameData
 }
 
 [Serializable]
-public class MobTableProb : GameDataProb
+public class GachaTableProb : GameDataProb
 {
 		[JsonProperty] public readonly string ID;
-	[JsonProperty] public readonly string Name;
-	[JsonProperty] public readonly int MAX_HP;
-	[JsonProperty] public readonly float M_SPD;
-	[JsonProperty] public readonly int DEF;
-	[JsonProperty] public readonly int Gold;
-	[JsonProperty] public readonly int Luck;
+	[JsonProperty] public readonly string Weight;
+	[JsonProperty] public readonly string PriceID;
+	[JsonProperty] public readonly int PriceValue;
 
 }

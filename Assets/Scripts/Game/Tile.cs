@@ -1,4 +1,6 @@
+using System.Security.Cryptography.X509Certificates;
 using System.Collections.Generic;
+using System.Linq;
 using GB;
 using UnityEngine;
 
@@ -28,12 +30,16 @@ public class Tile
         }
     }
 
-    public bool UnitMax
+    public bool Max
     {
         get
         {
             if (_unitList == null) return false;
-            return _unitList.Count == 3;
+           
+
+            int weight = 0;
+            for (int i = 0; i < _unitList.Count; ++i) weight += _unitList[i].weight;
+            return weight >= 3;
         }
     }
     public string UnitID
@@ -45,11 +51,22 @@ public class Tile
         }
     }
 
+    public float AttackDist
+    {
+        get
+        {
+            if (_unitList == null || _unitList.Count == 0 || _unitList[0] == null) return 0;
+             return _unitList[0].Disance;
+        }
+    }
+
     public void AddUnit(Unit unit)
     {
         _unitList.Add(unit);
         unit.transform.position = Position;
+        unit.SetTile(this);
         unit.SetMovePosition(GetUnitPosition(_unitList.Count - 1));
+
     }
 
 
@@ -58,7 +75,9 @@ public class Tile
     {
         if (!IsMerge) return false;
         //결합 알리기
-        Presenter.Send(DEF.Game, "Merge", this);
+
+        //자체 해결
+        // Presenter.Send(DEF.Game, "Merge", this);
         return true;
     }
 
@@ -80,24 +99,26 @@ public class Tile
     Vector2 GetUnitPosition(int index)
     {
         Vector2 pos = Position;
-        if (index == 0)
+        if (_unitList[index].weight == 1)
         {
-            pos.x += 0.16f;
-            pos.y += 0.19f;
-            return pos;
-        }
-        else if (index == 1)
-        {
-            pos.x -= 0.16f;
-            pos.y += 0.19f;
-            return pos;
-        }
-        else
-        {
-            pos.y += 0.07f;
-            return pos;
+            if (index == 0)
+            {
+                pos.x += 0.16f;
+                pos.y += 0.19f;
+            }
+            else if (index == 1)
+            {
+                pos.x -= 0.16f;
+                pos.y += 0.19f;
+            }
+            else
+            {
+                pos.y += 0.07f;
+            }
         }
 
+        return pos;
+        
 
     }
 
@@ -106,7 +127,10 @@ public class Tile
         if (UnitCount == 0) return;
 
         for (int i = 0; i < _unitList.Count; ++i)
+        {
+            _unitList[i].SetTile(this);
             _unitList[i].SetMovePosition(GetUnitPosition(i));
+        }
     }
 
 

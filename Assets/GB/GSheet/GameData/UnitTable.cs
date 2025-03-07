@@ -41,6 +41,8 @@ public class UnitTable  : GameData
 				case "Abilitie2": return true;
 				case "Abilitie3": return true;
 				case "Abilitie4": return true;
+				case "Weight": return true;
+				case "Price": return true;
 
 		  default: return false;
 
@@ -78,6 +80,8 @@ public class UnitTable  : GameData
 				case "Abilitie2": return data.Abilitie2;
 				case "Abilitie3": return data.Abilitie3;
 				case "Abilitie4": return data.Abilitie4;
+				case "Weight": return data.Weight;
+				case "Price": return data.Price;
 
 
                 default: return null;
@@ -106,6 +110,8 @@ public class UnitTable  : GameData
 				case "Abilitie2": return data.Abilitie2;
 				case "Abilitie3": return data.Abilitie3;
 				case "Abilitie4": return data.Abilitie4;
+				case "Weight": return data.Weight;
+				case "Price": return data.Price;
 
 
                 default: return null;
@@ -135,6 +141,8 @@ public class UnitTable  : GameData
 				case 10: return data.Abilitie2;
 				case 11: return data.Abilitie3;
 				case 12: return data.Abilitie4;
+				case 13: return data.Weight;
+				case 14: return data.Price;
 
                 default: return null;
             }
@@ -190,5 +198,7 @@ public class UnitTableProb : GameDataProb
 	[JsonProperty] public readonly string Abilitie2;
 	[JsonProperty] public readonly string Abilitie3;
 	[JsonProperty] public readonly string Abilitie4;
+	[JsonProperty] public readonly int Weight;
+	[JsonProperty] public readonly int Price;
 
 }

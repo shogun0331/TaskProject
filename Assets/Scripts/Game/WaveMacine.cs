@@ -21,9 +21,6 @@ public class WaveMacine
     Action _result;
     int _MobCount;
 
-    
-
-
 
     Vector2[] BOT_PATH = new Vector2[]
     {
@@ -65,7 +62,7 @@ public class WaveMacine
         {
             _isBossWave = false;
             _waveDelay = _nomalTable[_waveID].Dealay;
-            _waveTotalTime = (_nomalTable[_waveID].CreateCount * _waveDelay) / 2;
+            _waveTotalTime = _nomalTable[_waveID].CreateCount * _waveDelay;
         }
         else
         {
@@ -86,20 +83,23 @@ public class WaveMacine
 
     int _checkTime;
 
+    
+
     void CreateMob()
     {
+        
         string mobName = _mobTable[_nomalTable[_waveID].MobID].Name;
         var mob = ObjectPooling.Create("Mobs/" + mobName).GetComponent<Mob>();
-        mob.MobSetting(_nomalTable[_waveID].MobID).SetMovePath(BOT_PATH).Play();
+        if(_waveCount % 2  == 0 ) mob.MobSetting(_nomalTable[_waveID].MobID).SetMovePath(BOT_PATH).Play();
+        else mob.MobSetting(_nomalTable[_waveID].MobID).SetMovePath(TOP_PATH).Play();
         _board.AddMob(mob.gameObject);
 
-        mob = ObjectPooling.Create("Mobs/" + mobName).GetComponent<Mob>();
-        mob.MobSetting(_nomalTable[_waveID].MobID).SetMovePath(TOP_PATH).Play();
-        _board.AddMob(mob.gameObject);
-        
-        _waveCount += 2;
-        
+        _waveCount ++;
 
+        // mob = ObjectPooling.Create("Mobs/" + mobName).GetComponent<Mob>();
+        // mob.MobSetting(_nomalTable[_waveID].MobID).SetMovePath(TOP_PATH).Play();
+        // _board.AddMob(mob.gameObject);
+        
     }
 
     public void Update(float dt)

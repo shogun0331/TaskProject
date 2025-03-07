@@ -74,7 +74,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 9
   m_Sprite: {fileID: 21300000, guid: e7df486c743aa4dbb987248993be1dc7, type: 3}
-  m_Color: {r: 0.7254902, g: 0.7803922, b: 0.6156863, a: 1}
+  m_Color: {r: 0.20392159, g: 0.5137255, b: 0.47450984, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -94,6 +94,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2101984238985299916}
   - component: {fileID: 723692086377839411}
+  - component: {fileID: -1372612662676424788}
   m_Layer: 0
   m_Name: Chicken
   m_TagString: Untagged
@@ -169,6 +170,21 @@ MonoBehaviour:
     - rid: 9097077871422472212
       type: {class: Unit_Dead, ns: , asm: Assembly-CSharp}
       data: 
+--- !u!114 &-1372612662676424788
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4104298866019919363}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46325fe4822854ecbb247d09476cccd6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: 
+  Index: 0
+  IsActive: 0
 --- !u!1 &4856707985373106111
 GameObject:
   m_ObjectHideFlags: 0
@@ -270,7 +286,7 @@ MonoBehaviour:
   _SPRAnimations:
     list:
     - key: Idle
-      value: {fileID: 11400000, guid: 31e04a5af88c2a141869e2be687f0a80, type: 2}
+      value: {fileID: 11400000, guid: 487442cfdce8efd4bac3440b8a821904, type: 2}
       duplicatedKey: 0
     - key: Move
       value: {fileID: 11400000, guid: 92558e44c145abb479cf06eb9e8fd25a, type: 2}

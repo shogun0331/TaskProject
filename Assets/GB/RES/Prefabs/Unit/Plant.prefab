@@ -194,7 +194,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 9
   m_Sprite: {fileID: 21300000, guid: e7df486c743aa4dbb987248993be1dc7, type: 3}
-  m_Color: {r: 0.7254902, g: 0.7803922, b: 0.6156863, a: 1}
+  m_Color: {r: 0.64705884, g: 0.34901962, b: 0.52156866, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -214,6 +214,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5673480851593642341}
   - component: {fileID: 199409990608204858}
+  - component: {fileID: 8508126339576677822}
   m_Layer: 0
   m_Name: Plant
   m_TagString: Untagged
@@ -289,3 +290,18 @@ MonoBehaviour:
     - rid: 9097077871422472215
       type: {class: Unit_Dead, ns: , asm: Assembly-CSharp}
       data: 
+--- !u!114 &8508126339576677822
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5581308148909295246}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46325fe4822854ecbb247d09476cccd6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: 
+  Index: 0
+  IsActive: 0

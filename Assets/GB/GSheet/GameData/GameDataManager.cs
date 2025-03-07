@@ -38,6 +38,14 @@ public class GameDataManager : AutoSingleton<GameDataManager>
             gbCoroutine.AddIEnumerator(JsonLoader.LoadDataCoroutine<UnitTable>(UnitTabledata,(result)=>{ I._Tables[TABLE.UnitTable] = result;}));
                 string SkillTabledata = Gzip.DeCompression( Resources.Load<TextAsset>("Json/SkillTable").text);
             gbCoroutine.AddIEnumerator(JsonLoader.LoadDataCoroutine<SkillTable>(SkillTabledata,(result)=>{ I._Tables[TABLE.SkillTable] = result;}));
+                string SummonTabledata = Gzip.DeCompression( Resources.Load<TextAsset>("Json/SummonTable").text);
+            gbCoroutine.AddIEnumerator(JsonLoader.LoadDataCoroutine<SummonTable>(SummonTabledata,(result)=>{ I._Tables[TABLE.SummonTable] = result;}));
+                string MythTabledata = Gzip.DeCompression( Resources.Load<TextAsset>("Json/MythTable").text);
+            gbCoroutine.AddIEnumerator(JsonLoader.LoadDataCoroutine<MythTable>(MythTabledata,(result)=>{ I._Tables[TABLE.MythTable] = result;}));
+                string UpgradeTabledata = Gzip.DeCompression( Resources.Load<TextAsset>("Json/UpgradeTable").text);
+            gbCoroutine.AddIEnumerator(JsonLoader.LoadDataCoroutine<UpgradeTable>(UpgradeTabledata,(result)=>{ I._Tables[TABLE.UpgradeTable] = result;}));
+                string GachaTabledata = Gzip.DeCompression( Resources.Load<TextAsset>("Json/GachaTable").text);
+            gbCoroutine.AddIEnumerator(JsonLoader.LoadDataCoroutine<GachaTable>(GachaTabledata,(result)=>{ I._Tables[TABLE.GachaTable] = result;}));
                 
 
         gbCoroutine.OnComplete(()=>{complete?.Invoke();}).Play();
@@ -117,6 +125,26 @@ case TABLE.SkillTable:
         SkillTable d_SkillTable = new SkillTable();
         d_SkillTable.SetJson(data);
         obj  = d_SkillTable;
+        break;
+case TABLE.SummonTable:
+        SummonTable d_SummonTable = new SummonTable();
+        d_SummonTable.SetJson(data);
+        obj  = d_SummonTable;
+        break;
+case TABLE.MythTable:
+        MythTable d_MythTable = new MythTable();
+        d_MythTable.SetJson(data);
+        obj  = d_MythTable;
+        break;
+case TABLE.UpgradeTable:
+        UpgradeTable d_UpgradeTable = new UpgradeTable();
+        d_UpgradeTable.SetJson(data);
+        obj  = d_UpgradeTable;
+        break;
+case TABLE.GachaTable:
+        GachaTable d_GachaTable = new GachaTable();
+        d_GachaTable.SetJson(data);
+        obj  = d_GachaTable;
         break;
         }
 
@@ -222,5 +250,9 @@ public enum TABLE
 	NomalWaveTable,
 	UnitTable,
 	SkillTable,
+	SummonTable,
+	MythTable,
+	UpgradeTable,
+	GachaTable,
 
 }

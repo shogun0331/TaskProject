@@ -41,6 +41,7 @@ public class SkillTable  : GameData
 				case "floatValue": return true;
 				case "AD_Value": return true;
 				case "AP_Value": return true;
+				case "FX": return true;
 
 		  default: return false;
 
@@ -78,6 +79,7 @@ public class SkillTable  : GameData
 				case "floatValue": return data.floatValue;
 				case "AD_Value": return data.AD_Value;
 				case "AP_Value": return data.AP_Value;
+				case "FX": return data.FX;
 
 
                 default: return null;
@@ -106,6 +108,7 @@ public class SkillTable  : GameData
 				case "floatValue": return data.floatValue;
 				case "AD_Value": return data.AD_Value;
 				case "AP_Value": return data.AP_Value;
+				case "FX": return data.FX;
 
 
                 default: return null;
@@ -135,6 +138,7 @@ public class SkillTable  : GameData
 				case 10: return data.floatValue;
 				case 11: return data.AD_Value;
 				case 12: return data.AP_Value;
+				case 13: return data.FX;
 
                 default: return null;
             }
@@ -190,5 +194,6 @@ public class SkillTableProb : GameDataProb
 	[JsonProperty] public readonly float floatValue;
 	[JsonProperty] public readonly float AD_Value;
 	[JsonProperty] public readonly float AP_Value;
+	[JsonProperty] public readonly string FX;
 
 }

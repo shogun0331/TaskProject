@@ -46,13 +46,19 @@ public class Board : MonoBehaviour
     /// 총 유닛 수
     /// </summary>
     /// <returns>유닛 수</returns>
-    public int GetUnitCount()
+    public int GetUnitCount(int playerID)
     {
         int count = 0;
 
-        for(int i = 0; i< _myTiles.Length; ++i)
-            count += _myTiles[i].UnitCount;
-        
+        if(playerID == 0)
+        {
+            for(int i = 0; i< _myTiles.Length; ++i) count += _myTiles[i].UnitCount;
+        }
+        else
+        {
+            for(int i = 0; i< _friendTiles.Length; ++i) count += _friendTiles[i].UnitCount;
+        }
+
         return count;
     }
 
@@ -94,8 +100,8 @@ public class Board : MonoBehaviour
     {
         for(int i = 0; i< _myTiles.Length; ++i)
         {
-            //유닛 아이디가 같으며, 유닛 갯수가 Max가 아닐 경우 
-            if(_myTiles[i].UnitID == unitID && !_myTiles[i].UnitMax) return i;
+            //유닛 아이디가 같으며, 유닛 무게가 Max가 아닐 경우 
+            if(_myTiles[i].UnitID == unitID && !_myTiles[i].Max) return i;
         }
         return -1;
     }
@@ -104,24 +110,26 @@ public class Board : MonoBehaviour
     /// 유닛 추가
     /// </summary>
     /// <param name="unitID">유닛ID</param>
-    public void AddUnit(string unitID)
+    public void AddUnit(Player player,Unit unit)
     {
-        int idx = ContainsUnitTeam(unitID);
+        Tile[] tiles = player.ID == 0 ? _myTiles : _friendTiles;
+        int idx = ContainsUnitTeam(unit.ID);
         //낄자리 없음
         if(idx == -1)
         {
+            unit.transform.SetParent(transform);
             //타일중 빈자리 검색
-            var list = _myTiles.Where(v=> v.UnitID == null).ToList();
+            var list = tiles.Where(v=> v.UnitID == null).ToList();
             //Random 자리 
             int rand = Random.Range(0,list.Count);
-            list[rand].AddUnit(CreateUnit(unitID));
+            list[rand].AddUnit(unit);
             CreateBoingFX().transform.position = list[rand].Position;
-
         }
         else
         {
-            _myTiles[idx].AddUnit(CreateUnit(unitID));
-            CreateBoingFX().transform.position = _myTiles[idx].Position;
+            unit.transform.SetParent(transform);
+            tiles[idx].AddUnit(unit);
+            CreateBoingFX().transform.position = tiles[idx].Position;
         }
     }
 
@@ -131,21 +139,12 @@ public class Board : MonoBehaviour
     /// <returns>파티클</returns>
     GameObject CreateBoingFX()
     {
-        return ObjectPooling.Create(RES_PREFAB.FX_BOING);
+        var eff = ObjectPooling.Create(RES_PREFAB.FX_BOING);
+        eff.transform.SetParent(transform);
+        return eff;
     }
     
-    /// <summary>
-    /// 유닛 생성
-    /// </summary>
-    /// <param name="unitID">유닛 ID</param>
-    /// <returns>유닛</returns>
-    Unit CreateUnit(string unitID)
-    {
-        var unit = ObjectPooling.Create("Unit/"+ unitID,5).GetComponent<Unit>();
-        unit.transform.SetParent(transform);
-        return unit;
-    }
-
+    
 
     /// <summary>
     /// 터치 위치에 따른 타일 인덱스
@@ -192,7 +191,7 @@ public class Board : MonoBehaviour
         _mobList.Add(mob);
 
         //몬스터가 MAXCOUNT 보다 많은 경우 게임오버
-        if (_mobList.Count > DEF.MOB_MAXCOUNT)
+        if (_mobList.Count >= DEF.MOB_MAXCOUNT)
         {
             _waveMacine.Stop();
             Presenter.Send(DEF.Game, DEF.GameOver);

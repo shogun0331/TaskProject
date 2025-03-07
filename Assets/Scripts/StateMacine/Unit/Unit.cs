@@ -9,10 +9,15 @@ public class Unit : StateMachine<UnitState>
     [SerializeField] string _id;
 
     public string ID{get{return _id;}}
-
+    Player _player;
+    
     [SerializeField] int _level = 1;
+    public int Level{get{return _level;}}
     Vector2 _movePosition;
     public Vector2 MovePosition{get{return _movePosition;}}
+
+    public float Disance{get{return _status.A_DIST;}}
+     
 
     Tile _tile;
     public Tile tile{get{return _tile;}}
@@ -27,6 +32,9 @@ public class Unit : StateMachine<UnitState>
     [SerializeField] SPRAnimation _anim;
 
     public SPRAnimation anim{get{return _anim;}}
+
+    int _weight;
+    public int weight{get{return _weight;}}
 
 
     
@@ -54,8 +62,9 @@ public class Unit : StateMachine<UnitState>
     }
 
     
-    public Unit SetData(int level)
+    public Unit SetData(Player player, int level)
     {
+        _player = player;
         _level = level;
 
         if(_prob == null)
@@ -92,6 +101,8 @@ public class Unit : StateMachine<UnitState>
                 Debug.LogError("UnitTable None Level : " + _id);
                 return this;
             }
+
+            _weight = _prob.Weight;
 
             _status = new Status
             {

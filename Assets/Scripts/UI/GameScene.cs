@@ -1,4 +1,6 @@
+
 using GB;
+using UnityEngine;
 
 public class GameScene : UIScreen
 {
@@ -9,8 +11,6 @@ public class GameScene : UIScreen
     {
         Regist();
         RegistButton();
-
-
 
     }
     void Start()
@@ -31,13 +31,23 @@ public class GameScene : UIScreen
 
     private void OnEnable()
     {
+        if(ODataBaseManager.Contains("GOLD"))mTexts["GOLD"].text = ODataBaseManager.Get<int>("GOLD").ToString("N0");
+        ODataBaseManager.Bind(this,"GOLD",(value)=>{mTexts["GOLD"].text = value.Get<int>().ToString("N0");});
 
+        if(ODataBaseManager.Contains("SUMMON_GOLD"))mTexts["SUMMON_GOLD"].text = ODataBaseManager.Get<int>("SUMMON_GOLD").ToString("N0");
+        ODataBaseManager.Bind(this,"SUMMON_GOLD",(value)=>{mTexts["SUMMON_GOLD"].text = value.Get<int>().ToString("N0");});
+
+        if(ODataBaseManager.Contains("SUMMON_ACTIVE")) {mTexts["SUMMON_GOLD"].color  = ODataBaseManager.Get<bool>("SUMMON_ACTIVE") ? Color.white : Color.red;}
+        ODataBaseManager.Bind(this,"SUMMON_ACTIVE",(value)=>{mTexts["SUMMON_GOLD"].color  = value.Get<bool>() ? Color.white : Color.red;});
 
         Presenter.Bind("GameScene", this);
     }
 
     private void OnDisable()
     {
+        ODataBaseManager.UnBind(this,"GOLD");
+        ODataBaseManager.UnBind(this,"SUMMON_GOLD");
+        ODataBaseManager.UnBind(this,"SUMMON_ACTIVE");
         Presenter.UnBind("GameScene", this);
 
     }

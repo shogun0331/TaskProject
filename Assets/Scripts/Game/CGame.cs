@@ -1,39 +1,34 @@
 
+using System.Collections.Generic;
 using GB;
+using QuickEye.Utility;
 using UnityEngine;
+using System.Linq;
 
 public class CGame : MonoBehaviour, IView
 {
     [SerializeField] Board _board;
-
-    int _wave = 1;
-
-    [SerializeField] GameObject _touchBeganCircle;
-    [SerializeField] GameObject _touchMovedCircle;
-
-    //점선
     [SerializeField] GuideLine _line;
-
-    [SerializeField] GameObject _worldButtons;
+    [SerializeField] UnityDictionary<string,GameObject> _dictGameObjects = new UnityDictionary<string, GameObject>();
     
-    //합성 버튼
-    [SerializeField] GameObject _mergeButton;
-
-
+    int _wave = 1;
+    
     //터치시 타일
     Tile _beganTile;
     Tile _targetTile;
 
+    //플레이어
+    Player _myPlayer;
+    Player _friendPlayer;
+
 
     void Awake()
     {
+        Init();
         _board.Init();
         Presenter.Bind(DEF.Game, this);
         ODataBaseManager.Set(DEF.Game, this);
         InputController.I.TouchWorldEvent += OnTouch;
-        _touchBeganCircle.SetActive(false);
-        _touchMovedCircle.SetActive(false);
-         ActiveWorldButton(false,Vector2.zero);
     }
 
     void OnDisable()
@@ -42,10 +37,10 @@ public class CGame : MonoBehaviour, IView
         ODataBaseManager.Remove(DEF.Game);
         InputController.I.TouchWorldEvent -= OnTouch;
     }
+
     void Start()
     {
-        _wave = 1;
-        // _board.WaveStart(_wave);
+     
     }
 
 
@@ -54,7 +49,17 @@ public class CGame : MonoBehaviour, IView
     /// </summary>
     public void GameStart()
     {
-        // _board.GameStart();
+        _wave = 1;
+        _board.WaveStart(_wave);
+    }
+
+    /// <summary>
+    /// 다음 웨이브 시작
+    /// </summary>
+    public void NextWave()
+    {
+        _wave ++;
+        _board.WaveStart(_wave);
     }
 
     /// <summary>
@@ -77,7 +82,7 @@ public class CGame : MonoBehaviour, IView
         //재화 체크
 
         //유닛 생성
-        _board.AddUnit("Mushroom");
+        _myPlayer.Summon();
         ActiveWorldButton(false,Vector2.zero);
 
     }
@@ -131,14 +136,14 @@ public class CGame : MonoBehaviour, IView
     {
 
         var tile = _board.GetTile(position);
-        if(!_worldButtons.activeSelf) _targetTile = tile;
+        if(!_dictGameObjects["WorldButtons"].activeSelf) _targetTile = tile;
         
         switch (phase)
         {
             case TouchPhase.Began:
                 if (tile != null && tile.UnitCount > 0)
                 {
-                    _touchBeganCircle.transform.position = tile.Position;
+                    _dictGameObjects["TouchBeganCircle"].transform.position = tile.Position;
                     _beganTile = tile;
                 }
                 else
@@ -185,8 +190,9 @@ public class CGame : MonoBehaviour, IView
                 {
                     _beganTile = null;
                     _line.gameObject.SetActive(false);
-                    _touchMovedCircle.SetActive(false);
-                    _touchBeganCircle.SetActive(false);
+                    
+                    _dictGameObjects["TouchMovedCircle"].SetActive(false);
+                    _dictGameObjects["TouchBeganCircle"].SetActive(false);
                 }
                 break;
         }
@@ -200,11 +206,11 @@ public class CGame : MonoBehaviour, IView
     /// <param name="position">위치</param>
     void ActiveWorldButton(bool isActive , Vector2 position)
     {
-        _worldButtons.SetActive(isActive);
+        _dictGameObjects["WorldButtons"].SetActive(isActive);
         if(isActive)
         {
-            _mergeButton.SetActive(_targetTile.UnitMax);
-            _worldButtons.transform.position = position;     
+            _dictGameObjects["Button_Merge"].SetActive(_targetTile.Max);
+            _dictGameObjects["WorldButtons"].transform.position = position;     
         }
     }
 
@@ -222,8 +228,11 @@ public class CGame : MonoBehaviour, IView
             case TouchPhase.Began:
                 if (tile != null && _beganTile != null)
                 {
-                    _touchBeganCircle.SetActive(true);
-                    _touchBeganCircle.transform.position = tile.Position;
+                    _dictGameObjects["TouchBeganCircle"].SetActive(true);
+                    _dictGameObjects["TouchBeganCircle"].transform.position = tile.Position;
+                    _dictGameObjects["TouchDistance"].SetActive(true);
+                    _dictGameObjects["TouchDistance"].transform.position = tile.Position;
+                    _dictGameObjects["TouchDistance"].transform.localScale = new Vector3( tile.AttackDist,tile.AttackDist,tile.AttackDist);
                 }
 
                 break;
@@ -231,32 +240,71 @@ public class CGame : MonoBehaviour, IView
             case TouchPhase.Moved:
                 if (tile != null && _beganTile != null)
                 {
-                    _touchMovedCircle.SetActive(true);
-                    _touchMovedCircle.transform.position = tile.Position;
-
+                    _dictGameObjects["TouchMovedCircle"].SetActive(true);
+                    _dictGameObjects["TouchMovedCircle"].transform.position = tile.Position;
                     _line.gameObject.SetActive(true);
                     _line.SetPoint(_beganTile.Position, tile.Position);
-
+                    
                 }
+                
+                
                 break;
 
             case TouchPhase.Ended:
                 if (tile != null && _beganTile != null)
                 {
-                    _touchBeganCircle.SetActive(true);
-                    _touchBeganCircle.transform.position = tile.Position;
+                    _dictGameObjects["TouchBeganCircle"].SetActive(true);
+                    _dictGameObjects["TouchBeganCircle"].transform.position = tile.Position;
                 }
                 else
                 {
-                    _touchBeganCircle.SetActive(false);
+                    _dictGameObjects["TouchBeganCircle"].SetActive(false);
                 }
 
                 _line.gameObject.SetActive(false);
-                _touchMovedCircle.SetActive(false);
+                _dictGameObjects["TouchMovedCircle"].SetActive(false);
+                if(_dictGameObjects["TouchDistance"].activeSelf)_dictGameObjects["TouchDistance"].SetActive(false);
+                
 
                 break;
-
         }
+
+    }
+
+    
+
+    void Init()
+    {
+         var table = GameDataManager.GetTable<UnitTable>();
+        _myPlayer = new Player();
+        var unitDataList =  new List<UnitData>();
+
+        //실제 데이터는 유저 데이터를 보고 입력 할 것
+        for(int i =0; i<table.Count;++i)
+        {
+            var u = unitDataList.FirstOrDefault(v=> v.ID == table[i].UnitID);
+            if(u == null)
+            {
+                unitDataList.Add( new UnitData
+                {
+                    Rank = table[i].Rank,
+                    ID = table[i].UnitID,
+                    Level = table[i].Level
+                });
+            }
+        }
+        _myPlayer.Init(_board,unitDataList,0);
+
+
+
+        _friendPlayer = new Player();
+        //실제 데이터는 AI 저장 데이터를 보고 입력 할 것
+        _friendPlayer.Init(_board,unitDataList,0);
+
+  
+        _dictGameObjects["TouchBeganCircle"].SetActive(false);
+        _dictGameObjects["TouchMovedCircle"].SetActive(false);
+         ActiveWorldButton(false,Vector2.zero);
 
     }
 
