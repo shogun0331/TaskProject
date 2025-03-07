@@ -29,6 +29,7 @@ public class CGame : MonoBehaviour, IView
         Presenter.Bind(DEF.Game, this);
         ODataBaseManager.Set(DEF.Game, this);
         InputController.I.TouchWorldEvent += OnTouch;
+        Application.targetFrameRate = 60;
     }
 
     void OnDisable()
@@ -40,6 +41,7 @@ public class CGame : MonoBehaviour, IView
 
     void Start()
     {
+        GameStart();
      
     }
 
@@ -111,16 +113,16 @@ public class CGame : MonoBehaviour, IView
 
     }
 
-    public void Merge()
-    {
-        if(_targetTile == null)  return;
-        Debug.Log(_targetTile.UnitID);
-
-    }
-
     public void SellUnit()
     {
-        
+        _targetTile.SellUnit();
+        if(_targetTile.UnitCount == 0) ActiveWorldButton(false,Vector2.zero); 
+    }
+
+    public void Merge()
+    {
+        _targetTile.Merge();
+        ActiveWorldButton(false,Vector2.zero);
     }
 
     
@@ -209,7 +211,7 @@ public class CGame : MonoBehaviour, IView
         _dictGameObjects["WorldButtons"].SetActive(isActive);
         if(isActive)
         {
-            _dictGameObjects["Button_Merge"].SetActive(_targetTile.Max);
+            _dictGameObjects["Button_Merge"].SetActive(_targetTile.Max && (int)_targetTile.Rank < (int)UnitRank.A);
             _dictGameObjects["WorldButtons"].transform.position = position;     
         }
     }
@@ -244,9 +246,7 @@ public class CGame : MonoBehaviour, IView
                     _dictGameObjects["TouchMovedCircle"].transform.position = tile.Position;
                     _line.gameObject.SetActive(true);
                     _line.SetPoint(_beganTile.Position, tile.Position);
-                    
                 }
-                
                 
                 break;
 
@@ -320,8 +320,7 @@ public class CGame : MonoBehaviour, IView
             case DEF.P_WAVE_END:
                 Timer.Create(1, () =>
                 {
-                    _wave++;
-                    _board.WaveStart(_wave);
+                    NextWave();
                     GBLog.Log("GAME", "WaveStart" + _wave, Color.green);
                 });
                 break;
@@ -330,6 +329,7 @@ public class CGame : MonoBehaviour, IView
                 _board.RemoveMob(data.Get<GameObject>());
                 break;
 
+         
 
         }
 

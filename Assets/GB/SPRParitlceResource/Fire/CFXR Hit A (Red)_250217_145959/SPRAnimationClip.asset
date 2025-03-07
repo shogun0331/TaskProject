@@ -33,7 +33,7 @@ MonoBehaviour:
   - {fileID: 124498324, guid: 3aecda67e0e3bd249923112ded2f411f, type: 3}
   - {fileID: 1638304187, guid: 3aecda67e0e3bd249923112ded2f411f, type: 3}
   - {fileID: -631596470, guid: 3aecda67e0e3bd249923112ded2f411f, type: 3}
-  Speed: 3
+  Speed: 2
   IsLoop: 0
   skins:
     list: []

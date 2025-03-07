@@ -2,7 +2,7 @@ using System;
 [Serializable]
 public class UnitData 
 {
-    public string Rank;
+    public UnitRank Rank;
     public string ID;
     public int Level;
 }

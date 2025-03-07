@@ -28,7 +28,7 @@ public class Player
     //강화 레벨 관리
     Dictionary<string,int> _dictUpradeLevel;
     //소환 할수 있는 유닛 관리
-    Dictionary<string,List<UnitData>> _dictUnitIDData;
+    Dictionary<UnitRank,List<UnitData>> _dictUnitIDData;
 
     //게임보드
     Board _board;
@@ -53,12 +53,12 @@ public class Player
         _dictUpradeLevel["Summon"] = 1;
 
 
-        _dictUnitIDData = new Dictionary<string, List<UnitData>>();
-        _dictUnitIDData["C"] = new List<UnitData>();
-        _dictUnitIDData["B"] = new List<UnitData>();
-        _dictUnitIDData["A"] = new List<UnitData>();
-        _dictUnitIDData["S"] = new List<UnitData>();
-        _dictUnitIDData["SS"] = new List<UnitData>();
+        _dictUnitIDData = new Dictionary<UnitRank, List<UnitData>>();
+        _dictUnitIDData[UnitRank.C] = new List<UnitData>();
+        _dictUnitIDData[UnitRank.B] = new List<UnitData>();
+        _dictUnitIDData[UnitRank.A] = new List<UnitData>();
+        _dictUnitIDData[UnitRank.S] = new List<UnitData>();
+        _dictUnitIDData[UnitRank.SS] = new List<UnitData>();
 
         foreach(var v in units) _dictUnitIDData[v.Rank].Add(v);
 
@@ -74,9 +74,9 @@ public class Player
 
     public void Summon()
     {
-        if(!CheckSummon()) return;
+        // if(!CheckSummon()) return;
         
-        _gold -= _summonPrice;
+        // _gold -= _summonPrice;
         //유닛 수 체크 
         _summonPrice += DEF.SUMMON_ADD_GOLD;
         if(ID == 0) 
@@ -109,6 +109,23 @@ public class Player
         return true;
     }
 
+    public void Merge(Tile tile)
+    {
+        if(tile.Rank == UnitRank.A) return;
+
+        int irank = (int)tile.Rank;
+        irank ++;
+
+        tile.ClearUnits();
+        var unit = CreateUnit(GetRandomUnitData((UnitRank)irank));
+        unit.transform.SetParent(_board.transform);
+        int idx = _board.ContainsUnitTeam(unit.ID,ID);
+        if(idx == -1)
+            tile.AddUnit(unit);
+        else 
+            _board.AddUnit(this,unit);
+    }
+
 
       /// <summary>
     /// 유닛 생성
@@ -120,6 +137,12 @@ public class Player
         var unit = ObjectPooling.Create("Unit/"+ data.ID,5).GetComponent<Unit>();
         unit.SetData(this,data.Level);
         return unit;
+    }
+
+    public void DeadMob(GameObject mob, MobTableProb prob)
+    {
+        _board.RemoveMob(mob);
+        AddGold(prob.Gold);
     }
 
     public void AddGold(int gold)
@@ -135,9 +158,14 @@ public class Player
         //확률 
         int[] percents = new int[3] {prob.C_Weight,prob.B_Weight,prob.A_Weight,};
         int randRank = RandomUtil.NextWeightedInd(percents);
-        if(randRank == 0)       return _dictUnitIDData["C"][Random.Range(0,_dictUnitIDData["C"].Count)];
-        else if(randRank == 1)  return _dictUnitIDData["B"][Random.Range(0,_dictUnitIDData["B"].Count)];
-        else                    return _dictUnitIDData["A"][Random.Range(0,_dictUnitIDData["A"].Count)];
+        if(randRank == 0)       return _dictUnitIDData[UnitRank.C][Random.Range(0,_dictUnitIDData[UnitRank.C].Count)];
+        else if(randRank == 1)  return _dictUnitIDData[UnitRank.B][Random.Range(0,_dictUnitIDData[UnitRank.B].Count)];
+        else                    return _dictUnitIDData[UnitRank.A][Random.Range(0,_dictUnitIDData[UnitRank.A].Count)];
+    }
+
+    UnitData GetRandomUnitData(UnitRank rank)
+    {
+        return _dictUnitIDData[rank][Random.Range(0,_dictUnitIDData[rank].Count)];
     }
     
 }

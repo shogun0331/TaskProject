@@ -74,6 +74,7 @@ MonoBehaviour:
   _id: BlueBird
   _level: 1
   _anim: {fileID: 3983824747400129064}
+  _projectTileID: N_Bullet
   references:
     version: 2
     RefIds:

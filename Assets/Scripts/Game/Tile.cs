@@ -16,7 +16,7 @@ public class Tile
     {
         get
         {
-            if (_unitList == null || _unitList.Count < 3) return false;
+            if (_unitList == null || !Max) return false;
             return true;
         }
     }
@@ -36,7 +36,6 @@ public class Tile
         {
             if (_unitList == null) return false;
            
-
             int weight = 0;
             for (int i = 0; i < _unitList.Count; ++i) weight += _unitList[i].weight;
             return weight >= 3;
@@ -60,6 +59,16 @@ public class Tile
         }
     }
 
+    public UnitRank Rank
+    {
+        get
+        {
+            if (_unitList == null || _unitList.Count == 0 || _unitList[0] == null) return UnitRank.C;
+             return _unitList[0].rank;
+        }
+
+    }
+
     public void AddUnit(Unit unit)
     {
         _unitList.Add(unit);
@@ -74,11 +83,14 @@ public class Tile
     public bool Merge()
     {
         if (!IsMerge) return false;
-        //결합 알리기
-
-        //자체 해결
-        // Presenter.Send(DEF.Game, "Merge", this);
+        //결합
+        _unitList[0].player.Merge(this);
         return true;
+    }
+
+    public void SellUnit()
+    {
+
     }
 
     public void ClearUnits()

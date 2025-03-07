@@ -278,6 +278,7 @@ MonoBehaviour:
   _id: Bee
   _level: 1
   _anim: {fileID: 8540520081253857833}
+  _projectTileID: N_Bullet
   references:
     version: 2
     RefIds:

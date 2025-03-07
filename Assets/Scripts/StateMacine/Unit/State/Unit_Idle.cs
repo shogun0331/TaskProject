@@ -8,11 +8,16 @@ public class Unit_Idle : IMachine
     float _atkTime;
     float _atkDelay;
 
+    Transform _target;
+
     public void OnEnter()
     {
         OnEndAttack();
         _unit.anim.EndEvent.AddListener(OnEndAttack);
+        _unit.anim.TriggerEvent.AddListener(OnTriggerEvent);
     }
+
+
 
     public void OnUpdate()
     {
@@ -29,6 +34,7 @@ public class Unit_Idle : IMachine
     public void OnExit()
     {
         _unit.anim.EndEvent.RemoveListener(OnEndAttack);
+        _unit.anim.TriggerEvent.RemoveListener(OnTriggerEvent);
     }
 
     public void OnEvent(string eventName)
@@ -38,9 +44,9 @@ public class Unit_Idle : IMachine
 
     void Fire()
     {
-        var target  = FindTarget();
+        _target  = FindTarget();
 
-        if(target != null)
+        if(_target != null)
         {
             _isAtk = true;
             _unit.anim.Play("Attack");
@@ -74,11 +80,37 @@ public class Unit_Idle : IMachine
         return nearTarget;
     }
 
+    void OnTriggerEvent(TriggerData data)
+    {
+       Attack();
+
+    }
+
+    void Attack()
+    {
+         _target  = FindTarget();
+        if(_target == null) return;
+        if(!_target.gameObject.activeSelf) return;
+        var oj = ObjectPooling.Create("ProjectTile/"+_unit.projectTileID);
+
+        if(oj == null) return;
+        
+        
+        Hit hit = new Hit
+        {
+            player = _unit.player,
+            AD = _unit.status.AD
+        };
+
+        oj.transform.position = _unit.transform.position;
+        oj.GetComponent<ProjectTile>().SetTarget(_target).SetHit(hit);
+        
+    }
+
     void OnEndAttack()
     {
         _atkDelay = 1f / _unit.status.A_SPD;
         _isAtk = false;
-        _atkTime = 0;
         _unit.anim.Play("Idle");
     }
 

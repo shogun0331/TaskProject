@@ -74,6 +74,7 @@ MonoBehaviour:
   _id: Mushroom
   _level: 1
   _anim: {fileID: 323400019409527220}
+  _projectTileID: N_Bullet
   references:
     version: 2
     RefIds:

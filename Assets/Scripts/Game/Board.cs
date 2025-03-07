@@ -96,12 +96,20 @@ public class Board : MonoBehaviour
     /// </summary>
     /// <param name="unitID"></param>
     /// <returns></returns> <summary>
-    int ContainsUnitTeam(string unitID)
+    public int ContainsUnitTeam(string unitID , int playerid )
     {
         for(int i = 0; i< _myTiles.Length; ++i)
         {
-            //유닛 아이디가 같으며, 유닛 무게가 Max가 아닐 경우 
-            if(_myTiles[i].UnitID == unitID && !_myTiles[i].Max) return i;
+            if(playerid == 0)
+            {
+                //유닛 아이디가 같으며, 유닛 무게가 Max가 아닐 경우 
+                if(_myTiles[i].UnitID == unitID && !_myTiles[i].Max) return i;
+            }
+            else
+            {
+                if(_friendTiles[i].UnitID == unitID && !_friendTiles[i].Max) return i;
+            }
+            
         }
         return -1;
     }
@@ -113,7 +121,7 @@ public class Board : MonoBehaviour
     public void AddUnit(Player player,Unit unit)
     {
         Tile[] tiles = player.ID == 0 ? _myTiles : _friendTiles;
-        int idx = ContainsUnitTeam(unit.ID);
+        int idx = ContainsUnitTeam(unit.ID,player.ID);
         //낄자리 없음
         if(idx == -1)
         {

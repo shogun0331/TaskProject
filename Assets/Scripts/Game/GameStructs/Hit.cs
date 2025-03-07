@@ -1,4 +1,6 @@
 public struct Hit
 {  
-    public Status Attacker;
+    public Player player;
+    public int AD;
+    public int AP;
 }

@@ -4,12 +4,15 @@ using GB;
 using UnityEngine;
 
 public enum UnitState{Idle,Move,Dead}
+public enum UnitRank{C = 0,B = 1,A = 2,S = 3,SS = 4}
+
 public class Unit : StateMachine<UnitState>
 {
     [SerializeField] string _id;
 
     public string ID{get{return _id;}}
     Player _player;
+    public Player player{get{return _player;}}
     
     [SerializeField] int _level = 1;
     public int Level{get{return _level;}}
@@ -35,6 +38,15 @@ public class Unit : StateMachine<UnitState>
 
     int _weight;
     public int weight{get{return _weight;}}
+
+    [SerializeField] string _projectTileID;
+
+    public string projectTileID { get{return _projectTileID;} }
+
+    UnitRank _rank;
+    public UnitRank rank{get{return _rank;}}
+
+    
 
 
     
@@ -110,6 +122,7 @@ public class Unit : StateMachine<UnitState>
                 A_SPD = _prob.A_SPD,
                 A_DIST = _prob.A_DIST,
             };
+            _rank = _prob.Rank;
         }
         return this;
     }

@@ -187,7 +187,7 @@ public class UnitTableProb : GameDataProb
 {
 		[JsonProperty] public readonly string ID;
 	[JsonProperty] public readonly string UnitID;
-	[JsonProperty] public readonly string Rank;
+	[JsonProperty] public readonly UnitRank Rank;
 	[JsonProperty] public readonly int Level;
 	[JsonProperty] public readonly int ATK;
 	[JsonProperty] public readonly float A_SPD;

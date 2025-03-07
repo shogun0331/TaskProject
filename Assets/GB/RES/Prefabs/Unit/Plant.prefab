@@ -278,6 +278,7 @@ MonoBehaviour:
   _id: Plant
   _level: 1
   _anim: {fileID: 5616065147627575960}
+  _projectTileID: N_Bullet
   references:
     version: 2
     RefIds:

@@ -158,6 +158,7 @@ MonoBehaviour:
   _id: Chicken
   _level: 1
   _anim: {fileID: 6733893723442971535}
+  _projectTileID: N_Bullet
   references:
     version: 2
     RefIds:

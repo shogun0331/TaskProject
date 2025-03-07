@@ -11,9 +11,15 @@ public struct RES_PREFAB
     
     public static RES_PREFAB FX_BOING = new RES_PREFAB{path = "FX/BOING"};
     
+    public static RES_PREFAB FX_FX_Boom1 = new RES_PREFAB{path = "FX/FX_Boom1"};
+    
     public static RES_PREFAB HPbar_NormalHP = new RES_PREFAB{path = "HPbar/NormalHP"};
     
+    public static RES_PREFAB HPbar_N_DamageText = new RES_PREFAB{path = "HPbar/N_DamageText"};
+    
     public static RES_PREFAB Mobs_RedPig = new RES_PREFAB{path = "Mobs/RedPig"};
+    
+    public static RES_PREFAB ProjectTile_N_Bullet = new RES_PREFAB{path = "ProjectTile/N_Bullet"};
     
     public static RES_PREFAB Unit_Bee = new RES_PREFAB{path = "Unit/Bee"};
     

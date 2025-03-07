@@ -23,4 +23,11 @@ MonoBehaviour:
   skins:
     list: []
   Triggers:
-    list: []
+    list:
+    - key: 3
+      value:
+      - Str: Attack
+        Vec3: {x: 0, y: 0, z: 0}
+        Float: 0
+        Int: 0
+      duplicatedKey: 0
