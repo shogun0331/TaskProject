@@ -121,9 +121,23 @@ public class Player
         unit.transform.SetParent(_board.transform);
         int idx = _board.ContainsUnitTeam(unit.ID,ID);
         if(idx == -1)
+        {
             tile.AddUnit(unit);
+            CreateCreateFX().transform.position = tile.Position;
+        }
         else 
-            _board.AddUnit(this,unit);
+        {
+            var mTile = _board.GetTile(idx,ID);
+            mTile.AddUnit(unit,tile.Position);
+            CreateCreateFX().transform.position = tile.Position;
+        }
+    }
+
+    GameObject CreateCreateFX()
+    {
+         var eff = ObjectPooling.Create(RES_PREFAB.FX_UnitCreateFX,5);
+    
+        return eff;
     }
 
 

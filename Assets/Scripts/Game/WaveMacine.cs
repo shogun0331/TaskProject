@@ -1,5 +1,5 @@
 using System;
-using System.Collections.Generic;
+
 using GB;
 using UnityEngine;
 
@@ -69,8 +69,12 @@ public class WaveMacine
             _isBossWave = true;
             _waveTotalTime = _nomalTable[_waveID].Dealay;
         }
+
         CreateMob();
 
+        if(_isBossWave)
+            Timer.Create(0.5f,CreateMob);
+        
         Presenter.Send(DEF.P_GameScene, "Time", (int)(_waveTotalTime - _waveTime));
         Presenter.Send(DEF.P_GameScene,"Wave",wave);
 
@@ -95,10 +99,6 @@ public class WaveMacine
         _board.AddMob(mob.gameObject);
 
         _waveCount ++;
-
-        // mob = ObjectPooling.Create("Mobs/" + mobName).GetComponent<Mob>();
-        // mob.MobSetting(_nomalTable[_waveID].MobID).SetMovePath(TOP_PATH).Play();
-        // _board.AddMob(mob.gameObject);
         
     }
 

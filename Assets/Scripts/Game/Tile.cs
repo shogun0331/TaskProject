@@ -78,6 +78,15 @@ public class Tile
 
     }
 
+    public void AddUnit(Unit unit, Vector2 position)
+    {
+        _unitList.Add(unit);
+        unit.transform.position = position;
+        unit.SetTile(this);
+        unit.SetMovePosition(GetUnitPosition(_unitList.Count - 1));
+
+    }
+
 
     // 결합
     public bool Merge()

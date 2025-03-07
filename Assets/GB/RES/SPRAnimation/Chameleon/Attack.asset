@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 148ba5ea8e22b3a499e2aae2ef746a94, type: 3}
+  m_Name: Attack
+  m_EditorClassIdentifier: 
+  _sprites:
+  - {fileID: -7368435781440860235, guid: 9d3a57bf16487764588287654b487d2d, type: 3}
+  - {fileID: 4622419745521228646, guid: 9d3a57bf16487764588287654b487d2d, type: 3}
+  - {fileID: 6564382496247686235, guid: 9d3a57bf16487764588287654b487d2d, type: 3}
+  - {fileID: -8633236056057106655, guid: 9d3a57bf16487764588287654b487d2d, type: 3}
+  - {fileID: -1307247001909465413, guid: 9d3a57bf16487764588287654b487d2d, type: 3}
+  - {fileID: 6202806747841852185, guid: 9d3a57bf16487764588287654b487d2d, type: 3}
+  - {fileID: 6139873272270796571, guid: 9d3a57bf16487764588287654b487d2d, type: 3}
+  - {fileID: 8888895558841912136, guid: 9d3a57bf16487764588287654b487d2d, type: 3}
+  - {fileID: 247338421333021131, guid: 9d3a57bf16487764588287654b487d2d, type: 3}
+  - {fileID: 4866798855422515422, guid: 9d3a57bf16487764588287654b487d2d, type: 3}
+  Speed: 2
+  IsLoop: 0
+  skins:
+    list: []
+  Triggers:
+    list:
+    - key: 6
+      value:
+      - Str: 
+        Vec3: {x: 0, y: 0, z: 0}
+        Float: 0
+        Int: 0
+      duplicatedKey: 0

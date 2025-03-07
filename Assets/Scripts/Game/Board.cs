@@ -62,15 +62,13 @@ public class Board : MonoBehaviour
         return count;
     }
 
-    public Tile GetTile(int x, int y)
-    {
-        int idx = x + (y * TILE_WIDTH);
-        return _myTiles[idx];
-    }
 
-    public Tile GetTile(int index)
+    public Tile GetTile(int index, int playerid)
     {
+        if(playerid == 0)
         return _myTiles[index];
+        else
+        return _friendTiles[index];
     }
 
     public Tile GetTile(Vector2 point)
@@ -132,12 +130,14 @@ public class Board : MonoBehaviour
             int rand = Random.Range(0,list.Count);
             list[rand].AddUnit(unit);
             CreateBoingFX().transform.position = list[rand].Position;
+            CreateCreateFX().transform.position = list[rand].Position;
         }
         else
         {
             unit.transform.SetParent(transform);
             tiles[idx].AddUnit(unit);
             CreateBoingFX().transform.position = tiles[idx].Position;
+            CreateCreateFX().transform.position = tiles[idx].Position;
         }
     }
 
@@ -147,10 +147,20 @@ public class Board : MonoBehaviour
     /// <returns>파티클</returns>
     GameObject CreateBoingFX()
     {
-        var eff = ObjectPooling.Create(RES_PREFAB.FX_BOING);
+        var eff = ObjectPooling.Create(RES_PREFAB.FX_BOING,5);
         eff.transform.SetParent(transform);
+        
         return eff;
     }
+    GameObject CreateCreateFX()
+    {
+         var eff = ObjectPooling.Create(RES_PREFAB.FX_UnitCreateFX,5);
+        eff.transform.SetParent(transform);
+
+        return eff;
+    }
+
+    
     
     
 

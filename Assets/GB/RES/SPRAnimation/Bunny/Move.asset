@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 148ba5ea8e22b3a499e2aae2ef746a94, type: 3}
+  m_Name: Move
+  m_EditorClassIdentifier: 
+  _sprites:
+  - {fileID: 4262997996146482006, guid: aec37b825939c4640ba5db40252ff5e7, type: 3}
+  - {fileID: -652679218647781714, guid: aec37b825939c4640ba5db40252ff5e7, type: 3}
+  - {fileID: -7457264366388824657, guid: aec37b825939c4640ba5db40252ff5e7, type: 3}
+  - {fileID: 727784026202000463, guid: aec37b825939c4640ba5db40252ff5e7, type: 3}
+  - {fileID: 6503510597222456862, guid: aec37b825939c4640ba5db40252ff5e7, type: 3}
+  - {fileID: -6765971579338004396, guid: aec37b825939c4640ba5db40252ff5e7, type: 3}
+  - {fileID: 8433476425414401976, guid: aec37b825939c4640ba5db40252ff5e7, type: 3}
+  - {fileID: -650411981089485559, guid: aec37b825939c4640ba5db40252ff5e7, type: 3}
+  - {fileID: -5730513962207898999, guid: aec37b825939c4640ba5db40252ff5e7, type: 3}
+  - {fileID: 2053501823536692338, guid: aec37b825939c4640ba5db40252ff5e7, type: 3}
+  - {fileID: 2379021128179141229, guid: aec37b825939c4640ba5db40252ff5e7, type: 3}
+  - {fileID: 247592362175971990, guid: aec37b825939c4640ba5db40252ff5e7, type: 3}
+  Speed: 1.5
+  IsLoop: 1
+  skins:
+    list: []
+  Triggers:
+    list: []

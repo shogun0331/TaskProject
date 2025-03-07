@@ -13,11 +13,10 @@ MonoBehaviour:
   m_Name: Attack
   m_EditorClassIdentifier: 
   _sprites:
-  - {fileID: 2539410780444020406, guid: 02f6a2469272a1740a629fdc51415d8f, type: 3}
-  - {fileID: 5825911995796837348, guid: 02f6a2469272a1740a629fdc51415d8f, type: 3}
-  - {fileID: -5080670395297360898, guid: 02f6a2469272a1740a629fdc51415d8f, type: 3}
-  - {fileID: -8636460183390901365, guid: 02f6a2469272a1740a629fdc51415d8f, type: 3}
-  - {fileID: 2269405256764561083, guid: 02f6a2469272a1740a629fdc51415d8f, type: 3}
+  - {fileID: -6399027368534209264, guid: 6800e71ba0f7fb540975b565c43a1930, type: 3}
+  - {fileID: 4404715702971333830, guid: 6800e71ba0f7fb540975b565c43a1930, type: 3}
+  - {fileID: 5776852391583572303, guid: 6800e71ba0f7fb540975b565c43a1930, type: 3}
+  - {fileID: 3212130233290299859, guid: 6800e71ba0f7fb540975b565c43a1930, type: 3}
   Speed: 1.5
   IsLoop: 0
   skins:

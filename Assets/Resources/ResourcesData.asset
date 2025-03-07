@@ -27,11 +27,17 @@ MonoBehaviour:
     - key: FX/FX_Boom1
       value: {fileID: 2936693082519958947, guid: 88b34b6d16b90e14cbc71e014c37b3ae, type: 3}
       duplicatedKey: 0
+    - key: FX/UnitCreateFX
+      value: {fileID: 4787119098436819035, guid: 3f511e295f4d1ab42a2d1fb6e1059658, type: 3}
+      duplicatedKey: 0
     - key: HPbar/NormalHP
       value: {fileID: 9023195427032714170, guid: a45c86c5011a9884bba6f027da8cdb68, type: 3}
       duplicatedKey: 0
     - key: HPbar/N_DamageText
       value: {fileID: 6063671503264773335, guid: c854f1ada6198754eb2e2e5368705d84, type: 3}
+      duplicatedKey: 0
+    - key: Mobs/Bunny
+      value: {fileID: 5078917668297803132, guid: b3c933fb7768de9438d9d8a7bbc6ef7a, type: 3}
       duplicatedKey: 0
     - key: Mobs/RedPig
       value: {fileID: 6737120119035961191, guid: 451a7bcc0fa396749bd2cbf5b5fc2188, type: 3}
@@ -45,8 +51,14 @@ MonoBehaviour:
     - key: Unit/BlueBird
       value: {fileID: 2897065981780611246, guid: 7734341d99aada74a9a315e09a0a25e6, type: 3}
       duplicatedKey: 0
+    - key: Unit/Chameleon
+      value: {fileID: 3128393053132126679, guid: d25934b47fee1994aa89b6df200e888a, type: 3}
+      duplicatedKey: 0
     - key: Unit/Chicken
       value: {fileID: 4104298866019919363, guid: 8cfe1e7fc6c69ed4681ca8abfc8e27bc, type: 3}
+      duplicatedKey: 0
+    - key: Unit/FatBird
+      value: {fileID: 7521943801072981155, guid: 3260cd3d23f649646af39dcc50049327, type: 3}
       duplicatedKey: 0
     - key: Unit/Mushroom
       value: {fileID: 2373066132874778384, guid: b5e2ba230c0149544a4539320dbcf531, type: 3}
