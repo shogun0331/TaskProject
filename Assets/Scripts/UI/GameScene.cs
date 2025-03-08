@@ -1,5 +1,6 @@
 
 using GB;
+using UnityEditor.UI;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -34,9 +35,7 @@ public class GameScene : UIScreen
 
     private void OnEnable()
     {
-        if(ODataBaseManager.Contains("GOLD"))mTexts["GOLD"].text = ODataBaseManager.Get<int>("GOLD").ToString("N0");
-        ODataBaseManager.Bind(this,"GOLD",(value)=>{mTexts["GOLD"].text = value.Get<int>().ToString("N0");});
-
+       
         if(ODataBaseManager.Contains("SUMMON_GOLD"))mTexts["SUMMON_GOLD"].text = ODataBaseManager.Get<int>("SUMMON_GOLD").ToString("N0");
         ODataBaseManager.Bind(this,"SUMMON_GOLD",(value)=>{mTexts["SUMMON_GOLD"].text = value.Get<int>().ToString("N0");});
 
@@ -48,7 +47,7 @@ public class GameScene : UIScreen
 
     private void OnDisable()
     {
-        ODataBaseManager.UnBind(this,"GOLD");
+        
         ODataBaseManager.UnBind(this,"SUMMON_GOLD");
         ODataBaseManager.UnBind(this,"SUMMON_ACTIVE");
         Presenter.UnBind("GameScene", this);
@@ -94,6 +93,9 @@ public class GameScene : UIScreen
 
             case "WaveCount":
                 SetWaveCount(data.Get<int>());
+                break;
+            case "UnitCount":
+                
                 break;
         }
     }

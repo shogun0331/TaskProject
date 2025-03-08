@@ -47,6 +47,13 @@ public class ProjectTile : MonoBehaviour
 
         if(projectTileType == ProjectTileType.Targeting)
         {
+            if(_target == null)
+            {
+                Boom();
+                ObjectPooling.Return(gameObject);
+                return;
+            }
+
             if(!_target.gameObject.activeSelf || _mob.IsDead)
             {
                 Boom();

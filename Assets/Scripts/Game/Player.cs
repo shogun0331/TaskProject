@@ -42,12 +42,12 @@ public class Player
 
     bool _isSummon;
 
+    
+
     public void Init(Board board,List<UnitData> units ,int playerID)
     {
         
         _id = playerID;
-
-
         _summonPrice = 20;
         _maxUnitCount = 20;
 
@@ -72,50 +72,64 @@ public class Player
         _gold = 220;
         _luck = 0;
 
+
         if(ID == 0) 
         {
+            _gold = 100000;
+            _luck = 1000;
             ODataBaseManager.Set("GOLD",_gold);
             ODataBaseManager.Set("LUCK",_luck);
             ODataBaseManager.Set("SUMMON_GOLD",_summonPrice);
             ODataBaseManager.Set("Player"+_id,this);
+            ODataBaseManager.Set("UnitCount",0);
         }
+        else
+        {
+            ODataBaseManager.Set("FR_GOLD",_gold);
+        }
+
+    }
+
+    public Tile[] GetTiles()
+    {
+        return _board.GetTiles(_id);
+
     }
 
     public void Upgrade(string id)
     {
         _dictUpradeLevel[id]++;
-        _dictUpradeLevel[id].GBLog(id);
-
     }
 
     public void AddLUCK(int luck)
     {
         _luck += luck;
-       if(ID == 0)  ODataBaseManager.Set("LUCK",_luck);
+       if(ODataBaseManager.Get<Player>("Player"+_id) == this &&  ID == 0)  ODataBaseManager.Set("LUCK",_luck);
     }
     public void SubtracktLUCK(int luck)
     {
         _luck -= luck;
-       if(ID == 0)  ODataBaseManager.Set("LUCK",_luck);
+       if(CheckMyPlayer())  ODataBaseManager.Set("LUCK",_luck);
     }
 
     public void AddGold(int gold)
     {
         _gold += gold;
         CheckSummonGold();
-        if(ID == 0)  ODataBaseManager.Set("GOLD",_gold);
+        if(CheckMyPlayer())   ODataBaseManager.Set("GOLD",_gold);
     }
     public void SubtractGold(int gold)
     {
         _gold -= gold;
-        if(ID == 0) ODataBaseManager.Set("GOLD",_gold);
+        
+        if(CheckMyPlayer()) ODataBaseManager.Set("GOLD",_gold);
     }
 
-    public void Summon()
+    public Tile Summon()
     {
-        // if(!CheckSummon()) return;
+        if(!CheckSummon()) return null;
         
-        // _gold -= _summonPrice;
+        _gold -= _summonPrice;
         //유닛 수 체크 
         _summonPrice += DEF.SUMMON_ADD_GOLD;
         if(ID == 0) 
@@ -123,34 +137,46 @@ public class Player
             ODataBaseManager.Set("SUMMON_GOLD",_summonPrice);
             ODataBaseManager.Set("GOLD",_gold);
             CheckSummonGold();
+            
         }
 
-        _board.AddUnit(this,CreateUnit(GetRandomUnitData()));
+        var unit = CreateUnit(GetRandomUnitData());
+        var tile = _board.AddUnit(this,unit);
+        return tile;
+    }
+
+    bool CheckMyPlayer()
+    {
+        if(ID == 0) return true;
+        return false;
     }
 
     public bool CheckSummonGold()
     {
-        if(Gold < SummonPrice) 
-        {
-            _isSummon = false;
-            if(ID == 0)  ODataBaseManager.Set("SUMMON_ACTIVE",_isSummon);
-            return false;
-        }
-        _isSummon = true;
-        return true;
+        if(Gold < SummonPrice)  _isSummon = false;
+        else _isSummon = true;
+        
+        if(CheckMyPlayer()) ODataBaseManager.Set("SUMMON_ACTIVE",_isSummon);
+        return _isSummon;
     }
 
     public bool CheckSummon()
     {
-        if(_board.GetUnitCount(ID) >= _maxUnitCount) return false;
+        if(!CheckUnitCount())  return false;;
         if(!CheckSummonGold()) return false;
         
         return true;
     }
 
-    public void SummonMythMerge(string unitName)
+    public bool CheckUnitCount()
     {
-        if(!CheckMythSummon(unitName)) return;
+        if(_board.GetUnitCount(ID) < _maxUnitCount) return true;
+        return false;
+    }
+
+    public Tile SummonMythMerge(string unitName)
+    {
+        if(!CheckMythSummon(unitName)) return null;
 
         var priceUnits = GetTableUnits(unitName);
         // int totalCount = 0;
@@ -170,28 +196,29 @@ public class Player
             }
         }
 
-        CreteUnit(unitName);
+        return CreteUnit(unitName);
 
     }
 
-    public void CreteUnit(string unitName)
+    Tile CreteUnit(string unitName)
     {
         UnitData unitData = null;
         foreach(var v  in _dictUnitIDData)
             unitData = v.Value.FirstOrDefault(v=>v.ID == unitName);
 
-        if(unitData == null) return;
+        if(unitData == null) return null;
 
         if(unitData.Rank == UnitRank.A ||unitData.Rank == UnitRank.S)
         Presenter.Send("Summon","Rank",unitData.Rank);
 
         var unit = CreateUnit(unitData);
         unit.transform.SetParent(_board.transform);
-        _board.AddUnit(this,unit);
+        return _board.AddUnit(this,unit);
     }
 
      public void GachaUnit(string id)
      {
+        
         UnitData data = null;
 
         if(id == "A")
@@ -210,6 +237,7 @@ public class Player
     public void Merge(Tile tile)
     {
         if(tile.Rank == UnitRank.A) return;
+        if(tile.Rank == UnitRank.S) return;
 
         int irank = (int)tile.Rank;
         irank ++;
@@ -247,14 +275,14 @@ public class Player
     {
         var unit = ObjectPooling.Create("Unit/"+ data.ID,5).GetComponent<Unit>();
         unit.SetData(this,data.Level);
-        data.ID.GBLog("CreateUnit");
+        if(CheckMyPlayer()) ODataBaseManager.Set("UnitCount",_board.GetUnitCount(ID) + 1);
+        
 
         return unit;
     }
 
-    public void DeadMob(GameObject mob, MobTableProb prob)
+    public void DeadMob(MobTableProb prob)
     {
-        _board.RemoveMob(mob);
         AddGold(prob.Gold);
     }
 
@@ -296,7 +324,13 @@ public class Player
 
     UnitData GetRandomUnitData(UnitRank rank)
     {
-        return _dictUnitIDData[rank][Random.Range(0,_dictUnitIDData[rank].Count)];
+        if(!_dictUnitIDData.ContainsKey(rank)) GBLog.Log("ERROR",rank.ToString(),Color.red);
+        int rand = Random.Range(0,_dictUnitIDData[rank].Count);
+        if(_dictUnitIDData[rank][rand] == null) GBLog.Log("ERROR RAND",rank.ToString(),Color.red);
+        
+        
+
+        return _dictUnitIDData[rank][rand];
     }
 
     /// <summary>
@@ -306,6 +340,7 @@ public class Player
     /// <returns></returns><summary>    
     public bool CheckMythSummon(string unitName)
     {
+        if(!CheckUnitCount()) return false;
         var table = GameDataManager.GetTable<MythTable>();
 
         // 유저의 신화 등급의 Unlock 체크 

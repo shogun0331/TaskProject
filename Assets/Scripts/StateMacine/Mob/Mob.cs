@@ -28,6 +28,8 @@ public class Mob : StateMachine<MobState>, IBody
     // 테이블 데이터
     MobTableProb _data;
 
+    public MobTableProb Data{get{return _data;}}
+
     // 이동 경로
     Vector2[] _movePaths;
     public Vector2[] MovePaths { get { return _movePaths; } }
@@ -158,7 +160,8 @@ public class Mob : StateMachine<MobState>, IBody
         if (IsDead)
         {
             ObjectPooling.Return(hpView.gameObject);
-            atk.player.DeadMob(gameObject, _data);
+            Presenter.Send(DEF.Game,DEF.DEAD_MOB,this);
+            // atk.player.DeadMob(gameObject, _data);
             ChangeState(MobState.Dead);
         }
 

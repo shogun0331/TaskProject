@@ -11,8 +11,8 @@ public class Unit : StateMachine<UnitState>
     [SerializeField] string _id;
 
     public string ID{get{return _id;}}
-    int _playerID;
-    public Player player{get{return ODataBaseManager.Get<Player>("Player"+_playerID);}}
+    Player _player;
+    public Player player{get{return _player;}}
     
     [SerializeField] int _level = 1;
     public int Level{get{return _level;}}
@@ -72,7 +72,7 @@ public class Unit : StateMachine<UnitState>
     
     public Unit SetData(Player player, int level)
     {
-        _playerID = player.ID;
+        _player = player;
         
         _level = level;
 

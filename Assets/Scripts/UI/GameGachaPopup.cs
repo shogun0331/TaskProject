@@ -21,16 +21,30 @@ public class GameGachaPopup : UIScreen
         _spins["B"] = mGameObject["Spin2"].GetComponent<RouletteSpin>();
         _spins["C"] = mGameObject["Spin3"].GetComponent<RouletteSpin>();
 
+       
     }
 
     private void OnEnable()
     {
         _player = ODataBaseManager.Get<Player>("Player0");
         Presenter.Bind("GameGachaPopup",this);
+
+        mTexts["A"].color = _player.Luck >= _table["A"].PriceValue ? Color.white : Color.red;
+        mTexts["B"].color = _player.Luck >= _table["B"].PriceValue ? Color.white : Color.red;
+        mTexts["C"].color = _player.Luck >= _table["C"].PriceValue ? Color.white : Color.red;
+
+        ODataBaseManager.Bind(this, "LUCK", 
+        (value) => 
+        { 
+             mTexts["A"].color = _player.Luck >= _table["A"].PriceValue ? Color.white : Color.red;
+             mTexts["B"].color = _player.Luck >= _table["B"].PriceValue ? Color.white : Color.red;
+             mTexts["C"].color = _player.Luck >= _table["C"].PriceValue ? Color.white : Color.red;
+        });
     }
 
     private void OnDisable() 
     {
+        ODataBaseManager.UnBind(this,"LUCK");
         Presenter.UnBind("GameGachaPopup", this);
 
     }
@@ -44,6 +58,9 @@ public class GameGachaPopup : UIScreen
 
     void Roulette(string id)
     {
+        if(!_player.CheckUnitCount()) return;
+        if(_player.Luck < _table[id].PriceValue) return;
+        
         
         int rand = Random.Range(0,100); 
 

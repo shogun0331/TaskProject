@@ -121,7 +121,7 @@ public class Board : MonoBehaviour
     /// 유닛 추가
     /// </summary>
     /// <param name="unitID">유닛ID</param>
-    public void AddUnit(Player player,Unit unit)
+    public Tile AddUnit(Player player,Unit unit)
     {
         Tile[] tiles = player.ID == 0 ? _myTiles : _friendTiles;
         int idx = ContainsUnitTeam(unit.ID,player.ID);
@@ -136,6 +136,7 @@ public class Board : MonoBehaviour
             list[rand].AddUnit(unit);
             CreateBoingFX().transform.position = list[rand].Position;
             CreateCreateFX().transform.position = list[rand].Position;
+            return list[rand];
         }
         else
         {
@@ -143,6 +144,7 @@ public class Board : MonoBehaviour
             tiles[idx].AddUnit(unit);
             CreateBoingFX().transform.position = tiles[idx].Position;
             CreateCreateFX().transform.position = tiles[idx].Position;
+            return tiles[idx];
         }
     }
 

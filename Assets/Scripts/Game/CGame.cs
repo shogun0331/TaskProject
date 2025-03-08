@@ -70,6 +70,7 @@ public class CGame : MonoBehaviour, IView
     public void GameOver()
     {
         GBTime.Stop(DEF.T_GAME);
+        _ai.Stop();
     }
 
     /// <summary>
@@ -271,6 +272,8 @@ public class CGame : MonoBehaviour, IView
 
     }
 
+
+    AiSystem _ai;
     
 
     void Init()
@@ -298,7 +301,12 @@ public class CGame : MonoBehaviour, IView
     
         _friendPlayer = new Player();
         //실제 데이터는 AI 저장 데이터를 보고 입력 할 것
-        _friendPlayer.Init(_board,unitDataList,0);
+        _friendPlayer.Init(_board,unitDataList,1);
+        _ai = gameObject.AddComponent<AiSystem>();
+        _ai.Init(_friendPlayer);
+        _ai.Play();
+
+
   
         _dictGameObjects["TouchBeganCircle"].SetActive(false);
         _dictGameObjects["TouchMovedCircle"].SetActive(false);
@@ -324,7 +332,10 @@ public class CGame : MonoBehaviour, IView
                 break;
 
             case DEF.DEAD_MOB:
-                _board.RemoveMob(data.Get<GameObject>());
+                var mob = data.Get<Mob>();
+                _myPlayer.DeadMob(mob.Data);
+                _friendPlayer.DeadMob(mob.Data);
+                _board.RemoveMob(data.Get<Mob>().gameObject);
                 break;
 
          
