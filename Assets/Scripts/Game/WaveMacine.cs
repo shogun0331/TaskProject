@@ -126,8 +126,6 @@ public class WaveMacine
             Presenter.Send(DEF.P_GameScene, "Time", (int)(_waveTotalTime - _waveTime));
         }
 
-
-
         if (!_isBossWave)
         {
             _waveCreateTime += dt;

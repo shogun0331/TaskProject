@@ -86,6 +86,14 @@ public class Unit_Idle : IMachine
 
     }
 
+    public int GetPercent()
+    {
+        if(_unit.rank == UnitRank.C || _unit.rank == UnitRank.B) return _unit.player.Levels["C"];
+        else if( _unit.rank == UnitRank.A) return _unit.player.Levels["A"];
+        else if( _unit.rank == UnitRank.S) return _unit.player.Levels["S"];
+        return 1;
+    }
+
     void Attack()
     {
          _target  = FindTarget();
@@ -95,11 +103,10 @@ public class Unit_Idle : IMachine
 
         if(oj == null) return;
         
-        
         Hit hit = new Hit
         {
             player = _unit.player,
-            AD = _unit.status.AD
+            AD = _unit.status.AD * GetPercent()
         };
 
         oj.transform.position = _unit.transform.position;

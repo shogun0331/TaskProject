@@ -1,16 +1,19 @@
 
 using GB;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class GameScene : UIScreen
 {
 
     CGame _game;
+    Slider _waveSlider;
 
     private void Awake()
     {
         Regist();
         RegistButton();
+        _waveSlider = mGameObject["Slider"].GetComponent<Slider>();
 
     }
     void Start()
@@ -72,6 +75,9 @@ public class GameScene : UIScreen
             case "Myth":
                 UIManager.ShowPopup(POPUP.MythPopup);
                 break;
+            case "Upgrade":
+                UIManager.ShowPopup(POPUP.UpgradePopup);
+                break;
 
         }
     }
@@ -94,6 +100,8 @@ public class GameScene : UIScreen
 
     void SetWaveCount(int count)
     {
+        float value = (float)count/(float)DEF.MOB_MAXCOUNT;
+        _waveSlider.value = value;
         mTexts["WaveCount"].text = string.Format("{0} / {1}", count, DEF.MOB_MAXCOUNT);
     }
 

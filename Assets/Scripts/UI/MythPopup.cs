@@ -26,7 +26,7 @@ public class MythPopup : UIScreen
 
     private void OnEnable()
     {
-        _player = ODataBaseManager.Get<Player>("Player");
+        _player = ODataBaseManager.Get<Player>("Player0");
         Presenter.Bind("MythPopup", this);
 
         _target = string.Empty;

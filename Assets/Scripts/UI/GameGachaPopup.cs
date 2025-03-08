@@ -25,7 +25,7 @@ public class GameGachaPopup : UIScreen
 
     private void OnEnable()
     {
-        _player = ODataBaseManager.Get<Player>("Player");
+        _player = ODataBaseManager.Get<Player>("Player0");
         Presenter.Bind("GameGachaPopup",this);
     }
 

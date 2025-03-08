@@ -5,6 +5,7 @@ namespace GB
     {
 	public const string GameGachaPopup =  "GameGachaPopup"; 
 	public const string MythPopup =  "MythPopup"; 
+	public const string UpgradePopup =  "UpgradePopup"; 
 
     }
 }

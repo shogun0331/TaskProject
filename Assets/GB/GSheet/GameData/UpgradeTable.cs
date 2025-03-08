@@ -33,8 +33,6 @@ public class UpgradeTable  : GameData
 				case "Level": return true;
 				case "PrieceID": return true;
 				case "PriceValue": return true;
-				case "AD_PER": return true;
-				case "AD_SPD_PER": return true;
 
 		  default: return false;
 
@@ -64,8 +62,6 @@ public class UpgradeTable  : GameData
 				case "Level": return data.Level;
 				case "PrieceID": return data.PrieceID;
 				case "PriceValue": return data.PriceValue;
-				case "AD_PER": return data.AD_PER;
-				case "AD_SPD_PER": return data.AD_SPD_PER;
 
 
                 default: return null;
@@ -86,8 +82,6 @@ public class UpgradeTable  : GameData
 				case "Level": return data.Level;
 				case "PrieceID": return data.PrieceID;
 				case "PriceValue": return data.PriceValue;
-				case "AD_PER": return data.AD_PER;
-				case "AD_SPD_PER": return data.AD_SPD_PER;
 
 
                 default: return null;
@@ -109,8 +103,6 @@ public class UpgradeTable  : GameData
 				case 2: return data.Level;
 				case 3: return data.PrieceID;
 				case 4: return data.PriceValue;
-				case 5: return data.AD_PER;
-				case 6: return data.AD_SPD_PER;
 
                 default: return null;
             }
@@ -155,10 +147,8 @@ public class UpgradeTableProb : GameDataProb
 {
 		[JsonProperty] public readonly string ID;
 	[JsonProperty] public readonly string UpgradeType;
-	[JsonProperty] public readonly string Level;
+	[JsonProperty] public readonly int Level;
 	[JsonProperty] public readonly string PrieceID;
 	[JsonProperty] public readonly int PriceValue;
-	[JsonProperty] public readonly float AD_PER;
-	[JsonProperty] public readonly float AD_SPD_PER;
 
 }

@@ -72,10 +72,8 @@ public class Board : MonoBehaviour
 
     public Tile GetTile(int index, int playerid)
     {
-        if(playerid == 0)
-        return _myTiles[index];
-        else
-        return _friendTiles[index];
+        if(playerid == 0) return _myTiles[index];
+        else return _friendTiles[index];
     }
 
     public Tile GetTile(Vector2 point)

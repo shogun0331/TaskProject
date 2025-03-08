@@ -69,7 +69,7 @@ public class CGame : MonoBehaviour, IView
     /// </summary>
     public void GameOver()
     {
-        // _board.GameStop();
+        GBTime.Stop(DEF.T_GAME);
     }
 
     /// <summary>
@@ -293,14 +293,12 @@ public class CGame : MonoBehaviour, IView
                 });
             }
         }
+
         _myPlayer.Init(_board,unitDataList,0);
-
-
-
+    
         _friendPlayer = new Player();
         //실제 데이터는 AI 저장 데이터를 보고 입력 할 것
         _friendPlayer.Init(_board,unitDataList,0);
-
   
         _dictGameObjects["TouchBeganCircle"].SetActive(false);
         _dictGameObjects["TouchMovedCircle"].SetActive(false);

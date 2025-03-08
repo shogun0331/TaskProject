@@ -4,15 +4,15 @@ using GB;
 using UnityEngine;
 
 public enum UnitState{Idle,Move,Dead}
-public enum UnitRank{C = 0,B = 1,A = 2,S = 3,SS = 4}
+public enum UnitRank{C = 0,B = 1,A = 2,S = 3}
 
 public class Unit : StateMachine<UnitState>
 {
     [SerializeField] string _id;
 
     public string ID{get{return _id;}}
-    Player _player;
-    public Player player{get{return _player;}}
+    int _playerID;
+    public Player player{get{return ODataBaseManager.Get<Player>("Player"+_playerID);}}
     
     [SerializeField] int _level = 1;
     public int Level{get{return _level;}}
@@ -46,8 +46,6 @@ public class Unit : StateMachine<UnitState>
     UnitRank _rank;
     public UnitRank rank{get{return _rank;}}
 
-    
-
 
     
     void Awake()
@@ -65,8 +63,6 @@ public class Unit : StateMachine<UnitState>
         RemovePassive();
     }
 
-
-
     public Unit SetTile(Tile tile)
     {
         _tile = tile;
@@ -76,12 +72,12 @@ public class Unit : StateMachine<UnitState>
     
     public Unit SetData(Player player, int level)
     {
-        _player = player;
+        _playerID = player.ID;
+        
         _level = level;
 
         if(_prob == null)
         {
-            
             var table = GameDataManager.GetTable<UnitTable>();
             var list = table.Datas.Where(v =>  v.UnitID == _id).ToList();
             if(list == null || list.Count == 0) 

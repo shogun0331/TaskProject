@@ -1,7 +1,6 @@
 using System.Collections.Generic;
 using System.Linq;
 using GB;
-using Unity.VisualScripting;
 using UnityEngine;
 
 [System.Serializable]
@@ -26,7 +25,8 @@ public class Player
     int _maxUnitCount = 20;
     public int MaxUnitCount{get{return _maxUnitCount;}}
 
-
+    //강화 레벨 관리
+    public IReadOnlyDictionary<string,int> Levels{get{return _dictUpradeLevel;}}
     //강화 레벨 관리
     Dictionary<string,int> _dictUpradeLevel;
     //소환 할수 있는 유닛 관리
@@ -44,7 +44,9 @@ public class Player
 
     public void Init(Board board,List<UnitData> units ,int playerID)
     {
+        
         _id = playerID;
+
 
         _summonPrice = 20;
         _maxUnitCount = 20;
@@ -52,9 +54,11 @@ public class Player
         _summonTable = GameDataManager.GetTable<SummonTable>();
         
         _dictUpradeLevel = new Dictionary<string, int>();
-        _dictUpradeLevel["RANKC-A"] = 1;
-        _dictUpradeLevel["RANK-S"] = 1;
+        _dictUpradeLevel["S"] = 1;
+        _dictUpradeLevel["A"] = 1;
+        _dictUpradeLevel["C"] = 1;
         _dictUpradeLevel["Summon"] = 1;
+
 
         _dictUnitIDData = new Dictionary<UnitRank, List<UnitData>>();
         _dictUnitIDData[UnitRank.C] = new List<UnitData>();
@@ -71,9 +75,40 @@ public class Player
         if(ID == 0) 
         {
             ODataBaseManager.Set("GOLD",_gold);
+            ODataBaseManager.Set("LUCK",_luck);
             ODataBaseManager.Set("SUMMON_GOLD",_summonPrice);
-            ODataBaseManager.Set("Player",this);
+            ODataBaseManager.Set("Player"+_id,this);
         }
+    }
+
+    public void Upgrade(string id)
+    {
+        _dictUpradeLevel[id]++;
+        _dictUpradeLevel[id].GBLog(id);
+
+    }
+
+    public void AddLUCK(int luck)
+    {
+        _luck += luck;
+       if(ID == 0)  ODataBaseManager.Set("LUCK",_luck);
+    }
+    public void SubtracktLUCK(int luck)
+    {
+        _luck -= luck;
+       if(ID == 0)  ODataBaseManager.Set("LUCK",_luck);
+    }
+
+    public void AddGold(int gold)
+    {
+        _gold += gold;
+        CheckSummonGold();
+        if(ID == 0)  ODataBaseManager.Set("GOLD",_gold);
+    }
+    public void SubtractGold(int gold)
+    {
+        _gold -= gold;
+        if(ID == 0) ODataBaseManager.Set("GOLD",_gold);
     }
 
     public void Summon()
@@ -139,22 +174,13 @@ public class Player
 
     }
 
-    
-
     public void CreteUnit(string unitName)
     {
-        Debug.Log(unitName);
-        Debug.Log("0");
         UnitData unitData = null;
         foreach(var v  in _dictUnitIDData)
             unitData = v.Value.FirstOrDefault(v=>v.ID == unitName);
 
-        
-
         if(unitData == null) return;
-
-        Debug.Log("1");
-        
 
         if(unitData.Rank == UnitRank.A ||unitData.Rank == UnitRank.S)
         Presenter.Send("Summon","Rank",unitData.Rank);
@@ -232,12 +258,7 @@ public class Player
         AddGold(prob.Gold);
     }
 
-    public void AddGold(int gold)
-    {
-        _gold += gold;
-        CheckSummonGold();
-        if(ID == 0)  ODataBaseManager.Set("GOLD",_gold);
-    }
+ 
 
 
     UnitData Get_UnitRandom_B_C()
