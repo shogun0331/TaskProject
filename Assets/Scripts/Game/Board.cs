@@ -14,6 +14,7 @@ public class Board : MonoBehaviour
     Tile[] _myTiles;
     Tile[] _friendTiles;
     WaveMacine _waveMacine;
+    
 
     public void Init()
     {
@@ -225,6 +226,12 @@ public class Board : MonoBehaviour
     }
     public void RemoveMob(GameObject mob)
     {
+        if(_waveMacine.IsBossWave)
+        {
+            if(mob.GetComponent<Mob>().MobType  == "B") _waveMacine.BossKill();            
+        }
+
+        
         _mobList.Remove(mob);
 
         Presenter.Send(DEF.P_GameScene, "WaveCount", _mobList.Count);

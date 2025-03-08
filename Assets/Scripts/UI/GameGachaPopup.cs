@@ -51,10 +51,7 @@ public class GameGachaPopup : UIScreen
 
         _spins[id].Play(isGacha,()=>
         {
-            if(isGacha)
-            {
-                _player.GachaUnit(id);
-            }
+            if(isGacha) _player.GachaUnit(id);
         });
 
     }

@@ -9,5 +9,6 @@ public static class DEF
 	public const string DEAD_MOB = "DEAD_MOB";
 	public const int START_GOLD = 20;
 	public const int SUMMON_ADD_GOLD = 2;
+	public const string BOSS_CLEAR = "P_BOSS_CLEAR";
 
 }

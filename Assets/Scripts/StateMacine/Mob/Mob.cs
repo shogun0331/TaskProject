@@ -2,7 +2,6 @@
 using GB;
 using UnityEngine;
 using NaughtyAttributes;
-using System.Collections.Generic;
 
 public enum MobState { Idle, Move, Dead }
 public class Mob : StateMachine<MobState>, IBody
@@ -14,6 +13,9 @@ public class Mob : StateMachine<MobState>, IBody
     //MobTable 고유 ID
     [SerializeField] string _id;
     public string ID { get { return _id; } }
+
+    string _mobType;
+    public string MobType{get{return _mobType;}}
 
     // 능력치
     Status _status;
@@ -81,6 +83,8 @@ public class Mob : StateMachine<MobState>, IBody
             M_SPD = _data.M_SPD,
             DEF = _data.DEF
         };
+
+        _mobType = _data.MobType;
 
         _hp = _status.MAX_HP;
 
@@ -164,6 +168,8 @@ public class Mob : StateMachine<MobState>, IBody
 
     void CreateDamageText(Hit hit)
     {
+
+
         if (hit.AD > 0)
         {
             var damage = ObjectPooling.Create(RES_PREFAB.HPbar_N_DamageText).GetComponent<DamageText>();
@@ -172,6 +178,7 @@ public class Mob : StateMachine<MobState>, IBody
         }
         else
         {
+
 
 
         }

@@ -221,6 +221,8 @@ public class Player
     {
         var unit = ObjectPooling.Create("Unit/"+ data.ID,5).GetComponent<Unit>();
         unit.SetData(this,data.Level);
+        data.ID.GBLog("CreateUnit");
+
         return unit;
     }
 

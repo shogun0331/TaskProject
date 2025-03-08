@@ -30,6 +30,7 @@ public class MobTable  : GameData
         {
 				case "ID": return true;
 				case "Name": return true;
+				case "MobType": return true;
 				case "MAX_HP": return true;
 				case "M_SPD": return true;
 				case "DEF": return true;
@@ -61,6 +62,7 @@ public class MobTable  : GameData
             {
 				case "ID": return data.ID;
 				case "Name": return data.Name;
+				case "MobType": return data.MobType;
 				case "MAX_HP": return data.MAX_HP;
 				case "M_SPD": return data.M_SPD;
 				case "DEF": return data.DEF;
@@ -83,6 +85,7 @@ public class MobTable  : GameData
             {
 				case "ID": return data.ID;
 				case "Name": return data.Name;
+				case "MobType": return data.MobType;
 				case "MAX_HP": return data.MAX_HP;
 				case "M_SPD": return data.M_SPD;
 				case "DEF": return data.DEF;
@@ -106,11 +109,12 @@ public class MobTable  : GameData
             {
 				case 0: return data.ID;
 				case 1: return data.Name;
-				case 2: return data.MAX_HP;
-				case 3: return data.M_SPD;
-				case 4: return data.DEF;
-				case 5: return data.Gold;
-				case 6: return data.Luck;
+				case 2: return data.MobType;
+				case 3: return data.MAX_HP;
+				case 4: return data.M_SPD;
+				case 5: return data.DEF;
+				case 6: return data.Gold;
+				case 7: return data.Luck;
 
                 default: return null;
             }
@@ -155,6 +159,7 @@ public class MobTableProb : GameDataProb
 {
 		[JsonProperty] public readonly string ID;
 	[JsonProperty] public readonly string Name;
+	[JsonProperty] public readonly string MobType;
 	[JsonProperty] public readonly int MAX_HP;
 	[JsonProperty] public readonly float M_SPD;
 	[JsonProperty] public readonly int DEF;

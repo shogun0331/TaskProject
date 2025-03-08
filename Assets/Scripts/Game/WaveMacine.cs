@@ -17,9 +17,13 @@ public class WaveMacine
     int _waveCount = 0;
     float _waveTotalTime;
     bool _isBossWave;
+
+    public bool IsBossWave{get{return _isBossWave;}}
     bool _isWavePlaying;
     Action _result;
     int _MobCount;
+
+    int _bossKillCnt = 0;
 
 
     Vector2[] BOT_PATH = new Vector2[]
@@ -68,6 +72,7 @@ public class WaveMacine
         {
             _isBossWave = true;
             _waveTotalTime = _nomalTable[_waveID].Dealay;
+            _bossKillCnt = 0;
         }
 
         CreateMob();
@@ -100,6 +105,12 @@ public class WaveMacine
 
         _waveCount ++;
         
+    }
+
+    public void BossKill()
+    {
+        _bossKillCnt ++;
+          
     }
 
     public void Update(float dt)
@@ -136,6 +147,13 @@ public class WaveMacine
         }
         else
         {
+            if(_bossKillCnt == 2)
+            {
+                Stop();
+                _result?.Invoke();
+                Presenter.Send(DEF.Game, DEF.BOSS_CLEAR);
+            }
+
             if (_waveTime > _waveTotalTime)
             {
                 Stop();
