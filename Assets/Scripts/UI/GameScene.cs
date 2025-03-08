@@ -70,7 +70,7 @@ public class GameScene : UIScreen
                 _game.Gacha();
                 break;
             case "Myth":
-                _game.Myth();
+                UIManager.ShowPopup(POPUP.MythPopup);
                 break;
 
         }

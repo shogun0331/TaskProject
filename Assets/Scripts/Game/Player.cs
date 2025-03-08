@@ -1,5 +1,7 @@
 using System.Collections.Generic;
+using System.Linq;
 using GB;
+using Unity.VisualScripting;
 using UnityEngine;
 
 [System.Serializable]
@@ -30,6 +32,8 @@ public class Player
     //소환 할수 있는 유닛 관리
     Dictionary<UnitRank,List<UnitData>> _dictUnitIDData;
 
+    public IReadOnlyDictionary<UnitRank,List<UnitData>> UnitIDDatas{get{return _dictUnitIDData;}} 
+
     //게임보드
     Board _board;
 
@@ -49,27 +53,27 @@ public class Player
         
         _dictUpradeLevel = new Dictionary<string, int>();
         _dictUpradeLevel["RANKC-A"] = 1;
-        _dictUpradeLevel["RANK-SS"] = 1;
+        _dictUpradeLevel["RANK-S"] = 1;
         _dictUpradeLevel["Summon"] = 1;
-
 
         _dictUnitIDData = new Dictionary<UnitRank, List<UnitData>>();
         _dictUnitIDData[UnitRank.C] = new List<UnitData>();
         _dictUnitIDData[UnitRank.B] = new List<UnitData>();
         _dictUnitIDData[UnitRank.A] = new List<UnitData>();
         _dictUnitIDData[UnitRank.S] = new List<UnitData>();
-        _dictUnitIDData[UnitRank.SS] = new List<UnitData>();
-
+        
         foreach(var v in units) _dictUnitIDData[v.Rank].Add(v);
 
         _board = board;
         _gold = 220;
         _luck = 0;
 
-        if(ID == 0) ODataBaseManager.Set("GOLD",_gold);
-        if(ID == 0) ODataBaseManager.Set("SUMMON_GOLD",_summonPrice);
-        
-        
+        if(ID == 0) 
+        {
+            ODataBaseManager.Set("GOLD",_gold);
+            ODataBaseManager.Set("SUMMON_GOLD",_summonPrice);
+            ODataBaseManager.Set("Player",this);
+        }
     }
 
     public void Summon()
@@ -109,6 +113,50 @@ public class Player
         return true;
     }
 
+    public void SummonMythMerge(string unitName)
+    {
+        if(!CheckMythSummon(unitName)) return;
+
+        var priceUnits = GetTableUnits(unitName);
+        // int totalCount = 0;
+        // foreach(var v in priceUnits) totalCount += v.Value;
+        var tiles = _board.GetTiles(ID);
+
+        foreach(var v in priceUnits)
+        {
+            var tileList = tiles.Where(t=>t.UnitID == v.Key).ToList();
+            tileList.Sort((a,b)=> a.UnitCount.CompareTo(b.UnitCount));
+            int cnt = v.Value;
+
+            for(int i = 0; i< tileList.Count; ++i)
+            {
+                if(cnt == 0) break;
+                cnt -= tileList[i].RemoveUnit(cnt);
+            }
+        }
+
+        CreteUnit(unitName);
+
+    }
+
+    
+
+    public void CreteUnit(string unitName)
+    {
+        UnitData unitData = null;
+        foreach(var v  in _dictUnitIDData)
+            unitData = v.Value.FirstOrDefault(v=>v.ID == unitName);
+
+        if(unitData == null) return;
+
+        if(unitData.Rank == UnitRank.A ||unitData.Rank == UnitRank.S)
+        Presenter.Send("Summon","Rank",unitData.Rank);
+
+        var unit = CreateUnit(unitData);
+        unit.transform.SetParent(_board.transform);
+        _board.AddUnit(this,unit);
+    }
+
     public void Merge(Tile tile)
     {
         if(tile.Rank == UnitRank.A) return;
@@ -135,13 +183,12 @@ public class Player
 
     GameObject CreateCreateFX()
     {
-         var eff = ObjectPooling.Create(RES_PREFAB.FX_UnitCreateFX,5);
-    
+         var eff = ObjectPooling.Create(RES_PREFAB.FX_UnitCreateFX,5);    
         return eff;
     }
 
 
-      /// <summary>
+    /// <summary>
     /// 유닛 생성
     /// </summary>
     /// <param name="unitID">유닛 ID</param>
@@ -181,5 +228,84 @@ public class Player
     {
         return _dictUnitIDData[rank][Random.Range(0,_dictUnitIDData[rank].Count)];
     }
-    
+
+    /// <summary>
+    /// 신화 등급 소환 가능 한가 체크
+    /// </summary>
+    /// <param name="id">신화 ID</param>
+    /// <returns></returns><summary>    
+    public bool CheckMythSummon(string unitName)
+    {
+        var table = GameDataManager.GetTable<MythTable>();
+
+        // 유저의 신화 등급의 Unlock 체크 
+        var unit = _dictUnitIDData[UnitRank.S].FirstOrDefault(v=>v.ID == unitName);
+        if(unit == null) return false;
+
+        // 테이블에 정의 되어있는가 체크
+        if(table.ContainsKey(unitName))
+        {
+            Dictionary<string,int> data = GetTableUnits(unitName);
+           
+            //갯수가 부족한가 체크
+            foreach(var v in data)
+            {
+                if(v.Value > GetUnitCount(v.Key)) return false;
+            }
+           
+            return true;
+
+        }
+
+        return false;
+    }
+
+    //유닛의 갯수
+    public int GetUnitCount(string id)
+    {
+        int length = _board.GetTileLength();
+        int cnt = 0;
+        for(int i = 0; i< length; ++i)
+        {
+           var tile = _board.GetTile(i,_id);
+           if(tile.UnitID == id) cnt += tile.UnitCount;
+        }
+
+        return cnt;
+    }
+
+    Dictionary<string, int> GetTableUnits(string unitName)
+    {
+        var table = GameDataManager.GetTable<MythTable>();
+        Dictionary<string, int> data = new Dictionary<string, int>();
+        if (!string.IsNullOrEmpty(table[unitName].A_ID))
+        {
+            data[table[unitName].A_ID] = 1;
+        }
+
+        if (!string.IsNullOrEmpty(table[unitName].B_ID))
+        {
+            string id = table[unitName].B_ID;
+            if (data.ContainsKey(id)) data[id]++;
+            else data[id] = 1;
+        }
+
+        if (!string.IsNullOrEmpty(table[unitName].C_ID))
+        {
+            string id = table[unitName].C_ID;
+            if (data.ContainsKey(id)) data[id]++;
+            else data[id] = 1;
+        }
+
+        if (!string.IsNullOrEmpty(table[unitName].D_ID))
+        {
+            string id = table[unitName].D_ID;
+            if (data.ContainsKey(id)) data[id]++;
+            else data[id] = 1;
+        }
+
+        return data;
+
+    }
+
 }

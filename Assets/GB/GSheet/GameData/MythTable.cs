@@ -30,13 +30,10 @@ public class MythTable  : GameData
         {
 				case "ID": return true;
 				case "A_ID": return true;
-				case "A_Value": return true;
 				case "B_ID": return true;
-				case "B_Value": return true;
 				case "C_ID": return true;
-				case "C_Value": return true;
 				case "D_ID": return true;
-				case "D_Value": return true;
+				case "Name": return true;
 
 		  default: return false;
 
@@ -63,13 +60,10 @@ public class MythTable  : GameData
             {
 				case "ID": return data.ID;
 				case "A_ID": return data.A_ID;
-				case "A_Value": return data.A_Value;
 				case "B_ID": return data.B_ID;
-				case "B_Value": return data.B_Value;
 				case "C_ID": return data.C_ID;
-				case "C_Value": return data.C_Value;
 				case "D_ID": return data.D_ID;
-				case "D_Value": return data.D_Value;
+				case "Name": return data.Name;
 
 
                 default: return null;
@@ -87,13 +81,10 @@ public class MythTable  : GameData
             {
 				case "ID": return data.ID;
 				case "A_ID": return data.A_ID;
-				case "A_Value": return data.A_Value;
 				case "B_ID": return data.B_ID;
-				case "B_Value": return data.B_Value;
 				case "C_ID": return data.C_ID;
-				case "C_Value": return data.C_Value;
 				case "D_ID": return data.D_ID;
-				case "D_Value": return data.D_Value;
+				case "Name": return data.Name;
 
 
                 default: return null;
@@ -112,13 +103,10 @@ public class MythTable  : GameData
             {
 				case 0: return data.ID;
 				case 1: return data.A_ID;
-				case 2: return data.A_Value;
-				case 3: return data.B_ID;
-				case 4: return data.B_Value;
-				case 5: return data.C_ID;
-				case 6: return data.C_Value;
-				case 7: return data.D_ID;
-				case 8: return data.D_Value;
+				case 2: return data.B_ID;
+				case 3: return data.C_ID;
+				case 4: return data.D_ID;
+				case 5: return data.Name;
 
                 default: return null;
             }
@@ -163,12 +151,9 @@ public class MythTableProb : GameDataProb
 {
 		[JsonProperty] public readonly string ID;
 	[JsonProperty] public readonly string A_ID;
-	[JsonProperty] public readonly int A_Value;
 	[JsonProperty] public readonly string B_ID;
-	[JsonProperty] public readonly int B_Value;
 	[JsonProperty] public readonly string C_ID;
-	[JsonProperty] public readonly int C_Value;
 	[JsonProperty] public readonly string D_ID;
-	[JsonProperty] public readonly int D_Value;
+	[JsonProperty] public readonly string Name;
 
 }

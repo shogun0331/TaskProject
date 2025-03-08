@@ -15,7 +15,6 @@ public class Board : MonoBehaviour
     Tile[] _friendTiles;
     WaveMacine _waveMacine;
 
-    
     public void Init()
     {
         //타일 생성 및 타일 초기화
@@ -61,6 +60,13 @@ public class Board : MonoBehaviour
 
         return count;
     }
+
+    public Tile[] GetTiles(int playerid)
+    {
+        if(playerid == 0) return _myTiles;
+        else              return _friendTiles;
+    }
+
 
 
     public Tile GetTile(int index, int playerid)

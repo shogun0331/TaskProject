@@ -1,0 +1,952 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7420d79c392566438d4712cceb65414, type: 3}
+  m_Name: LocalizationData
+  m_EditorClassIdentifier: 
+  Datas:
+    list:
+    - key: 0
+      value:
+        list:
+        - key: 23
+          value: "\uC6B4\uBE68"
+          duplicatedKey: 0
+        - key: 10
+          value: Draw
+          duplicatedKey: 0
+        - key: 22
+          value: "\u62BD\u9078"
+          duplicatedKey: 0
+        - key: 40
+          value: "\u62BD\u5956"
+          duplicatedKey: 0
+        - key: 41
+          value: "\u62BD\u734E"
+          duplicatedKey: 0
+        - key: 15
+          value: Ziehung
+          duplicatedKey: 0
+        - key: 21
+          value: Estrazione
+          duplicatedKey: 0
+        - key: 34
+          value: Sorteo
+          duplicatedKey: 0
+        - key: 14
+          value: Tirage
+          duplicatedKey: 0
+        - key: 20
+          value: Undian
+          duplicatedKey: 0
+        - key: 28
+          value: Sorteio
+          duplicatedKey: 0
+        - key: 39
+          value: "R\xFAt th\u0103m"
+          duplicatedKey: 0
+        - key: 37
+          value: "\xC7ekili\u015F"
+          duplicatedKey: 0
+        - key: 36
+          value: "\u0E08\u0E31\u0E1A\u0E09\u0E25\u0E32\u0E01"
+          duplicatedKey: 0
+        - key: 30
+          value: "\u0420\u043E\u0437\u044B\u0433\u0440\u044B\u0448"
+          duplicatedKey: 0
+        - key: 42
+          value: "\u0921\u094D\u0930\u0949"
+          duplicatedKey: 0
+      duplicatedKey: 0
+    - key: 1
+      value:
+        list:
+        - key: 23
+          value: "\uC2E0\uD654"
+          duplicatedKey: 0
+        - key: 10
+          value: 
+          duplicatedKey: 0
+        - key: 22
+          value: 
+          duplicatedKey: 0
+        - key: 40
+          value: 
+          duplicatedKey: 0
+        - key: 41
+          value: 
+          duplicatedKey: 0
+        - key: 15
+          value: 
+          duplicatedKey: 0
+        - key: 21
+          value: 
+          duplicatedKey: 0
+        - key: 34
+          value: 
+          duplicatedKey: 0
+        - key: 14
+          value: 
+          duplicatedKey: 0
+        - key: 20
+          value: 
+          duplicatedKey: 0
+        - key: 28
+          value: 
+          duplicatedKey: 0
+        - key: 39
+          value: 
+          duplicatedKey: 0
+        - key: 37
+          value: 
+          duplicatedKey: 0
+        - key: 36
+          value: 
+          duplicatedKey: 0
+        - key: 30
+          value: 
+          duplicatedKey: 0
+        - key: 42
+          value: 
+          duplicatedKey: 0
+      duplicatedKey: 0
+    - key: 2
+      value:
+        list:
+        - key: 23
+          value: "\uBCF4\uD1B5"
+          duplicatedKey: 0
+        - key: 10
+          value: 
+          duplicatedKey: 0
+        - key: 22
+          value: 
+          duplicatedKey: 0
+        - key: 40
+          value: 
+          duplicatedKey: 0
+        - key: 41
+          value: 
+          duplicatedKey: 0
+        - key: 15
+          value: 
+          duplicatedKey: 0
+        - key: 21
+          value: 
+          duplicatedKey: 0
+        - key: 34
+          value: 
+          duplicatedKey: 0
+        - key: 14
+          value: 
+          duplicatedKey: 0
+        - key: 20
+          value: 
+          duplicatedKey: 0
+        - key: 28
+          value: 
+          duplicatedKey: 0
+        - key: 39
+          value: 
+          duplicatedKey: 0
+        - key: 37
+          value: 
+          duplicatedKey: 0
+        - key: 36
+          value: 
+          duplicatedKey: 0
+        - key: 30
+          value: 
+          duplicatedKey: 0
+        - key: 42
+          value: 
+          duplicatedKey: 0
+      duplicatedKey: 0
+    - key: 3
+      value:
+        list:
+        - key: 23
+          value: "\uD310\uB9E4"
+          duplicatedKey: 0
+        - key: 10
+          value: 
+          duplicatedKey: 0
+        - key: 22
+          value: 
+          duplicatedKey: 0
+        - key: 40
+          value: 
+          duplicatedKey: 0
+        - key: 41
+          value: 
+          duplicatedKey: 0
+        - key: 15
+          value: 
+          duplicatedKey: 0
+        - key: 21
+          value: 
+          duplicatedKey: 0
+        - key: 34
+          value: 
+          duplicatedKey: 0
+        - key: 14
+          value: 
+          duplicatedKey: 0
+        - key: 20
+          value: 
+          duplicatedKey: 0
+        - key: 28
+          value: 
+          duplicatedKey: 0
+        - key: 39
+          value: 
+          duplicatedKey: 0
+        - key: 37
+          value: 
+          duplicatedKey: 0
+        - key: 36
+          value: 
+          duplicatedKey: 0
+        - key: 30
+          value: 
+          duplicatedKey: 0
+        - key: 42
+          value: 
+          duplicatedKey: 0
+      duplicatedKey: 0
+    - key: 4
+      value:
+        list:
+        - key: 23
+          value: "\uAC15\uD654"
+          duplicatedKey: 0
+        - key: 10
+          value: 
+          duplicatedKey: 0
+        - key: 22
+          value: 
+          duplicatedKey: 0
+        - key: 40
+          value: 
+          duplicatedKey: 0
+        - key: 41
+          value: 
+          duplicatedKey: 0
+        - key: 15
+          value: 
+          duplicatedKey: 0
+        - key: 21
+          value: 
+          duplicatedKey: 0
+        - key: 34
+          value: 
+          duplicatedKey: 0
+        - key: 14
+          value: 
+          duplicatedKey: 0
+        - key: 20
+          value: 
+          duplicatedKey: 0
+        - key: 28
+          value: 
+          duplicatedKey: 0
+        - key: 39
+          value: 
+          duplicatedKey: 0
+        - key: 37
+          value: 
+          duplicatedKey: 0
+        - key: 36
+          value: 
+          duplicatedKey: 0
+        - key: 30
+          value: 
+          duplicatedKey: 0
+        - key: 42
+          value: 
+          duplicatedKey: 0
+      duplicatedKey: 0
+    - key: 5
+      value:
+        list:
+        - key: 23
+          value: "\uC131\uACF5"
+          duplicatedKey: 0
+        - key: 10
+          value: 
+          duplicatedKey: 0
+        - key: 22
+          value: 
+          duplicatedKey: 0
+        - key: 40
+          value: 
+          duplicatedKey: 0
+        - key: 41
+          value: 
+          duplicatedKey: 0
+        - key: 15
+          value: 
+          duplicatedKey: 0
+        - key: 21
+          value: 
+          duplicatedKey: 0
+        - key: 34
+          value: 
+          duplicatedKey: 0
+        - key: 14
+          value: 
+          duplicatedKey: 0
+        - key: 20
+          value: 
+          duplicatedKey: 0
+        - key: 28
+          value: 
+          duplicatedKey: 0
+        - key: 39
+          value: 
+          duplicatedKey: 0
+        - key: 37
+          value: 
+          duplicatedKey: 0
+        - key: 36
+          value: 
+          duplicatedKey: 0
+        - key: 30
+          value: 
+          duplicatedKey: 0
+        - key: 42
+          value: 
+          duplicatedKey: 0
+      duplicatedKey: 0
+    - key: 6
+      value:
+        list:
+        - key: 23
+          value: "\uC2E4\uD328"
+          duplicatedKey: 0
+        - key: 10
+          value: 
+          duplicatedKey: 0
+        - key: 22
+          value: 
+          duplicatedKey: 0
+        - key: 40
+          value: 
+          duplicatedKey: 0
+        - key: 41
+          value: 
+          duplicatedKey: 0
+        - key: 15
+          value: 
+          duplicatedKey: 0
+        - key: 21
+          value: 
+          duplicatedKey: 0
+        - key: 34
+          value: 
+          duplicatedKey: 0
+        - key: 14
+          value: 
+          duplicatedKey: 0
+        - key: 20
+          value: 
+          duplicatedKey: 0
+        - key: 28
+          value: 
+          duplicatedKey: 0
+        - key: 39
+          value: 
+          duplicatedKey: 0
+        - key: 37
+          value: 
+          duplicatedKey: 0
+        - key: 36
+          value: 
+          duplicatedKey: 0
+        - key: 30
+          value: 
+          duplicatedKey: 0
+        - key: 42
+          value: 
+          duplicatedKey: 0
+      duplicatedKey: 0
+    - key: 7
+      value:
+        list:
+        - key: 23
+          value: "\uC601\uC6C5 \uB4F1\uAE09 \uC18C\uD658 \uC131\uACF5!"
+          duplicatedKey: 0
+        - key: 10
+          value: 
+          duplicatedKey: 0
+        - key: 22
+          value: 
+          duplicatedKey: 0
+        - key: 40
+          value: 
+          duplicatedKey: 0
+        - key: 41
+          value: 
+          duplicatedKey: 0
+        - key: 15
+          value: 
+          duplicatedKey: 0
+        - key: 21
+          value: 
+          duplicatedKey: 0
+        - key: 34
+          value: 
+          duplicatedKey: 0
+        - key: 14
+          value: 
+          duplicatedKey: 0
+        - key: 20
+          value: 
+          duplicatedKey: 0
+        - key: 28
+          value: 
+          duplicatedKey: 0
+        - key: 39
+          value: 
+          duplicatedKey: 0
+        - key: 37
+          value: 
+          duplicatedKey: 0
+        - key: 36
+          value: 
+          duplicatedKey: 0
+        - key: 30
+          value: 
+          duplicatedKey: 0
+        - key: 42
+          value: 
+          duplicatedKey: 0
+      duplicatedKey: 0
+    - key: 8
+      value:
+        list:
+        - key: 23
+          value: "\uC2E0\uD654 \uB4F1\uAE09 \uC18C\uD658 \uC131\uACF5!"
+          duplicatedKey: 0
+        - key: 10
+          value: 
+          duplicatedKey: 0
+        - key: 22
+          value: 
+          duplicatedKey: 0
+        - key: 40
+          value: 
+          duplicatedKey: 0
+        - key: 41
+          value: 
+          duplicatedKey: 0
+        - key: 15
+          value: 
+          duplicatedKey: 0
+        - key: 21
+          value: 
+          duplicatedKey: 0
+        - key: 34
+          value: 
+          duplicatedKey: 0
+        - key: 14
+          value: 
+          duplicatedKey: 0
+        - key: 20
+          value: 
+          duplicatedKey: 0
+        - key: 28
+          value: 
+          duplicatedKey: 0
+        - key: 39
+          value: 
+          duplicatedKey: 0
+        - key: 37
+          value: 
+          duplicatedKey: 0
+        - key: 36
+          value: 
+          duplicatedKey: 0
+        - key: 30
+          value: 
+          duplicatedKey: 0
+        - key: 42
+          value: 
+          duplicatedKey: 0
+      duplicatedKey: 0
+    - key: 9
+      value:
+        list:
+        - key: 23
+          value: "\uBCF4\uC2A4 \uD074\uB9AC\uC5B4"
+          duplicatedKey: 0
+        - key: 10
+          value: 
+          duplicatedKey: 0
+        - key: 22
+          value: 
+          duplicatedKey: 0
+        - key: 40
+          value: 
+          duplicatedKey: 0
+        - key: 41
+          value: 
+          duplicatedKey: 0
+        - key: 15
+          value: 
+          duplicatedKey: 0
+        - key: 21
+          value: 
+          duplicatedKey: 0
+        - key: 34
+          value: 
+          duplicatedKey: 0
+        - key: 14
+          value: 
+          duplicatedKey: 0
+        - key: 20
+          value: 
+          duplicatedKey: 0
+        - key: 28
+          value: 
+          duplicatedKey: 0
+        - key: 39
+          value: 
+          duplicatedKey: 0
+        - key: 37
+          value: 
+          duplicatedKey: 0
+        - key: 36
+          value: 
+          duplicatedKey: 0
+        - key: 30
+          value: 
+          duplicatedKey: 0
+        - key: 42
+          value: 
+          duplicatedKey: 0
+      duplicatedKey: 0
+    - key: 10
+      value:
+        list:
+        - key: 23
+          value: "\uD569\uC131"
+          duplicatedKey: 0
+        - key: 10
+          value: 
+          duplicatedKey: 0
+        - key: 22
+          value: 
+          duplicatedKey: 0
+        - key: 40
+          value: 
+          duplicatedKey: 0
+        - key: 41
+          value: 
+          duplicatedKey: 0
+        - key: 15
+          value: 
+          duplicatedKey: 0
+        - key: 21
+          value: 
+          duplicatedKey: 0
+        - key: 34
+          value: 
+          duplicatedKey: 0
+        - key: 14
+          value: 
+          duplicatedKey: 0
+        - key: 20
+          value: 
+          duplicatedKey: 0
+        - key: 28
+          value: 
+          duplicatedKey: 0
+        - key: 39
+          value: 
+          duplicatedKey: 0
+        - key: 37
+          value: 
+          duplicatedKey: 0
+        - key: 36
+          value: 
+          duplicatedKey: 0
+        - key: 30
+          value: 
+          duplicatedKey: 0
+        - key: 42
+          value: 
+          duplicatedKey: 0
+      duplicatedKey: 0
+    - key: 11
+      value:
+        list:
+        - key: 23
+          value: "\uCE74\uBA5C\uB808\uC628"
+          duplicatedKey: 0
+        - key: 10
+          value: Chameleon
+          duplicatedKey: 0
+        - key: 22
+          value: 
+          duplicatedKey: 0
+        - key: 40
+          value: 
+          duplicatedKey: 0
+        - key: 41
+          value: 
+          duplicatedKey: 0
+        - key: 15
+          value: 
+          duplicatedKey: 0
+        - key: 21
+          value: 
+          duplicatedKey: 0
+        - key: 34
+          value: 
+          duplicatedKey: 0
+        - key: 14
+          value: 
+          duplicatedKey: 0
+        - key: 20
+          value: 
+          duplicatedKey: 0
+        - key: 28
+          value: 
+          duplicatedKey: 0
+        - key: 39
+          value: 
+          duplicatedKey: 0
+        - key: 37
+          value: 
+          duplicatedKey: 0
+        - key: 36
+          value: 
+          duplicatedKey: 0
+        - key: 30
+          value: 
+          duplicatedKey: 0
+        - key: 42
+          value: 
+          duplicatedKey: 0
+      duplicatedKey: 0
+    - key: 12
+      value:
+        list:
+        - key: 23
+          value: "\uB6B1\uB6B1\uC0C8"
+          duplicatedKey: 0
+        - key: 10
+          value: FatBird
+          duplicatedKey: 0
+        - key: 22
+          value: 
+          duplicatedKey: 0
+        - key: 40
+          value: 
+          duplicatedKey: 0
+        - key: 41
+          value: 
+          duplicatedKey: 0
+        - key: 15
+          value: 
+          duplicatedKey: 0
+        - key: 21
+          value: 
+          duplicatedKey: 0
+        - key: 34
+          value: 
+          duplicatedKey: 0
+        - key: 14
+          value: 
+          duplicatedKey: 0
+        - key: 20
+          value: 
+          duplicatedKey: 0
+        - key: 28
+          value: 
+          duplicatedKey: 0
+        - key: 39
+          value: 
+          duplicatedKey: 0
+        - key: 37
+          value: 
+          duplicatedKey: 0
+        - key: 36
+          value: 
+          duplicatedKey: 0
+        - key: 30
+          value: 
+          duplicatedKey: 0
+        - key: 42
+          value: 
+          duplicatedKey: 0
+      duplicatedKey: 0
+    - key: 13
+      value:
+        list:
+        - key: 23
+          value: "\uC2E0\uD654"
+          duplicatedKey: 0
+        - key: 10
+          value: 
+          duplicatedKey: 0
+        - key: 22
+          value: 
+          duplicatedKey: 0
+        - key: 40
+          value: 
+          duplicatedKey: 0
+        - key: 41
+          value: 
+          duplicatedKey: 0
+        - key: 15
+          value: 
+          duplicatedKey: 0
+        - key: 21
+          value: 
+          duplicatedKey: 0
+        - key: 34
+          value: 
+          duplicatedKey: 0
+        - key: 14
+          value: 
+          duplicatedKey: 0
+        - key: 20
+          value: 
+          duplicatedKey: 0
+        - key: 28
+          value: 
+          duplicatedKey: 0
+        - key: 39
+          value: 
+          duplicatedKey: 0
+        - key: 37
+          value: 
+          duplicatedKey: 0
+        - key: 36
+          value: 
+          duplicatedKey: 0
+        - key: 30
+          value: 
+          duplicatedKey: 0
+        - key: 42
+          value: 
+          duplicatedKey: 0
+      duplicatedKey: 0
+    - key: 14
+      value:
+        list:
+        - key: 23
+          value: "\uBCF4\uC720"
+          duplicatedKey: 0
+        - key: 10
+          value: 
+          duplicatedKey: 0
+        - key: 22
+          value: 
+          duplicatedKey: 0
+        - key: 40
+          value: 
+          duplicatedKey: 0
+        - key: 41
+          value: 
+          duplicatedKey: 0
+        - key: 15
+          value: 
+          duplicatedKey: 0
+        - key: 21
+          value: 
+          duplicatedKey: 0
+        - key: 34
+          value: 
+          duplicatedKey: 0
+        - key: 14
+          value: 
+          duplicatedKey: 0
+        - key: 20
+          value: 
+          duplicatedKey: 0
+        - key: 28
+          value: 
+          duplicatedKey: 0
+        - key: 39
+          value: 
+          duplicatedKey: 0
+        - key: 37
+          value: 
+          duplicatedKey: 0
+        - key: 36
+          value: 
+          duplicatedKey: 0
+        - key: 30
+          value: 
+          duplicatedKey: 0
+        - key: 42
+          value: 
+          duplicatedKey: 0
+      duplicatedKey: 0
+    - key: 15
+      value:
+        list:
+        - key: 23
+          value: "\uBBF8\uBCF4\uC720"
+          duplicatedKey: 0
+        - key: 10
+          value: 
+          duplicatedKey: 0
+        - key: 22
+          value: 
+          duplicatedKey: 0
+        - key: 40
+          value: 
+          duplicatedKey: 0
+        - key: 41
+          value: 
+          duplicatedKey: 0
+        - key: 15
+          value: 
+          duplicatedKey: 0
+        - key: 21
+          value: 
+          duplicatedKey: 0
+        - key: 34
+          value: 
+          duplicatedKey: 0
+        - key: 14
+          value: 
+          duplicatedKey: 0
+        - key: 20
+          value: 
+          duplicatedKey: 0
+        - key: 28
+          value: 
+          duplicatedKey: 0
+        - key: 39
+          value: 
+          duplicatedKey: 0
+        - key: 37
+          value: 
+          duplicatedKey: 0
+        - key: 36
+          value: 
+          duplicatedKey: 0
+        - key: 30
+          value: 
+          duplicatedKey: 0
+        - key: 42
+          value: 
+          duplicatedKey: 0
+      duplicatedKey: 0
+    - key: 16
+      value:
+        list:
+        - key: 23
+          value: "\uC18C\uD658"
+          duplicatedKey: 0
+        - key: 10
+          value: 
+          duplicatedKey: 0
+        - key: 22
+          value: 
+          duplicatedKey: 0
+        - key: 40
+          value: 
+          duplicatedKey: 0
+        - key: 41
+          value: 
+          duplicatedKey: 0
+        - key: 15
+          value: 
+          duplicatedKey: 0
+        - key: 21
+          value: 
+          duplicatedKey: 0
+        - key: 34
+          value: 
+          duplicatedKey: 0
+        - key: 14
+          value: 
+          duplicatedKey: 0
+        - key: 20
+          value: 
+          duplicatedKey: 0
+        - key: 28
+          value: 
+          duplicatedKey: 0
+        - key: 39
+          value: 
+          duplicatedKey: 0
+        - key: 37
+          value: 
+          duplicatedKey: 0
+        - key: 36
+          value: 
+          duplicatedKey: 0
+        - key: 30
+          value: 
+          duplicatedKey: 0
+        - key: 42
+          value: 
+          duplicatedKey: 0
+      duplicatedKey: 0
+    - key: 17
+      value:
+        list:
+        - key: 23
+          value: "\uC9C4\uD589\uB960 {0}%"
+          duplicatedKey: 0
+        - key: 10
+          value: 
+          duplicatedKey: 0
+        - key: 22
+          value: 
+          duplicatedKey: 0
+        - key: 40
+          value: 
+          duplicatedKey: 0
+        - key: 41
+          value: 
+          duplicatedKey: 0
+        - key: 15
+          value: 
+          duplicatedKey: 0
+        - key: 21
+          value: 
+          duplicatedKey: 0
+        - key: 34
+          value: 
+          duplicatedKey: 0
+        - key: 14
+          value: 
+          duplicatedKey: 0
+        - key: 20
+          value: 
+          duplicatedKey: 0
+        - key: 28
+          value: 
+          duplicatedKey: 0
+        - key: 39
+          value: 
+          duplicatedKey: 0
+        - key: 37
+          value: 
+          duplicatedKey: 0
+        - key: 36
+          value: 
+          duplicatedKey: 0
+        - key: 30
+          value: 
+          duplicatedKey: 0
+        - key: 42
+          value: 
+          duplicatedKey: 0
+      duplicatedKey: 0

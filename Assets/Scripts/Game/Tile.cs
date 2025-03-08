@@ -84,7 +84,30 @@ public class Tile
         unit.transform.position = position;
         unit.SetTile(this);
         unit.SetMovePosition(GetUnitPosition(_unitList.Count - 1));
+    }
+    public bool RemoveUnit()
+    {
+        if(_unitList == null || _unitList.Count == 0) return true;
 
+        var unit = _unitList[_unitList.Count - 1];
+        ObjectPooling.Return(unit.gameObject);
+        _unitList.Remove(unit);
+
+        return false;
+    }
+
+    public int RemoveUnit(int count)
+    {
+        if(_unitList == null || _unitList.Count == 0) return 0;
+
+        for(int i = 0; i< count; ++i)
+        {
+            bool isRemove = RemoveUnit();
+            if(!isRemove)
+            return i+1;
+        }
+        
+        return 0;
     }
 
 
@@ -153,7 +176,6 @@ public class Tile
             _unitList[i].SetMovePosition(GetUnitPosition(i));
         }
     }
-
 
 
 
