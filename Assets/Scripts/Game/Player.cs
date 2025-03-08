@@ -143,11 +143,18 @@ public class Player
 
     public void CreteUnit(string unitName)
     {
+        Debug.Log(unitName);
+        Debug.Log("0");
         UnitData unitData = null;
         foreach(var v  in _dictUnitIDData)
             unitData = v.Value.FirstOrDefault(v=>v.ID == unitName);
 
+        
+
         if(unitData == null) return;
+
+        Debug.Log("1");
+        
 
         if(unitData.Rank == UnitRank.A ||unitData.Rank == UnitRank.S)
         Presenter.Send("Summon","Rank",unitData.Rank);
@@ -156,6 +163,23 @@ public class Player
         unit.transform.SetParent(_board.transform);
         _board.AddUnit(this,unit);
     }
+
+     public void GachaUnit(string id)
+     {
+        UnitData data = null;
+
+        if(id == "A")
+           data = Get_UnitRandom_B_C();
+        else if(id == "B")
+            data = Get_UnitRandom_A();
+        else
+            data = Get_UnitRandom_S();
+
+        var unit = CreateUnit(data);
+        unit.transform.SetParent(_board.transform);
+        _board.AddUnit(this,unit);
+      
+     }
 
     public void Merge(Tile tile)
     {
@@ -212,6 +236,29 @@ public class Player
         CheckSummonGold();
         if(ID == 0)  ODataBaseManager.Set("GOLD",_gold);
     }
+
+
+    UnitData Get_UnitRandom_B_C()
+    {
+        int rand = Random.Range(0,100);
+        if(rand > 50)
+            return _dictUnitIDData[UnitRank.C][Random.Range(0,_dictUnitIDData[UnitRank.C].Count)];
+        else
+            return _dictUnitIDData[UnitRank.B][Random.Range(0,_dictUnitIDData[UnitRank.B].Count)];
+    }
+
+    UnitData Get_UnitRandom_A()
+    {
+        return _dictUnitIDData[UnitRank.A][Random.Range(0,_dictUnitIDData[UnitRank.A].Count)];
+            
+    }
+
+    UnitData Get_UnitRandom_S()
+    {
+        return _dictUnitIDData[UnitRank.S][Random.Range(0,_dictUnitIDData[UnitRank.S].Count)];
+            
+    }
+
 
     UnitData GetRandomUnitData()
     {

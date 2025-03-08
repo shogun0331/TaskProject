@@ -67,7 +67,7 @@ public class GameScene : UIScreen
                 _game.Summon();
                 break;
             case "Gacha":
-                _game.Gacha();
+                UIManager.ShowPopup(POPUP.GameGachaPopup);
                 break;
             case "Myth":
                 UIManager.ShowPopup(POPUP.MythPopup);

@@ -950,3 +950,107 @@ MonoBehaviour:
           value: 
           duplicatedKey: 0
       duplicatedKey: 0
+    - key: 18
+      value:
+        list:
+        - key: 23
+          value: "\uC131\uACF5"
+          duplicatedKey: 0
+        - key: 10
+          value: 
+          duplicatedKey: 0
+        - key: 22
+          value: 
+          duplicatedKey: 0
+        - key: 40
+          value: 
+          duplicatedKey: 0
+        - key: 41
+          value: 
+          duplicatedKey: 0
+        - key: 15
+          value: 
+          duplicatedKey: 0
+        - key: 21
+          value: 
+          duplicatedKey: 0
+        - key: 34
+          value: 
+          duplicatedKey: 0
+        - key: 14
+          value: 
+          duplicatedKey: 0
+        - key: 20
+          value: 
+          duplicatedKey: 0
+        - key: 28
+          value: 
+          duplicatedKey: 0
+        - key: 39
+          value: 
+          duplicatedKey: 0
+        - key: 37
+          value: 
+          duplicatedKey: 0
+        - key: 36
+          value: 
+          duplicatedKey: 0
+        - key: 30
+          value: 
+          duplicatedKey: 0
+        - key: 42
+          value: 
+          duplicatedKey: 0
+      duplicatedKey: 0
+    - key: 19
+      value:
+        list:
+        - key: 23
+          value: "\uC2E4\uD328"
+          duplicatedKey: 0
+        - key: 10
+          value: 
+          duplicatedKey: 0
+        - key: 22
+          value: 
+          duplicatedKey: 0
+        - key: 40
+          value: 
+          duplicatedKey: 0
+        - key: 41
+          value: 
+          duplicatedKey: 0
+        - key: 15
+          value: 
+          duplicatedKey: 0
+        - key: 21
+          value: 
+          duplicatedKey: 0
+        - key: 34
+          value: 
+          duplicatedKey: 0
+        - key: 14
+          value: 
+          duplicatedKey: 0
+        - key: 20
+          value: 
+          duplicatedKey: 0
+        - key: 28
+          value: 
+          duplicatedKey: 0
+        - key: 39
+          value: 
+          duplicatedKey: 0
+        - key: 37
+          value: 
+          duplicatedKey: 0
+        - key: 36
+          value: 
+          duplicatedKey: 0
+        - key: 30
+          value: 
+          duplicatedKey: 0
+        - key: 42
+          value: 
+          duplicatedKey: 0
+      duplicatedKey: 0

@@ -142,7 +142,7 @@ public class GachaTable  : GameData
 public class GachaTableProb : GameDataProb
 {
 		[JsonProperty] public readonly string ID;
-	[JsonProperty] public readonly string Weight;
+	[JsonProperty] public readonly int Weight;
 	[JsonProperty] public readonly string PriceID;
 	[JsonProperty] public readonly int PriceValue;
 

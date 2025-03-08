@@ -20,7 +20,6 @@ public class MythPopup : UIScreen
         RegistButton();
         _table = GameDataManager.GetTable<MythTable>();
         _taps = mGameObject["ScrollParent"].transform.GetComponentsInChildren<MythPopup_TapButton>(true);
-
     }
 
 
