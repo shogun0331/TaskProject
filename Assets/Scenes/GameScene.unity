@@ -10455,6 +10455,9 @@ MonoBehaviour:
     - key: TouchDistance
       value: {fileID: 2087476653}
       duplicatedKey: 0
+    - key: SellText
+      value: {fileID: 1700210675}
+      duplicatedKey: 0
 --- !u!4 &178796188
 Transform:
   m_ObjectHideFlags: 0
@@ -15106,7 +15109,7 @@ GameObject:
   - component: {fileID: 1700210678}
   - component: {fileID: 1700210677}
   m_Layer: 5
-  m_Name: Text_Wave
+  m_Name: Text_Price
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

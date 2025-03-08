@@ -10,6 +10,18 @@ public class Tile
     public Vector2 Position;
     List<Unit> _unitList = new List<Unit>();
 
+    public int Price
+    {
+        get
+        {
+            if (_unitList == null || _unitList.Count == 0 || _unitList[0] == null) return 0;
+            return _unitList[0].sellPrice;             
+
+        }
+           
+
+    }
+
 
     // 결합이 가능한 상태 인가?
     public bool IsMerge
@@ -120,9 +132,11 @@ public class Tile
         return true;
     }
 
+    //판매
     public void SellUnit()
     {
-
+        _unitList[0].player.AddGold(Price);
+        RemoveUnit(1);
     }
 
     public void ClearUnits()

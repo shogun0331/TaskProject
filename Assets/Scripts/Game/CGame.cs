@@ -4,6 +4,7 @@ using GB;
 using QuickEye.Utility;
 using UnityEngine;
 using System.Linq;
+using UnityEngine.UI;
 
 public class CGame : MonoBehaviour, IView
 {
@@ -20,6 +21,7 @@ public class CGame : MonoBehaviour, IView
     //플레이어
     Player _myPlayer;
     Player _friendPlayer;
+    Text _sellText;
 
 
     void Awake()
@@ -30,6 +32,7 @@ public class CGame : MonoBehaviour, IView
         ODataBaseManager.Set(DEF.Game, this);
         InputController.I.TouchWorldEvent += OnTouch;
         Application.targetFrameRate = 60;
+        _sellText = _dictGameObjects["SellText"].GetComponent<Text>();
     }
 
     void OnDisable()
@@ -78,46 +81,15 @@ public class CGame : MonoBehaviour, IView
     /// </summary>
     public void Summon()
     {
-        GBLog.Log("SummonButton");
-
-        //유닛수 체크
-
-        //재화 체크
-
-        //유닛 생성
         _myPlayer.Summon();
         ActiveWorldButton(false,Vector2.zero);
-
-    }
-
-    /// <summary>
-    /// 도박
-    /// </summary>
-    public void Gacha()
-    {
-
-    }
-
-    /// <summary>
-    /// 신화
-    /// </summary>
-    public void Myth()
-    {
-
-    }
-
-    /// <summary>
-    /// 강화
-    /// </summary>
-    public void Upgrade()
-    {
-
     }
 
     public void SellUnit()
     {
         _targetTile.SellUnit();
         if(_targetTile.UnitCount == 0) ActiveWorldButton(false,Vector2.zero); 
+        ActiveWorldButton(false,Vector2.zero);
     }
 
     public void Merge()
@@ -212,6 +184,7 @@ public class CGame : MonoBehaviour, IView
         _dictGameObjects["WorldButtons"].SetActive(isActive);
         if(isActive)
         {
+            _sellText.text = string.Format("판매 "+_targetTile.Price) ;
             _dictGameObjects["Button_Merge"].SetActive(_targetTile.Max && (int)_targetTile.Rank < (int)UnitRank.A);
             _dictGameObjects["WorldButtons"].transform.position = position;     
         }

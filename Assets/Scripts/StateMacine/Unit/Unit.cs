@@ -46,6 +46,9 @@ public class Unit : StateMachine<UnitState>
     UnitRank _rank;
     public UnitRank rank{get{return _rank;}}
 
+    int _sellPrice;
+    public int sellPrice{get{return _sellPrice;}}
+
 
     
     void Awake()
@@ -118,6 +121,7 @@ public class Unit : StateMachine<UnitState>
                 A_SPD = _prob.A_SPD,
                 A_DIST = _prob.A_DIST,
             };
+            _sellPrice = _prob.Price;
             _rank = _prob.Rank;
         }
         return this;
