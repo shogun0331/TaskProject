@@ -67,3 +67,9 @@ https://docs.google.com/spreadsheets/d/1eCrTKyBVvhmIOEobvx-JJ4knSWnZrUlZd4906QhN
 - GachaTable ( 도박 확률 관리 테이블)
 
 https://docs.google.com/spreadsheets/d/1eCrTKyBVvhmIOEobvx-JJ4knSWnZrUlZd4906QhN-JY/edit?gid=1169435393#gid=1169435393
+
+
+
+## 과제 영상 유튜브 URL
+
+https://www.youtube.com/shorts/kHHMcMy_HyM
