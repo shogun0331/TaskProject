@@ -71,7 +71,7 @@ https://docs.google.com/spreadsheets/d/1eCrTKyBVvhmIOEobvx-JJ4knSWnZrUlZd4906QhN
 
 https://docs.google.com/spreadsheets/d/1eCrTKyBVvhmIOEobvx-JJ4knSWnZrUlZd4906QhN-JY/edit?gid=1169435393#gid=1169435393
 
-## 제작 과정 내용 정리
+## 마일스톤
 
 https://github.com/shogun0331/TaskProject/milestone/1?closed=1
 
