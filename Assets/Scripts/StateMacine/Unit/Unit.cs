@@ -50,6 +50,8 @@ public class Unit : StateMachine<UnitState>
     public int sellPrice{get{return _sellPrice;}}
 
 
+
+
     
     void Awake()
     {

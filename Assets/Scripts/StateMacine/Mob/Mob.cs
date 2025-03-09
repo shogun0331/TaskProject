@@ -56,6 +56,15 @@ public class Mob : StateMachine<MobState>, IBody
         Init();
     }
 
+    public void SetSlow(float slow)
+    {
+        _moveSlow += slow;
+        if(_moveSlow > 1) _moveSlow  = 1;
+        if(_moveSlow < 0) _moveSlow  = 0;
+    }
+
+    
+
     public void SetFlipX(bool isFlip)
     {
         _sRender.flipX = isFlip;
@@ -89,6 +98,7 @@ public class Mob : StateMachine<MobState>, IBody
         _mobType = _data.MobType;
 
         _hp = _status.MAX_HP;
+        _moveSlow = 0;
 
 
         //HP 월드캔버스에 UI 생성
@@ -139,13 +149,24 @@ public class Mob : StateMachine<MobState>, IBody
 
     }
 
-    public void GetHit(Hit atk)
+    public void GetHit(Hit hit)
     {
         if (IsDead) return;
 
-        int ad = atk.AD - _status.DEF;
+        int ad = hit.AD - _status.DEF;
         if (ad < 0) ad = 1;
-        int hp = _hp - (ad + _status.AP);
+        if(ad + _status.AP == 0)
+        {
+            Debug.Log("AD :" + hit.AD + " - AP" + hit.AP );
+
+        }
+        int atk = ad + _status.AP;
+        if(atk == 0)
+        {
+            Debug.Log(atk);
+        }
+        
+        int hp = _hp - atk;
         if (hp < 0) hp = 0;
         _hp = hp;
 
@@ -162,7 +183,7 @@ public class Mob : StateMachine<MobState>, IBody
             ObjectPooling.Return(hpView.gameObject);
             Presenter.Send(DEF.Game,DEF.DEAD_MOB,this);
             
-            atk.player.DeadMob();
+            hit.player.DeadMob();
             ChangeState(MobState.Dead);
         }
 
@@ -170,22 +191,12 @@ public class Mob : StateMachine<MobState>, IBody
 
 
 
-    void CreateDamageText(Hit hit)
+    void CreateDamageText(int hit)
     {
+        var damage = ObjectPooling.Create(RES_PREFAB.HPbar_N_DamageText).GetComponent<DamageText>();
+        damage.SetDamage(hit);
+        damage.transform.position = transform.position;
 
-
-        if (hit.AD > 0)
-        {
-            var damage = ObjectPooling.Create(RES_PREFAB.HPbar_N_DamageText).GetComponent<DamageText>();
-            damage.SetDamage(hit.AD);
-            damage.transform.position = transform.position;
-        }
-        else
-        {
-
-
-
-        }
 
 
     }

@@ -12,10 +12,37 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 148ba5ea8e22b3a499e2aae2ef746a94, type: 3}
   m_Name: SPRAnimationClip
   m_EditorClassIdentifier: 
-  _sprites: []
-  Speed: 1
+  _sprites:
+  - {fileID: 770750239, guid: 3f3ebcb999f386f46a8b9de0ad8352ad, type: 3}
+  - {fileID: -1255658177, guid: 3f3ebcb999f386f46a8b9de0ad8352ad, type: 3}
+  - {fileID: 743130319, guid: 3f3ebcb999f386f46a8b9de0ad8352ad, type: 3}
+  - {fileID: 1801086626, guid: 3f3ebcb999f386f46a8b9de0ad8352ad, type: 3}
+  - {fileID: 1108225560, guid: 3f3ebcb999f386f46a8b9de0ad8352ad, type: 3}
+  - {fileID: -1073947920, guid: 3f3ebcb999f386f46a8b9de0ad8352ad, type: 3}
+  - {fileID: 162127038, guid: 3f3ebcb999f386f46a8b9de0ad8352ad, type: 3}
+  - {fileID: -1923164364, guid: 3f3ebcb999f386f46a8b9de0ad8352ad, type: 3}
+  - {fileID: 295470331, guid: 3f3ebcb999f386f46a8b9de0ad8352ad, type: 3}
+  - {fileID: 1442320776, guid: 3f3ebcb999f386f46a8b9de0ad8352ad, type: 3}
+  - {fileID: 864596060, guid: 3f3ebcb999f386f46a8b9de0ad8352ad, type: 3}
+  - {fileID: 290744154, guid: 3f3ebcb999f386f46a8b9de0ad8352ad, type: 3}
+  - {fileID: 1926327753, guid: 3f3ebcb999f386f46a8b9de0ad8352ad, type: 3}
+  - {fileID: -686133655, guid: 3f3ebcb999f386f46a8b9de0ad8352ad, type: 3}
+  - {fileID: -519537990, guid: 3f3ebcb999f386f46a8b9de0ad8352ad, type: 3}
+  - {fileID: -1391140836, guid: 3f3ebcb999f386f46a8b9de0ad8352ad, type: 3}
+  - {fileID: 224019122, guid: 3f3ebcb999f386f46a8b9de0ad8352ad, type: 3}
+  - {fileID: -1360600432, guid: 3f3ebcb999f386f46a8b9de0ad8352ad, type: 3}
+  - {fileID: -916682735, guid: 3f3ebcb999f386f46a8b9de0ad8352ad, type: 3}
+  - {fileID: -1591527589, guid: 3f3ebcb999f386f46a8b9de0ad8352ad, type: 3}
+  Speed: 4
   IsLoop: 0
   skins:
     list: []
   Triggers:
-    list: []
+    list:
+    - key: 2
+      value:
+      - Str: 
+        Vec3: {x: 0, y: 0, z: 0}
+        Float: 0
+        Int: 0
+      duplicatedKey: 0

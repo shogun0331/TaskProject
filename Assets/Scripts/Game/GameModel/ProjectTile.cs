@@ -1,6 +1,3 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
 using GB;
 using UnityEngine;
 
@@ -17,6 +14,8 @@ public class ProjectTile : MonoBehaviour
     [SerializeField] string _boomFX;
 
     Mob _mob;
+
+    bool _isPlaying;
 
 
     public ProjectTile SetHit(Hit hit)
@@ -38,9 +37,15 @@ public class ProjectTile : MonoBehaviour
         _targetPoint = targetPoint;
         return this;
     }
+    public void Play()
+    {
+        _isPlaying = true;
+    }
 
     void Update()
     {
+        if(!_isPlaying) return;
+
        float dt = GBTime.GetDeltaTime(DEF.T_GAME);
        Vector2 targetPosition = transform.position;
        Vector2 position = transform.position;
@@ -51,6 +56,7 @@ public class ProjectTile : MonoBehaviour
             {
                 Boom();
                 ObjectPooling.Return(gameObject);
+                _isPlaying = false;
                 return;
             }
 
@@ -58,6 +64,7 @@ public class ProjectTile : MonoBehaviour
             {
                 Boom();
                 ObjectPooling.Return(gameObject);
+                _isPlaying = false;
                 return;
             }
 
@@ -70,6 +77,7 @@ public class ProjectTile : MonoBehaviour
                 _target.GetComponent<IBody>().GetHit(_hit);
                 Boom();
                 ObjectPooling.Return(gameObject);
+                _isPlaying = false;
                 return;
             }
             transform.position = position;
@@ -84,7 +92,9 @@ public class ProjectTile : MonoBehaviour
             if(Vector2.Distance(position,targetPosition) < 0.1f) 
             {
                 Boom();
+                _isPlaying = false;
                 ObjectPooling.Return(gameObject);
+                
                 return;
             }
 
@@ -99,9 +109,14 @@ public class ProjectTile : MonoBehaviour
     {
         if(string.IsNullOrEmpty(_boomFX)) return;
 
-        var boom = ObjectPooling.Create("FX/"+_boomFX);
+        var boom = ObjectPooling.Create(_boomFX);
         if(boom == null) return;
+        IBoom b = boom.transform.GetComponent<IBoom>();
+        if(b != null) b.SetHit(_hit);
+        
         boom.transform.position = transform.position;
+        
+        
 
     }
 

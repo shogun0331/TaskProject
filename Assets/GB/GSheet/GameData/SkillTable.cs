@@ -34,7 +34,6 @@ public class SkillTable  : GameData
 				case "SkillName": return true;
 				case "SkillInfo": return true;
 				case "Chance": return true;
-				case "DEFValue": return true;
 				case "SlowValue": return true;
 				case "Duration": return true;
 				case "Delay": return true;
@@ -72,7 +71,6 @@ public class SkillTable  : GameData
 				case "SkillName": return data.SkillName;
 				case "SkillInfo": return data.SkillInfo;
 				case "Chance": return data.Chance;
-				case "DEFValue": return data.DEFValue;
 				case "SlowValue": return data.SlowValue;
 				case "Duration": return data.Duration;
 				case "Delay": return data.Delay;
@@ -101,7 +99,6 @@ public class SkillTable  : GameData
 				case "SkillName": return data.SkillName;
 				case "SkillInfo": return data.SkillInfo;
 				case "Chance": return data.Chance;
-				case "DEFValue": return data.DEFValue;
 				case "SlowValue": return data.SlowValue;
 				case "Duration": return data.Duration;
 				case "Delay": return data.Delay;
@@ -131,14 +128,13 @@ public class SkillTable  : GameData
 				case 3: return data.SkillName;
 				case 4: return data.SkillInfo;
 				case 5: return data.Chance;
-				case 6: return data.DEFValue;
-				case 7: return data.SlowValue;
-				case 8: return data.Duration;
-				case 9: return data.Delay;
-				case 10: return data.floatValue;
-				case 11: return data.AD_Value;
-				case 12: return data.AP_Value;
-				case 13: return data.FX;
+				case 6: return data.SlowValue;
+				case 7: return data.Duration;
+				case 8: return data.Delay;
+				case 9: return data.floatValue;
+				case 10: return data.AD_Value;
+				case 11: return data.AP_Value;
+				case 12: return data.FX;
 
                 default: return null;
             }
@@ -186,8 +182,7 @@ public class SkillTableProb : GameDataProb
 	[JsonProperty] public readonly string Temp_SkillInfo;
 	[JsonProperty] public readonly string SkillName;
 	[JsonProperty] public readonly string SkillInfo;
-	[JsonProperty] public readonly string Chance;
-	[JsonProperty] public readonly float DEFValue;
+	[JsonProperty] public readonly int Chance;
 	[JsonProperty] public readonly float SlowValue;
 	[JsonProperty] public readonly float Duration;
 	[JsonProperty] public readonly float Delay;

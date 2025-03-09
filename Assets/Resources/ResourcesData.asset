@@ -69,3 +69,45 @@ MonoBehaviour:
     - key: Unit/Trunk
       value: {fileID: 3017398654242641481, guid: c0b5c867d85e5b24fbfc804e05479c26, type: 3}
       duplicatedKey: 0
+    - key: Skill/Impact/BoomApple
+      value: {fileID: 1473060960904815259, guid: 7f87a5a7f366ccd43b76115f1b99120d, type: 3}
+      duplicatedKey: 0
+    - key: Skill/Impact/BoomCherry
+      value: {fileID: 3177763598777395632, guid: d3d73cbb1b456ec458f7b0c559f46c00, type: 3}
+      duplicatedKey: 0
+    - key: Skill/Impact/BoomKiwi
+      value: {fileID: 1727999543561988128, guid: ef821eea4f47c7a47bd705eef9b21ca2, type: 3}
+      duplicatedKey: 0
+    - key: Skill/Impact/BoomMelon
+      value: {fileID: 7205734327798805320, guid: 7c206e81c3fc7d14182456e0857ba5b4, type: 3}
+      duplicatedKey: 0
+    - key: Skill/Impact/BoomOrange
+      value: {fileID: 8443013901839250475, guid: 6fa822a4bb658bf4ea7864870cb681ac, type: 3}
+      duplicatedKey: 0
+    - key: Skill/Impact/BoomPineapple
+      value: {fileID: 2635585409823400255, guid: 36443b5e0d451c34499356f74ffb589e, type: 3}
+      duplicatedKey: 0
+    - key: Skill/Impact/BoomStrawberry
+      value: {fileID: 3687456796702970567, guid: da1cc7eff03cd234b98078004746a5a1, type: 3}
+      duplicatedKey: 0
+    - key: Skill/ProjectTile/Apple
+      value: {fileID: 2882082294432332239, guid: 1b800271c0dac2646aa28709c4d6bbdb, type: 3}
+      duplicatedKey: 0
+    - key: Skill/ProjectTile/Cherry
+      value: {fileID: 4765225486642940596, guid: a6d3364ad512ec94ca61e2f9bde5e268, type: 3}
+      duplicatedKey: 0
+    - key: Skill/ProjectTile/Kiwi
+      value: {fileID: 552441291989920037, guid: 143bea4729e1d744eabb6bbeed4b6323, type: 3}
+      duplicatedKey: 0
+    - key: Skill/ProjectTile/Melon
+      value: {fileID: 1929689538570343330, guid: 896b586356d0a604c8779da08675d348, type: 3}
+      duplicatedKey: 0
+    - key: Skill/ProjectTile/Orange
+      value: {fileID: 2058519883129839050, guid: c45ac3645fb6c4f41a2fd8e0b37f56c9, type: 3}
+      duplicatedKey: 0
+    - key: Skill/ProjectTile/Pineapple
+      value: {fileID: 4507896464408234413, guid: 07f5c585db7549e4bbc7e271b33d6021, type: 3}
+      duplicatedKey: 0
+    - key: Skill/ProjectTile/Strawberry
+      value: {fileID: 4062747531576311407, guid: a5cb8f58dd9f7d94ab6a0df0410e7b9d, type: 3}
+      duplicatedKey: 0

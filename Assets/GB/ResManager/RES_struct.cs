@@ -41,6 +41,34 @@ public struct RES_PREFAB
     
     public static RES_PREFAB Unit_Trunk = new RES_PREFAB{path = "Unit/Trunk"};
     
+    public static RES_PREFAB Skill_Impact_BoomApple = new RES_PREFAB{path = "Skill/Impact/BoomApple"};
+    
+    public static RES_PREFAB Skill_Impact_BoomCherry = new RES_PREFAB{path = "Skill/Impact/BoomCherry"};
+    
+    public static RES_PREFAB Skill_Impact_BoomKiwi = new RES_PREFAB{path = "Skill/Impact/BoomKiwi"};
+    
+    public static RES_PREFAB Skill_Impact_BoomMelon = new RES_PREFAB{path = "Skill/Impact/BoomMelon"};
+    
+    public static RES_PREFAB Skill_Impact_BoomOrange = new RES_PREFAB{path = "Skill/Impact/BoomOrange"};
+    
+    public static RES_PREFAB Skill_Impact_BoomPineapple = new RES_PREFAB{path = "Skill/Impact/BoomPineapple"};
+    
+    public static RES_PREFAB Skill_Impact_BoomStrawberry = new RES_PREFAB{path = "Skill/Impact/BoomStrawberry"};
+    
+    public static RES_PREFAB Skill_ProjectTile_Apple = new RES_PREFAB{path = "Skill/ProjectTile/Apple"};
+    
+    public static RES_PREFAB Skill_ProjectTile_Cherry = new RES_PREFAB{path = "Skill/ProjectTile/Cherry"};
+    
+    public static RES_PREFAB Skill_ProjectTile_Kiwi = new RES_PREFAB{path = "Skill/ProjectTile/Kiwi"};
+    
+    public static RES_PREFAB Skill_ProjectTile_Melon = new RES_PREFAB{path = "Skill/ProjectTile/Melon"};
+    
+    public static RES_PREFAB Skill_ProjectTile_Orange = new RES_PREFAB{path = "Skill/ProjectTile/Orange"};
+    
+    public static RES_PREFAB Skill_ProjectTile_Pineapple = new RES_PREFAB{path = "Skill/ProjectTile/Pineapple"};
+    
+    public static RES_PREFAB Skill_ProjectTile_Strawberry = new RES_PREFAB{path = "Skill/ProjectTile/Strawberry"};
+    
 }
 
 public struct RES_AUDIO

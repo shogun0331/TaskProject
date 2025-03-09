@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 148ba5ea8e22b3a499e2aae2ef746a94, type: 3}
+  m_Name: SPRAnimationClip
+  m_EditorClassIdentifier: 
+  _sprites:
+  - {fileID: 4138223980208024357, guid: 5100b75572e484e458e4340e2afe9454, type: 3}
+  - {fileID: 4027297436301884547, guid: 5100b75572e484e458e4340e2afe9454, type: 3}
+  - {fileID: 7839148961451991454, guid: 5100b75572e484e458e4340e2afe9454, type: 3}
+  - {fileID: -730248880921602624, guid: 5100b75572e484e458e4340e2afe9454, type: 3}
+  - {fileID: -2773199153295840776, guid: 5100b75572e484e458e4340e2afe9454, type: 3}
+  - {fileID: 433390274577684119, guid: 5100b75572e484e458e4340e2afe9454, type: 3}
+  - {fileID: -4823085682731260845, guid: 5100b75572e484e458e4340e2afe9454, type: 3}
+  - {fileID: 3686063136471726221, guid: 5100b75572e484e458e4340e2afe9454, type: 3}
+  - {fileID: 7554967952476731917, guid: 5100b75572e484e458e4340e2afe9454, type: 3}
+  - {fileID: -2447911064218208986, guid: 5100b75572e484e458e4340e2afe9454, type: 3}
+  - {fileID: 1065612581672122212, guid: 5100b75572e484e458e4340e2afe9454, type: 3}
+  - {fileID: -3489895863418248697, guid: 5100b75572e484e458e4340e2afe9454, type: 3}
+  - {fileID: 1055780198316226049, guid: 5100b75572e484e458e4340e2afe9454, type: 3}
+  - {fileID: 6147472920748202901, guid: 5100b75572e484e458e4340e2afe9454, type: 3}
+  - {fileID: 4395527864148419765, guid: 5100b75572e484e458e4340e2afe9454, type: 3}
+  - {fileID: -3046725879948077466, guid: 5100b75572e484e458e4340e2afe9454, type: 3}
+  - {fileID: -6983844126893656030, guid: 5100b75572e484e458e4340e2afe9454, type: 3}
+  Speed: 3
+  IsLoop: 1
+  skins:
+    list: []
+  Triggers:
+    list: []

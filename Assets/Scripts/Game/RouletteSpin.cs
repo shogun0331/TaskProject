@@ -9,6 +9,8 @@ public class RouletteSpin : MonoBehaviour
     [SerializeField] GameObject _panel;
     float _rotSpeed = 5000;
     bool _isPlaying;
+
+    public bool IsPlaying{get{return _isPlaying;}}
     
     Action _result;
     void OnEnable()

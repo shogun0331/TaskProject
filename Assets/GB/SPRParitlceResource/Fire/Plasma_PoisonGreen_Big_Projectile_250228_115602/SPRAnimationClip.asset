@@ -12,9 +12,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 148ba5ea8e22b3a499e2aae2ef746a94, type: 3}
   m_Name: SPRAnimationClip
   m_EditorClassIdentifier: 
-  _sprites: []
-  Speed: 1
-  IsLoop: 0
+  _sprites:
+  - {fileID: 888224217, guid: 535ff9552990363409567b817e0fec50, type: 3}
+  - {fileID: -804875728, guid: 535ff9552990363409567b817e0fec50, type: 3}
+  - {fileID: -276853321, guid: 535ff9552990363409567b817e0fec50, type: 3}
+  - {fileID: -1218253269, guid: 535ff9552990363409567b817e0fec50, type: 3}
+  - {fileID: 448075588, guid: 535ff9552990363409567b817e0fec50, type: 3}
+  - {fileID: 366434406, guid: 535ff9552990363409567b817e0fec50, type: 3}
+  - {fileID: 821413824, guid: 535ff9552990363409567b817e0fec50, type: 3}
+  - {fileID: 438687720, guid: 535ff9552990363409567b817e0fec50, type: 3}
+  - {fileID: -809621698, guid: 535ff9552990363409567b817e0fec50, type: 3}
+  - {fileID: 814688705, guid: 535ff9552990363409567b817e0fec50, type: 3}
+  Speed: 1.5
+  IsLoop: 1
   skins:
     list: []
   Triggers:

@@ -1,4 +1,6 @@
+using DG.Tweening;
 using GB;
+using UnityEngine;
 
 
 public class BossClearPopup : UIScreen
@@ -16,6 +18,9 @@ public class BossClearPopup : UIScreen
     {
         Presenter.Bind("BossClearPopup",this);
         GB.Timer.Create(2,()=>{Close();});
+
+        mGameObject["Icon"].transform.localScale = Vector3.one;
+        mGameObject["Icon"].transform.DOPunchScale(new Vector3(0.5f,0.5f,0.5f),0.2f).Restart();
     }
 
     private void OnDisable() 

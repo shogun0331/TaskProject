@@ -74,15 +74,15 @@ public class Player
         foreach (var v in units) _dictUnitIDData[v.Rank].Add(v);
 
         _board = board;
-        _gold = 220;
+        _gold = 1000;
         _luck = 0;
 
         ODataBaseManager.Set("Player" + _id, this);
 
         if (ID == 0)
         {
-            _gold = 100000;
-            _luck = 1000;
+            _gold = 1000;
+            _luck = 100;
             ODataBaseManager.Set("GOLD", _gold);
             ODataBaseManager.Set("LUCK", _luck);
             ODataBaseManager.Set("SUMMON_GOLD", _summonPrice);
@@ -384,7 +384,6 @@ public class Player
     /// <returns></returns><summary>    
     public bool CheckMythSummon(string unitName)
     {
-        if (!CheckUnitCount()) return false;
         var table = GameDataManager.GetTable<MythTable>();
 
         // 유저의 신화 등급의 Unlock 체크 

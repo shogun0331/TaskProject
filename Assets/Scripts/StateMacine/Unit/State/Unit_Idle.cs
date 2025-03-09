@@ -99,9 +99,14 @@ public class Unit_Idle : IMachine
          _target  = FindTarget();
         if(_target == null) return;
         if(!_target.gameObject.activeSelf) return;
-        var oj = ObjectPooling.Create("ProjectTile/"+_unit.projectTileID);
 
+        if(Skill()) return;
+
+
+        var oj = ObjectPooling.Create("ProjectTile/"+_unit.projectTileID);
         if(oj == null) return;
+
+
         
         Hit hit = new Hit
         {
@@ -110,8 +115,38 @@ public class Unit_Idle : IMachine
         };
 
         oj.transform.position = _unit.transform.position;
-        oj.GetComponent<ProjectTile>().SetTarget(_target).SetHit(hit);
-        
+        oj.GetComponent<ProjectTile>().SetTarget(_target).SetHit(hit).Play();
+    }
+
+    bool Skill()
+    {
+        foreach(var v in _unit.Skills)
+        {
+            int rand = Random.Range(0,100);
+
+            if(rand <= v.Chance )
+            {
+                var oj = ObjectPooling.Create("Skill/ProjectTile/"+v.ID);
+                oj.transform.position = _unit.transform.position;
+
+                Hit hit = new Hit
+                {
+                    player = _unit.player,
+                    AD = _unit.status.AD *  GetPercent(),
+                    AP = _unit.status.AD *  GetPercent(),
+                    skillProb = v
+                };
+
+
+                var p = oj.GetComponent<ProjectTile>();
+                p.SetHit(hit).SetTarget(_target.position).Play();
+                
+                return true;
+            }
+        }
+
+        return false;
+
     }
 
     void OnEndAttack()

@@ -33,9 +33,16 @@ MonoBehaviour:
   - {fileID: 74588948, guid: a73db308874118a4baa6306478fe75dd, type: 3}
   - {fileID: 1279928172, guid: a73db308874118a4baa6306478fe75dd, type: 3}
   - {fileID: 1012383990, guid: a73db308874118a4baa6306478fe75dd, type: 3}
-  Speed: 2
+  Speed: 4
   IsLoop: 0
   skins:
     list: []
   Triggers:
-    list: []
+    list:
+    - key: 0
+      value:
+      - Str: 
+        Vec3: {x: 0, y: 0, z: 0}
+        Float: 0
+        Int: 0
+      duplicatedKey: 0

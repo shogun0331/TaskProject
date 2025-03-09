@@ -310,8 +310,6 @@ public class CGame : MonoBehaviour, IView
 
                 Timer.Create(1, () =>
                 {
-                    
-                    
                     NextWave();
                     GBLog.Log("GAME", "WaveStart" + _wave, Color.green);
                 });

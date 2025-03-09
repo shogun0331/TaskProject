@@ -47,7 +47,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _speed: 10
-  _boomFX: FX_Boom1
+  _boomFX: FX/FX_Boom1
 --- !u!114 &8848066121836735054
 MonoBehaviour:
   m_ObjectHideFlags: 0

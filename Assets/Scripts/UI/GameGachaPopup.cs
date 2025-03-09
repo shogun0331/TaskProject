@@ -59,15 +59,17 @@ public class GameGachaPopup : UIScreen
     void Roulette(string id)
     {
         if(!_player.CheckUnitCount()) return;
+        if(_spins[id].IsPlaying) return;
         if(_player.Luck < _table[id].PriceValue) return;
-        
-        
+        _player.SubtracktLUCK(_table[id].PriceValue);
+
         int rand = Random.Range(0,100); 
 
         bool isGacha = rand < _table[id].Weight;
 
         _spins[id].Play(isGacha,()=>
         {
+            
             if(isGacha) _player.GachaUnit(id);
         });
 
