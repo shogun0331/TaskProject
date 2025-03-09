@@ -25,6 +25,9 @@ AiSystem --> FriendPlayer
 Tiles --> Unit
 Board --> WaveSystem
 WaveSystem --> Mob
+Unit --> ProjectTile
+Unit --> Skill
+
 ```
 
 ## 데이터 테이블
@@ -67,8 +70,6 @@ https://docs.google.com/spreadsheets/d/1eCrTKyBVvhmIOEobvx-JJ4knSWnZrUlZd4906QhN
 - GachaTable ( 도박 확률 관리 테이블)
 
 https://docs.google.com/spreadsheets/d/1eCrTKyBVvhmIOEobvx-JJ4knSWnZrUlZd4906QhN-JY/edit?gid=1169435393#gid=1169435393
-
-
 
 ## 제작 과정 내용 정리
 
