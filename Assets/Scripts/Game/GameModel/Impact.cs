@@ -50,14 +50,17 @@ public class Impact : MonoBehaviour ,IBoom
             IBody mob = coll.GetComponent<IBody>();
             if(mob != null) 
             {
+                float ad = _hit.AD * _hit.skillProb.AD_Value;
+                float ap = _hit.AP * _hit.skillProb.AP_Value;
+
+
                 var h =  new Hit
                 {
                     player = _hit.player,
-                    AD = _hit.AD * (int)_hit.skillProb.AD_Value,
-                    AP = _hit.AP * (int)_hit.skillProb.AP_Value,
+                    AD = (int)ad,
+                    AP = (int)ap,
                 };
 
-                if(h.AD + h.AP == 0) Debug.Log(gameObject.name);
                 
                 if(mob != null) mob.GetHit(h);
 

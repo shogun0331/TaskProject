@@ -319,8 +319,14 @@ public class Player
         unit.SetData(this, data.Level);
         if (CheckMyPlayer()) ODataBaseManager.Set("UnitCount", _board.GetUnitCount(ID) + 1);
 
-
         return unit;
+    }
+
+    public void CallCheckCount()
+    {
+
+        if (CheckMyPlayer()) ODataBaseManager.Set("UnitCount", _board.GetUnitCount(ID));
+
     }
 
 

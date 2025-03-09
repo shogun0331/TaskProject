@@ -28,7 +28,7 @@ public class AiSystem : MonoBehaviour
 
         yield return new WaitForSeconds(1f);
 
-        for(int i = 0; i< 5; ++i)
+        for(int i = 0; i< 10; ++i)
         {
             yield return new WaitForSeconds(0.5f);
             TileMove( _player.Summon());

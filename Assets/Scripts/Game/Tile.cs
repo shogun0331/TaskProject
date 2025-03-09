@@ -136,7 +136,9 @@ public class Tile
     public void SellUnit()
     {
         _unitList[0].player.AddGold(Price);
+        var player =  _unitList[0].player;
         RemoveUnit(1);
+        player.CallCheckCount();
     }
 
     public void ClearUnits()
