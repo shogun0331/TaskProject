@@ -161,7 +161,8 @@ public class Mob : StateMachine<MobState>, IBody
         {
             ObjectPooling.Return(hpView.gameObject);
             Presenter.Send(DEF.Game,DEF.DEAD_MOB,this);
-            // atk.player.DeadMob(gameObject, _data);
+            
+            atk.player.DeadMob();
             ChangeState(MobState.Dead);
         }
 

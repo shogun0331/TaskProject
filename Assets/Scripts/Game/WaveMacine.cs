@@ -60,7 +60,12 @@ public class WaveMacine
         _waveTime = 0;
         _waveCreateTime = 0;
         _waveID = wave.ToString();
-        if (!_nomalTable.ContainsKey(_waveID)) return;
+        if (!_nomalTable.ContainsKey(_waveID)) 
+        {
+            Stop();
+            Presenter.Send(DEF.Game, DEF.GameOver);
+            return;
+        }
 
         if (string.IsNullOrEmpty(_nomalTable[_waveID].BossID))
         {

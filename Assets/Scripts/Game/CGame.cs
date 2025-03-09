@@ -11,6 +11,8 @@ public class CGame : MonoBehaviour, IView
     [SerializeField] Board _board;
     [SerializeField] GuideLine _line;
     [SerializeField] UnityDictionary<string,GameObject> _dictGameObjects = new UnityDictionary<string, GameObject>();
+
+    public int Wave{get{return _wave;}}
     
     int _wave = 1;
     
@@ -56,6 +58,7 @@ public class CGame : MonoBehaviour, IView
     {
         _wave = 1;
         _board.WaveStart(_wave);
+        UIManager.ShowPopup(POPUP.WaveShowPopup);
     }
 
     /// <summary>
@@ -65,6 +68,7 @@ public class CGame : MonoBehaviour, IView
     {
         _wave ++;
         _board.WaveStart(_wave);
+        UIManager.ShowPopup(POPUP.WaveShowPopup);
     }
 
     /// <summary>
@@ -74,6 +78,7 @@ public class CGame : MonoBehaviour, IView
     {
         GBTime.Stop(DEF.T_GAME);
         _ai.Stop();
+        UIManager.ShowPopup(POPUP.ResultPopup);
     }
 
     /// <summary>
@@ -306,8 +311,8 @@ public class CGame : MonoBehaviour, IView
 
             case DEF.DEAD_MOB:
                 var mob = data.Get<Mob>();
-                _myPlayer.DeadMob(mob.Data);
-                _friendPlayer.DeadMob(mob.Data);
+                _myPlayer.AddGold(mob.Data.Gold);
+                _friendPlayer.AddGold(mob.Data.Gold);
                 _board.RemoveMob(data.Get<Mob>().gameObject);
                 break;
 
