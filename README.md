@@ -70,6 +70,12 @@ https://docs.google.com/spreadsheets/d/1eCrTKyBVvhmIOEobvx-JJ4knSWnZrUlZd4906QhN
 
 
 
+## 제작 과정 내용 정리
+
+https://github.com/shogun0331/TaskProject/milestone/1?closed=1
+
+
+
 ## 과제 영상 유튜브 URL
 
 https://www.youtube.com/shorts/kHHMcMy_HyM
