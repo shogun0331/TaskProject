@@ -68,7 +68,12 @@ public class CGame : MonoBehaviour, IView
     {
         _wave ++;
         _board.WaveStart(_wave);
-        UIManager.ShowPopup(POPUP.WaveShowPopup);
+        
+
+        if(_board.IsBossWave())
+            UIManager.ShowPopup(POPUP.ShowBossPopup);
+        else
+            UIManager.ShowPopup(POPUP.WaveShowPopup);
     }
 
     /// <summary>
@@ -130,10 +135,7 @@ public class CGame : MonoBehaviour, IView
                 {
                     _beganTile = null;
                 }
-
-                
-           
-                
+     
                 GetTouchMoveCircle(phase, tile);
                 break;
 
@@ -302,8 +304,14 @@ public class CGame : MonoBehaviour, IView
                 GameOver();
                 break;
             case DEF.P_WAVE_END:
+                if(_board.IsBossWave())
+                UIManager.ShowPopup(POPUP.BossClearPopup);
+                
+
                 Timer.Create(1, () =>
                 {
+                    
+                    
                     NextWave();
                     GBLog.Log("GAME", "WaveStart" + _wave, Color.green);
                 });

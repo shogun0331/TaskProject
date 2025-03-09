@@ -1,6 +1,4 @@
-using System.Collections;
 using System.Collections.Generic;
-using System.Data.Common;
 using System.Linq;
 using GB;
 using UnityEngine;
@@ -199,6 +197,12 @@ public class Board : MonoBehaviour
     public void WaveStart(int wave)
     {
         _waveMacine.WaveStart(wave,()=>{Presenter.Send(DEF.Game,DEF.P_WAVE_END);});
+        
+        
+    }
+    public bool IsBossWave()
+    {
+        return _waveMacine.IsBossWave;
     }
 
 

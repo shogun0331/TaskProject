@@ -1054,3 +1054,159 @@ MonoBehaviour:
           value: 
           duplicatedKey: 0
       duplicatedKey: 0
+    - key: 20
+      value:
+        list:
+        - key: 23
+          value: "\uBC14\uB2C8"
+          duplicatedKey: 0
+        - key: 10
+          value: 
+          duplicatedKey: 0
+        - key: 22
+          value: 
+          duplicatedKey: 0
+        - key: 40
+          value: 
+          duplicatedKey: 0
+        - key: 41
+          value: 
+          duplicatedKey: 0
+        - key: 15
+          value: 
+          duplicatedKey: 0
+        - key: 21
+          value: 
+          duplicatedKey: 0
+        - key: 34
+          value: 
+          duplicatedKey: 0
+        - key: 14
+          value: 
+          duplicatedKey: 0
+        - key: 20
+          value: 
+          duplicatedKey: 0
+        - key: 28
+          value: 
+          duplicatedKey: 0
+        - key: 39
+          value: 
+          duplicatedKey: 0
+        - key: 37
+          value: 
+          duplicatedKey: 0
+        - key: 36
+          value: 
+          duplicatedKey: 0
+        - key: 30
+          value: 
+          duplicatedKey: 0
+        - key: 42
+          value: 
+          duplicatedKey: 0
+      duplicatedKey: 0
+    - key: 21
+      value:
+        list:
+        - key: 23
+          value: "{0} \uBCF4\uC2A4 \uB4F1\uC7A5!"
+          duplicatedKey: 0
+        - key: 10
+          value: 
+          duplicatedKey: 0
+        - key: 22
+          value: 
+          duplicatedKey: 0
+        - key: 40
+          value: 
+          duplicatedKey: 0
+        - key: 41
+          value: 
+          duplicatedKey: 0
+        - key: 15
+          value: 
+          duplicatedKey: 0
+        - key: 21
+          value: 
+          duplicatedKey: 0
+        - key: 34
+          value: 
+          duplicatedKey: 0
+        - key: 14
+          value: 
+          duplicatedKey: 0
+        - key: 20
+          value: 
+          duplicatedKey: 0
+        - key: 28
+          value: 
+          duplicatedKey: 0
+        - key: 39
+          value: 
+          duplicatedKey: 0
+        - key: 37
+          value: 
+          duplicatedKey: 0
+        - key: 36
+          value: 
+          duplicatedKey: 0
+        - key: 30
+          value: 
+          duplicatedKey: 0
+        - key: 42
+          value: 
+          duplicatedKey: 0
+      duplicatedKey: 0
+    - key: 22
+      value:
+        list:
+        - key: 23
+          value: "\uC81C\uD55C \uC2DC\uAC04 {0}"
+          duplicatedKey: 0
+        - key: 10
+          value: 
+          duplicatedKey: 0
+        - key: 22
+          value: 
+          duplicatedKey: 0
+        - key: 40
+          value: 
+          duplicatedKey: 0
+        - key: 41
+          value: 
+          duplicatedKey: 0
+        - key: 15
+          value: 
+          duplicatedKey: 0
+        - key: 21
+          value: 
+          duplicatedKey: 0
+        - key: 34
+          value: 
+          duplicatedKey: 0
+        - key: 14
+          value: 
+          duplicatedKey: 0
+        - key: 20
+          value: 
+          duplicatedKey: 0
+        - key: 28
+          value: 
+          duplicatedKey: 0
+        - key: 39
+          value: 
+          duplicatedKey: 0
+        - key: 37
+          value: 
+          duplicatedKey: 0
+        - key: 36
+          value: 
+          duplicatedKey: 0
+        - key: 30
+          value: 
+          duplicatedKey: 0
+        - key: 42
+          value: 
+          duplicatedKey: 0
+      duplicatedKey: 0

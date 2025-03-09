@@ -33,6 +33,7 @@ public class NomalWaveTable  : GameData
 				case "CreateCount": return true;
 				case "Dealay": return true;
 				case "BossID": return true;
+				case "Name": return true;
 
 		  default: return false;
 
@@ -62,6 +63,7 @@ public class NomalWaveTable  : GameData
 				case "CreateCount": return data.CreateCount;
 				case "Dealay": return data.Dealay;
 				case "BossID": return data.BossID;
+				case "Name": return data.Name;
 
 
                 default: return null;
@@ -82,6 +84,7 @@ public class NomalWaveTable  : GameData
 				case "CreateCount": return data.CreateCount;
 				case "Dealay": return data.Dealay;
 				case "BossID": return data.BossID;
+				case "Name": return data.Name;
 
 
                 default: return null;
@@ -103,6 +106,7 @@ public class NomalWaveTable  : GameData
 				case 2: return data.CreateCount;
 				case 3: return data.Dealay;
 				case 4: return data.BossID;
+				case 5: return data.Name;
 
                 default: return null;
             }
@@ -150,5 +154,6 @@ public class NomalWaveTableProb : GameDataProb
 	[JsonProperty] public readonly int CreateCount;
 	[JsonProperty] public readonly float Dealay;
 	[JsonProperty] public readonly string BossID;
+	[JsonProperty] public readonly string Name;
 
 }
